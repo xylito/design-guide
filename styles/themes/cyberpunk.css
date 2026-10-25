@@ -1,0 +1,404 @@
+/* ==========================================================================
+   THEME: CYBERPUNK HUD & SCI-FI TELEMETRY
+   ========================================================================== */
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) {
+  background-color: #050811;
+  color: #E0F7FF;
+  font-family: 'Space Mono', monospace;
+  background-image: 
+    linear-gradient(rgba(0, 240, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 240, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Header */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .site-header {
+  background: rgba(5, 8, 17, 0.92);
+  border-bottom: 1px solid #00F0FF;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.25);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .brand-logo {
+  color: #00F0FF;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .logo-mark {
+  color: #FFB800;
+  text-shadow: 0 0 8px #FFB800;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .nav-link {
+  color: #567994;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .nav-link:hover {
+  color: #00F0FF;
+  text-shadow: 0 0 8px #00F0FF;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-theme-badge {
+  background: rgba(0, 240, 255, 0.1);
+  border: 1px solid #00F0FF;
+  color: #00F0FF;
+  border-radius: 0;
+  font-size: 0.75rem;
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-header-cta {
+  background: #00F0FF;
+  color: #050811;
+  border: 1px solid #00F0FF;
+  padding: 0.45rem 1.15rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  box-shadow: 0 0 16px rgba(0, 240, 255, 0.4);
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  transition: all 0.2s;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-header-cta:hover {
+  background: #FFB800;
+  border-color: #FFB800;
+  box-shadow: 0 0 20px rgba(255, 184, 0, 0.6);
+}
+
+/* Hero */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .hero-badge {
+  background: rgba(255, 184, 0, 0.1);
+  border: 1px solid #FFB800;
+  color: #FFB800;
+  border-radius: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .badge-dot {
+  background: #FFB800;
+  box-shadow: 0 0 8px #FFB800;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .hero-title {
+  color: #E0F7FF;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .hero-subtitle {
+  color: #6C93AF;
+  line-height: 1.6;
+}
+
+/* Buttons */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-primary {
+  background: #00F0FF;
+  color: #050811;
+  border: 1px solid #00F0FF;
+  padding: 0.85rem 1.85rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  box-shadow: 0 0 24px rgba(0, 240, 255, 0.45);
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  transition: all 0.2s ease;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-primary:hover {
+  background: #FF0055;
+  border-color: #FF0055;
+  box-shadow: 0 0 30px rgba(255, 0, 85, 0.6);
+  color: #FFFFFF;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-secondary {
+  background: rgba(0, 240, 255, 0.08);
+  color: #00F0FF;
+  border: 1px solid #00F0FF;
+  padding: 0.85rem 1.6rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  transition: all 0.2s ease;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-secondary:hover {
+  background: rgba(0, 240, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.35);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-ghost {
+  background: transparent;
+  color: #567994;
+  border: 1px solid #567994;
+  padding: 0.7rem 1.25rem;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-ghost:hover {
+  color: #00F0FF;
+  border-color: #00F0FF;
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.3);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-destructive {
+  background: rgba(255, 0, 85, 0.15);
+  color: #FF0055;
+  border: 1px solid #FF0055;
+  padding: 0.7rem 1.25rem;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 0 0 14px rgba(255, 0, 85, 0.25);
+  transition: all 0.2s;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-destructive:hover {
+  background: #FF0055;
+  color: #FFFFFF;
+}
+
+/* Showcase Panel */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .hero-showcase-panel {
+  background: rgba(10, 18, 32, 0.85);
+  border: 1px solid #00F0FF;
+  border-radius: 0;
+  box-shadow: 0 0 35px rgba(0, 240, 255, 0.2);
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .panel-header {
+  border-bottom: 1px solid rgba(0, 240, 255, 0.4);
+  background: rgba(0, 240, 255, 0.05);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .panel-title-pill {
+  color: #00F0FF;
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.5);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .panel-status-tag {
+  color: #FFB800;
+  text-shadow: 0 0 8px #FFB800;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .metric-card {
+  background: rgba(0, 240, 255, 0.03);
+  border: 1px solid rgba(0, 240, 255, 0.25);
+  border-radius: 0;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .metric-label {
+  color: #567994;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .metric-value {
+  color: #00F0FF;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .metric-sub {
+  color: #FFB800;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .panel-interactive-strip {
+  border-top: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .strip-label {
+  color: #A5E4F5;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .toggle-slider {
+  background-color: #0B1320;
+  border: 1px solid #00F0FF;
+  border-radius: 0;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .toggle-slider::before {
+  border-radius: 0;
+  background-color: #00F0FF;
+  box-shadow: 0 0 8px #00F0FF;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .toggle-switch input:checked + .toggle-slider {
+  background-color: rgba(0, 240, 255, 0.3);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-strip-action {
+  background: rgba(255, 184, 0, 0.1);
+  color: #FFB800;
+  border: 1px solid #FFB800;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .btn-strip-action:hover {
+  background: #FFB800;
+  color: #050811;
+  box-shadow: 0 0 15px rgba(255, 184, 0, 0.5);
+}
+
+/* Features */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .section-tag {
+  color: #00F0FF;
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.5);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .section-title {
+  color: #E0F7FF;
+  text-transform: uppercase;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .section-desc {
+  color: #6C93AF;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .feature-card {
+  background: rgba(10, 18, 32, 0.85);
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .feature-card:hover {
+  border-color: #00F0FF;
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .feature-tag {
+  color: #FFB800;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .feature-title {
+  color: #00F0FF;
+  text-transform: uppercase;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .feature-desc {
+  color: #8EB7D4;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .feature-meta {
+  color: #FFB800;
+  border-top: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+/* Sandbox */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .sandbox-card {
+  background: rgba(10, 18, 32, 0.85);
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: 0;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .sandbox-card-title {
+  color: #00F0FF;
+  text-transform: uppercase;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .sandbox-card-desc {
+  color: #6C93AF;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .text-input {
+  background: #060B14;
+  border: 1px solid #00F0FF;
+  color: #00F0FF;
+  border-radius: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .text-input:focus {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .input-shortcut {
+  background: #00F0FF;
+  color: #050811;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .chip-active {
+  background: rgba(0, 240, 255, 0.15);
+  color: #00F0FF;
+  border: 1px solid #00F0FF;
+  border-radius: 0;
+  text-shadow: 0 0 8px rgba(0, 240, 255, 0.5);
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .chip-pending {
+  background: rgba(255, 184, 0, 0.15);
+  color: #FFB800;
+  border: 1px solid #FFB800;
+  border-radius: 0;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .chip-neutral {
+  background: rgba(255, 255, 255, 0.05);
+  color: #567994;
+  border: 1px solid #567994;
+  border-radius: 0;
+}
+
+/* Manifesto */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .manifesto-card {
+  background: rgba(10, 18, 32, 0.9);
+  border: 1px solid #00F0FF;
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.2);
+  border-radius: 0;
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .manifesto-tag {
+  color: #FFB800;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .manifesto-title {
+  color: #00F0FF;
+  text-transform: uppercase;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .manifesto-col h4 {
+  color: #FFB800;
+}
+
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .manifesto-list li {
+  color: #8EB7D4;
+}
+
+/* Footer */
+:is(:is(body[data-theme="cyberpunk_hud"], body[data-theme="cyberpunk"])) .site-footer {
+  background: #050811;
+  border-top: 1px solid #00F0FF;
+}

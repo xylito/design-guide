@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Design Languages & Agent Skills Showcase</title>
+  <meta name="description" content="AI 코딩 에이전트(Cursor, Claude Code, Gemini)를 위한 최신 프론트엔드 디자인 언어 및 스킬셋 인터랙티브 쇼케이스">
+
+  <!-- Google Fonts & Harmonized Latin-Korean Font Pairing -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Black+Han+Sans&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Do+Hyeon&family=Dongle:wght@400;700&family=Gaegu:wght@400;700&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Jua&family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@400;600;700;900&family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Song+Myung&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+  <!-- Pretendard (Modern Sans Korean), Galmuri (Pixel / Retro Korean) & D2Coding (Developer Monospace) CDNs -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css">
+
+  <!-- Main & Theme Styles -->
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/themes/linear.css">
+  <link rel="stylesheet" href="/styles/themes/neobrutalism.css">
+  <link rel="stylesheet" href="/styles/themes/swiss.css">
+  <link rel="stylesheet" href="/styles/themes/toss.css">
+  <link rel="stylesheet" href="/styles/themes/cyberpunk.css">
+  <link rel="stylesheet" href="/styles/themes/luxury.css">
+  <link rel="stylesheet" href="/styles/themes/spatial.css">
+  <link rel="stylesheet" href="/styles/ecosystem-themes.css">
+  <link rel="stylesheet" href="/styles/card-previews.css">
+</head>
+<body data-theme="linear" class="catalog-initial-view">
+
+  <!-- Background Ambient Mesh (for Spatial / Cyberpunk / Linear themes) -->
+  <div class="ambient-glow-layer" id="ambient-glow" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- CRT Scanline Overlay (for Cyberpunk) -->
+  <div class="scanline-overlay" id="scanline-overlay" aria-hidden="true"></div>
+
+  <!-- Main Application Wrapper -->
+  <div class="app-root" id="app-root">
+
+    <!-- Floating Top Language Switcher (KO / EN) -->
+    <aside class="floating-lang-control" id="floating-lang-control" aria-label="언어 전환">
+      <button type="button" class="btn-lang-toggle" id="btn-lang-toggle" title="영문으로 변경 (단축키: L) / Switch Language (Key: L)">
+        <span class="lang-globe"></span>
+        <span class="lang-indicator" id="lang-indicator-text">EN</span>
+      </button>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="page-content" id="page-content">
+
+      <!-- Hero Section -->
+      <section class="hero-section" id="hero">
+        <div class="hero-container">
+          <!-- Hero Badge -->
+          <div class="hero-badge-wrapper">
+            <div class="hero-badge" id="hero-badge">
+              <span class="badge-dot"></span>
+              <span id="hero-badge-text">스프린트 v4.12 • 자율 에이전트 커널 가속 활성화</span>
+            </div>
+          </div>
+
+          <!-- Hero Main Title -->
+          <h1 class="hero-title" id="hero-title">
+            엔지니어가 진정으로 몰입할 수 있는 최적의 도구.
+          </h1>
+
+          <!-- Hero Subtitle -->
+          <p class="hero-subtitle" id="hero-subtitle">
+            옵시디언 다크의 정밀함, 1px 초슬림 헤어라인 보더, 번개처럼 빠른 키보드 퍼스트 단축키 인터랙션으로 설계된 고성능 엔지니어링 인터페이스.
+          </p>
+
+          <!-- Hero CTAs -->
+          <div class="hero-cta-group">
+            <button type="button" class="btn-primary" id="btn-hero-primary" title="활성 테마의 전체 UI 컴포넌트 쇼케이스 모달 열기">
+              <span id="hero-primary-text">스타일 컴포넌트 모음</span>
+              <span class="btn-arrow" aria-hidden="true">→</span>
+            </button>
+            <button type="button" class="btn-secondary" id="btn-hero-secondary" title="스타일 가이드라인 및 프롬프트 열기">
+              <span id="hero-secondary-text">가이드라인</span>
+            </button>
+            <button type="button" class="btn-secondary" id="btn-hero-download" title="현재 테마의 DESIGN.md 다운로드">
+              <span id="hero-download-text">DESIGN.md 다운로드</span>
+            </button>
+          </div>
+
+          <!-- Hero Visual Feature Widget -->
+          <div class="hero-showcase-panel" id="hero-showcase-panel">
+            <div class="panel-header">
+              <div class="panel-controls">
+                <span class="dot red dot-close"></span>
+                <span class="dot yellow dot-min"></span>
+                <span class="dot green dot-max"></span>
+              </div>
+              <div class="panel-title-pill" id="panel-title-pill">
+                <span id="panel-pill-text">실시간 커널 시스템 지표</span>
+              </div>
+              <div class="panel-status-tag" id="panel-status-tag">
+                <span class="pulse-indicator"></span>
+                <span id="panel-status-text">실시간 동기화됨</span>
+              </div>
+            </div>
+
+            <div class="panel-body">
+              <div class="metric-row">
+                <div class="metric-card">
+                  <span class="metric-label" id="label-latency">응답 지연시간</span>
+                  <span class="metric-value" id="val-latency">14.2ms</span>
+                  <span class="metric-sub" id="sub-latency">P99 목표치: &lt; 20ms</span>
+                </div>
+                <div class="metric-card">
+                  <span class="metric-label" id="label-uptime">가동률</span>
+                  <span class="metric-value" id="val-uptime">99.998%</span>
+                  <span class="metric-sub" id="sub-uptime">최근 365일 무중단</span>
+                </div>
+                <div class="metric-card">
+                  <span class="metric-label" id="label-velocity">에이전트 속도</span>
+                  <span class="metric-value" id="val-velocity">1,420 TPS</span>
+                  <span class="metric-sub" id="sub-velocity">하드웨어 가속 구동</span>
+                </div>
+              </div>
+
+              <!-- Interactive Mini Toolbar inside Widget -->
+              <div class="panel-interactive-strip">
+                <div class="strip-left">
+                  <label class="toggle-switch" for="demo-switch">
+                    <input type="checkbox" id="demo-switch" checked>
+                    <span class="toggle-slider"></span>
+                  </label>
+                  <span class="strip-label" id="strip-toggle-label">자율 코드 정제 엔진 활성화</span>
+                </div>
+                <div class="strip-right">
+                  <button type="button" class="btn-strip-action" id="btn-strip-pulse">
+                    <span id="btn-strip-text">부하 이벤트 시뮬레이션</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Grid Section -->
+      <section class="features-section" id="features">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-tag" id="features-tag">시스템 아키텍처</span>
+            <h2 class="section-title" id="features-title">타협 없는 몰입을 위한 엔지니어링</h2>
+            <p class="section-desc" id="features-desc">
+              모든 곡률, 그림자, 타이포그래피 간격은 인지 부하를 제로로 만들기 위해 정밀하게 조율되었습니다.
+            </p>
+          </div>
+
+          <div class="features-grid" id="features-grid">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Component Lab Section -->
+      <section class="components-section" id="components">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-tag" id="components-tag">DESIGN TOKEN LAB</span>
+            <h2 class="section-title" id="components-title">마이크로 인터랙션 & 상태</h2>
+            <p class="section-desc" id="components-desc">
+              직접 버튼과 컴포넌트를 클릭하며 각 디자인 언어가 규정하는 물리 법칙과 피드백을 경험해보세요.
+            </p>
+          </div>
+
+          <div class="components-sandbox" id="components-sandbox">
+            <!-- Button Family Card -->
+            <div class="sandbox-card">
+              <h3 class="sandbox-card-title" id="card-button-title">버튼 계층 구조 (Button Hierarchy)</h3>
+              <p class="sandbox-card-desc" id="card-button-desc">Primary, Secondary, Ghost, Destructive 액션 스타일</p>
+              <div class="component-row">
+                <button type="button" class="btn-primary" id="demo-btn-primary">Primary Action</button>
+                <button type="button" class="btn-secondary" id="demo-btn-secondary">Secondary Action</button>
+                <button type="button" class="btn-ghost" id="demo-btn-ghost">Ghost Action</button>
+                <button type="button" class="btn-destructive" id="demo-btn-destructive">Destructive</button>
+              </div>
+            </div>
+
+            <!-- Form & Input Card -->
+            <div class="sandbox-card">
+              <h3 class="sandbox-card-title" id="card-input-title">입력 필드 및 상태 (Input & Toggles)</h3>
+              <p class="sandbox-card-desc" id="card-input-desc">포커스 링, 플레이스홀더, 토글 스위치 반응성</p>
+              <div class="component-column">
+                <div class="input-wrapper">
+                  <input type="text" class="text-input" placeholder="커맨드 입력 또는 검색..." id="demo-text-input">
+                  <span class="input-shortcut">⌘K</span>
+                </div>
+                <div class="badges-row">
+                  <span class="chip chip-active" id="chip-active">● 활성 상태 (Active)</span>
+                  <span class="chip chip-pending" id="chip-pending">◐ 처리 중 (Processing)</span>
+                  <span class="chip chip-neutral" id="chip-neutral">Beta v2.4</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 62 Repositories Ecosystem Section -->
+      <section class="ecosystem-section" id="ecosystem">
+        <div class="section-container">
+          <div class="section-header">
+            <span class="section-tag" id="ecosystem-tag">FRONTIER ECOSYSTEM LEADERBOARD</span>
+            <h2 class="section-title" id="ecosystem-title">62대 프론트엔드 & 모바일 디자인 시스템</h2>
+          </div>
+
+          <!-- Search & Filter Controls -->
+          <div class="ecosystem-controls">
+            <div class="ecosystem-search-bar">
+              <span class="search-icon">🔍</span>
+              <input type="text" id="repo-search-input" placeholder="레포 이름, 키워드, 카테고리 검색 (예: ios, spotify, dracula, duolingo, toss, bento)...">
+              <span class="repo-count-badge" id="repo-count-badge">62 / 62개</span>
+            </div>
+
+            <div class="category-filters-row" id="category-filters">
+              <button type="button" class="cat-filter-btn active" data-category="all">전체보기 (62)</button>
+              <button type="button" class="cat-filter-btn" data-category="editorial">📖 1. Editorial & Print (도면·인쇄물)</button>
+              <button type="button" class="cat-filter-btn" data-category="saas">💼 2. Modern SaaS & FinTech (모던 스탠다드)</button>
+              <button type="button" class="cat-filter-btn" data-category="dark_dev">⚡ 3. Dark & Developer (개발자·터미널)</button>
+              <button type="button" class="cat-filter-btn" data-category="hardware">🎛️ 4. Hardware & Industrial (로봇·계기판)</button>
+              <button type="button" class="cat-filter-btn" data-category="expressive">🎨 5. Expressive & Retro (질감·서브컬처)</button>
+            </div>
+          </div>
+
+          <!-- 33 Repositories Grid Container -->
+          <div class="ecosystem-grid" id="ecosystem-grid">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Manifesto / AI Agent Guidelines Section -->
+      <section class="manifesto-section" id="manifesto">
+        <div class="section-container">
+          <div class="manifesto-card" id="manifesto-card">
+            <div class="manifesto-header">
+              <span class="manifesto-tag" id="manifesto-tag">AI 에이전트 불변의 설계 규칙</span>
+              <h2 class="manifesto-title" id="manifesto-title">이 디자인 언어가 AI 에이전트에 강력한 이유</h2>
+            </div>
+            <div class="manifesto-content">
+              <div class="manifesto-col">
+                <h4 id="manifesto-col1-title">핵심 디자인 철학 및 원칙</h4>
+                <ul class="manifesto-list" id="manifesto-philosophy-list">
+                  <!-- Populated by JS -->
+                </ul>
+              </div>
+              <div class="manifesto-col">
+                <h4 id="manifesto-col2-title">배제할 안티 패턴 (AI Slop 방지)</h4>
+                <ul class="manifesto-list anti-pattern-list" id="manifesto-antipattern-list">
+                  <!-- Populated by JS -->
+                </ul>
+              </div>
+            </div>
+            <div class="manifesto-footer">
+              <button type="button" class="btn-primary" id="btn-open-inspector-footer">
+                <span id="manifesto-cta-text">전체 DESIGN.md 확인 및 프롬프트 복사</span>
+                <span class="btn-arrow">↗</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer" id="site-footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <div class="footer-brand" id="footer-brand">LUMEN.CORE SYSTEM</div>
+          <p class="footer-copy" id="footer-copy">AI 엔지니어링 팀을 위한 최신 프론트엔드 디자인 시스템 쇼케이스 • Antigravity Agent Showcase</p>
+        </div>
+        <div class="footer-links">
+          <button type="button" class="footer-link-btn" id="footer-btn-inspector">DESIGN.md 프롬프트 복사</button>
+          <a href="#hero" class="footer-link-btn" id="footer-btn-top">맨 위로 가기 ↑</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- FLOATING INTERACTIVE DESIGN CONTROLLER DOCK -->
+  <aside class="floating-dock-container" id="floating-dock" aria-label="디자인 언어 선택기">
+    <div class="dock-wrapper">
+      <div class="dock-badge">
+        <span class="dock-badge-title">STYLE PICKER</span>
+        <span class="dock-badge-shortcut">1-7키</span>
+      </div>
+
+      <div class="dock-items" role="tablist">
+        <button type="button" class="dock-btn active" data-theme-target="linear" role="tab" aria-selected="true" title="Linear Obsidian (1)">
+          <span class="dock-icon">⚡</span>
+          <span class="dock-label">Linear</span>
+          <span class="dock-key">1</span>
+        </button>
+
+        <button type="button" class="dock-btn" data-theme-target="toss" role="tab" aria-selected="false" title="Toss App (2)">
+          <span class="dock-icon">💙</span>
+          <span class="dock-label">Toss</span>
+          <span class="dock-key">2</span>
+        </button>
+
+        <button type="button" class="dock-btn" data-theme-target="ios_hig" role="tab" aria-selected="false" title="Apple iOS HIG (3)">
+          <span class="dock-icon">🍎</span>
+          <span class="dock-label">iOS HIG</span>
+          <span class="dock-key">3</span>
+        </button>
+
+        <button type="button" class="dock-btn" data-theme-target="spotify" role="tab" aria-selected="false" title="Spotify Wrapped (4)">
+          <span class="dock-icon">🟢</span>
+          <span class="dock-label">Spotify</span>
+          <span class="dock-key">4</span>
+        </button>
+
+        <button type="button" class="dock-btn" data-theme-target="duolingo" role="tab" aria-selected="false" title="Duolingo Gamified (5)">
+          <span class="dock-icon">🦉</span>
+          <span class="dock-label">Duolingo</span>
+          <span class="dock-key">5</span>
+        </button>
+
+        <button type="button" class="dock-btn" data-theme-target="dracula" role="tab" aria-selected="false" title="Dracula Dark (6)">
+          <span class="dock-icon">🧛</span>
+          <span class="dock-label">Dracula</span>
+          <span class="dock-key">6</span>
+        </button>
+
+        <button type="button" class="dock-btn" data-theme-target="win98" role="tab" aria-selected="false" title="Win98 Retro (7)">
+          <span class="dock-icon">💾</span>
+          <span class="dock-label">Win98</span>
+          <span class="dock-key">7</span>
+        </button>
+      </div>
+
+      <div class="dock-divider"></div>
+
+      <div class="dock-utilities">
+        <button type="button" class="dock-arrow-btn" id="btn-dock-prev" title="이전 테마 [←]">◀</button>
+        <div class="dock-select-box">
+          <select id="dock-theme-select" class="dock-theme-select-input" title="62개 스타일 바로가기"></select>
+        </div>
+        <button type="button" class="dock-arrow-btn" id="btn-dock-next" title="다음 테마 [→]">▶</button>
+        <button type="button" class="dock-utility-btn" id="btn-dock-ecosystem" title="62대 레포 둘러보기 [E]">
+          <span class="util-icon">🏆</span>
+          <span class="util-label">62 Repos</span>
+        </button>
+        <button type="button" class="dock-utility-btn" id="btn-shuffle-theme" title="랜덤 스타일 변경 [R]">
+          <span class="util-icon">⚄</span>
+          <span class="util-label">Shuffle</span>
+        </button>
+        <button type="button" class="dock-utility-btn highlight" id="btn-open-inspector" title="DESIGN.md & 에이전트 프롬프트 [I]">
+          <span class="util-icon">📋</span>
+          <span class="util-label">Prompt</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Floating Screen Side Chevrons for Quick Theme Navigation -->
+  <button type="button" class="floating-side-nav side-prev" id="btn-side-prev" title="이전 테마 (좌측 화살표 [←])" aria-label="이전 테마">
+    <span class="side-nav-chevron">◀</span>
+    <span class="side-nav-key">←</span>
+  </button>
+  <button type="button" class="floating-side-nav side-next" id="btn-side-next" title="다음 테마 (우측 화살표 [→])" aria-label="다음 테마">
+    <span class="side-nav-chevron">▶</span>
+    <span class="side-nav-key">→</span>
+  </button>
+
+  <!-- AGENT PROMPT & DESIGN.MD INSPECTOR MODAL -->
+  <div class="modal-backdrop" id="inspector-modal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-pill" id="modal-theme-badge">Silicon Valley DevTech</span>
+          <h2 class="modal-title" id="modal-title">Linear Obsidian Prompt & Tokens</h2>
+        </div>
+        <button type="button" class="btn-close-modal" id="btn-close-modal" aria-label="닫기">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Palette Swatches Section -->
+        <div class="modal-section">
+          <h3 class="modal-section-title">Color Tokens (클릭 시 HEX 복사)</h3>
+          <div class="color-swatches-grid" id="modal-color-swatches">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Typography & Characteristics -->
+        <div class="modal-section">
+          <h3 class="modal-section-title">Typography & Layout Rules</h3>
+          <div class="modal-info-box" id="modal-info-box">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <!-- Agent Prompt Box -->
+        <div class="modal-section">
+          <div class="prompt-header-row">
+            <h3 class="modal-section-title">Claude Code / Cursor / Gemini 주입용 DESIGN.md</h3>
+            <span class="prompt-hint">프로젝트 루트의 DESIGN.md 또는 .cursorrules에 바로 붙여넣으세요</span>
+          </div>
+          <div class="code-block-container">
+            <pre class="prompt-code-block" id="modal-prompt-content"></pre>
+            <div class="prompt-actions-cluster">
+              <button type="button" class="btn-copy-code btn-dl-code" id="btn-modal-download-prompt" title="DESIGN.md 파일로 다운로드">
+                <span id="modal-dl-btn-text">.md 다운로드</span>
+              </button>
+              <button type="button" class="btn-copy-code" id="btn-copy-prompt">
+                <span id="copy-btn-text">프롬프트 전체 복사</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- STYLE COMPONENTS SHOWCASE INTERACTIVE MODAL -->
+  <div class="modal-backdrop" id="components-modal" aria-hidden="true">
+    <div class="modal-dialog components-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="comp-modal-title">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-pill" id="comp-modal-theme-badge">Interactive UI Kit</span>
+          <h2 class="modal-title" id="comp-modal-title">스타일 컴포넌트 쇼케이스</h2>
+        </div>
+        <button type="button" class="btn-close-modal" id="btn-close-comp-modal" aria-label="닫기">✕</button>
+      </div>
+
+      <div class="modal-body comp-modal-body">
+        <!-- 1. Buttons & Action Elements -->
+        <div class="modal-section">
+          <h3 class="modal-section-title">Buttons & Actions</h3>
+          <div class="comp-showcase-grid">
+            <button type="button" class="btn-primary">Primary Action</button>
+            <button type="button" class="btn-secondary">Secondary Action</button>
+            <button type="button" class="btn-ghost">Ghost Action</button>
+            <button type="button" class="btn-destructive">Destructive</button>
+            <button type="button" class="btn-secondary" disabled>Disabled State</button>
+          </div>
+        </div>
+
+        <!-- 2. Form & Text Inputs -->
+        <div class="modal-section">
+          <h3 class="modal-section-title">Form Controls & Inputs</h3>
+          <div class="comp-inputs-cluster">
+            <div class="input-wrapper">
+              <input type="text" class="text-input" placeholder="키워드 또는 텍스트 입력..." value="Antigravity Enterprise System">
+              <span class="input-shortcut">⌘K</span>
+            </div>
+            <div class="ecosystem-search-bar" style="max-width: 100%;">
+              <span class="search-icon">🔍</span>
+              <input type="text" placeholder="시스템 전역 검색..." value="Production Kernel v4.12">
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Badges, Chips & Status Indicators -->
+        <div class="modal-section">
+          <h3 class="modal-section-title">Badges & Status Chips</h3>
+          <div class="badges-row">
+            <span class="chip chip-active">● 활성 상태 (Active)</span>
+            <span class="chip chip-pending">◐ 처리 중 (Processing)</span>
+            <span class="chip chip-neutral">Beta v2.4</span>
+            <span class="repo-rank-pill">#1 TOP TIER</span>
+            <span class="panel-status-tag" style="padding: 0.35rem 0.75rem;">동기화 완료</span>
+          </div>
+        </div>
+
+        <!-- 4. Interactive Toggles & Checkbox -->
+        <div class="modal-section">
+          <h3 class="modal-section-title">Toggles & Switches</h3>
+          <div class="comp-toggles-cluster" style="display: flex; align-items: center; gap: 0.75rem;">
+            <label class="toggle-switch">
+              <input type="checkbox" checked>
+              <span class="toggle-slider"></span>
+            </label>
+            <span style="font-size: 0.9rem; font-weight: 600;">실시간 자동 스케일링 활성화</span>
+          </div>
+        </div>
+
+        <!-- 5. Cards & Elevation Panels -->
+        <div class="modal-section">
+          <h3 class="modal-section-title">Cards & Containers</h3>
+          <div class="comp-cards-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+            <div class="metric-card">
+              <span class="metric-label">시스템 가용성</span>
+              <span class="metric-value">99.999%</span>
+              <span class="metric-sub">최고 수준의 내결함성</span>
+            </div>
+            <div class="modal-info-box" style="margin: 0;">
+              <strong>디자인 시스템 가이드</strong>
+              <span>현재 테마의 여백, 곡률, 그림자 및 타이포그래피 규칙이 적용된 상태입니다.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toast-message">클립보드에 복사되었습니다!</span>
+  </div>
+
+  <!-- Application Logic -->
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

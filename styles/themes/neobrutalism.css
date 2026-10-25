@@ -1,0 +1,477 @@
+/* ==========================================================================
+   THEME: NEO-BRUTALISM RETRO POP
+   ========================================================================== */
+
+body[data-theme="neobrutalism"] {
+  background-color: #FFF9E6;
+  color: #000000;
+  font-family: 'Space Mono', monospace, -apple-system, sans-serif;
+  background-image: radial-gradient(#000000 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Header */
+body[data-theme="neobrutalism"] .site-header {
+  background: #FFFFFF;
+  border-bottom: 3px solid #000000;
+  box-shadow: 0 4px 0 #000000;
+}
+
+body[data-theme="neobrutalism"] .brand-logo {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.25rem;
+}
+
+body[data-theme="neobrutalism"] .logo-mark {
+  color: #FFE600;
+  background: #000000;
+  padding: 0.2rem 0.5rem;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0px #FFE600;
+}
+
+body[data-theme="neobrutalism"] .nav-link {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.6rem;
+  border: 2px solid transparent;
+  transition: all 0.1s;
+}
+
+body[data-theme="neobrutalism"] .nav-link:hover {
+  background: #05FFA1;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  transform: rotate(-1deg);
+}
+
+body[data-theme="neobrutalism"] .btn-theme-badge {
+  background: #FFE600;
+  border: 2.5px solid #000000;
+  box-shadow: 3px 3px 0 #000000;
+  color: #000000;
+  font-weight: 800;
+  border-radius: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+body[data-theme="neobrutalism"] .btn-header-cta {
+  background: #FF6EC7;
+  color: #000000;
+  border: 2.5px solid #000000;
+  box-shadow: 3px 3px 0 #000000;
+  padding: 0.45rem 1.1rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  border-radius: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  transition: all 0.1s;
+}
+
+body[data-theme="neobrutalism"] .btn-header-cta:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 #000000;
+  background: #05FFA1;
+}
+
+/* Hero */
+body[data-theme="neobrutalism"] .hero-badge {
+  background: #05FFA1;
+  border: 2.5px solid #000000;
+  box-shadow: 4px 4px 0 #000000;
+  color: #000000;
+  font-weight: 800;
+  border-radius: 0;
+  transform: rotate(-2deg);
+  display: inline-block;
+  padding: 0.4rem 1rem;
+}
+
+body[data-theme="neobrutalism"] .badge-dot {
+  background: #000000;
+}
+
+body[data-theme="neobrutalism"] .hero-title {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+body[data-theme="neobrutalism"] .hero-subtitle {
+  color: #222222;
+  font-weight: 600;
+  max-width: 680px;
+}
+
+/* Buttons */
+body[data-theme="neobrutalism"] .btn-primary {
+  background: #FFE600;
+  color: #000000;
+  border: 3px solid #000000;
+  box-shadow: 5px 5px 0 #000000;
+  padding: 0.85rem 1.85rem;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+}
+
+body[data-theme="neobrutalism"] .btn-primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 #000000;
+  background: #05FFA1;
+}
+
+body[data-theme="neobrutalism"] .btn-primary:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+body[data-theme="neobrutalism"] .btn-secondary {
+  background: #FFFFFF;
+  color: #000000;
+  border: 3px solid #000000;
+  box-shadow: 5px 5px 0 #000000;
+  padding: 0.85rem 1.6rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+}
+
+body[data-theme="neobrutalism"] .btn-secondary:hover {
+  background: #FF6EC7;
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 #000000;
+}
+
+body[data-theme="neobrutalism"] .btn-secondary:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+body[data-theme="neobrutalism"] .btn-ghost {
+  background: #FFFFFF;
+  color: #000000;
+  border: 2.5px solid #000000;
+  box-shadow: 3px 3px 0 #000000;
+  padding: 0.7rem 1.25rem;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  transition: all 0.1s;
+}
+
+body[data-theme="neobrutalism"] .btn-ghost:hover {
+  background: #E0E7FF;
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #000000;
+}
+
+body[data-theme="neobrutalism"] .btn-destructive {
+  background: #FF4757;
+  color: #FFFFFF;
+  border: 2.5px solid #000000;
+  box-shadow: 3px 3px 0 #000000;
+  padding: 0.7rem 1.25rem;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  transition: all 0.1s;
+}
+
+body[data-theme="neobrutalism"] .btn-destructive:hover {
+  background: #FF1E34;
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #000000;
+}
+
+/* Hero Showcase Panel */
+body[data-theme="neobrutalism"] .hero-showcase-panel {
+  background: #FFFFFF;
+  border: 3.5px solid #000000;
+  box-shadow: 8px 8px 0 #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .panel-header {
+  border-bottom: 3.5px solid #000000;
+  background: #FFE600;
+}
+
+body[data-theme="neobrutalism"] .panel-controls .dot {
+  border: 1.5px solid #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .panel-title-pill {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+body[data-theme="neobrutalism"] .panel-status-tag {
+  background: #000000;
+  color: #05FFA1;
+  padding: 0.2rem 0.5rem;
+  border: 1.5px solid #000000;
+  font-family: 'Space Mono', monospace;
+}
+
+body[data-theme="neobrutalism"] .metric-card {
+  background: #FFF9E6;
+  border: 2.5px solid #000000;
+  box-shadow: 4px 4px 0 #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .metric-label {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 0.7rem;
+}
+
+body[data-theme="neobrutalism"] .metric-value {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+body[data-theme="neobrutalism"] .metric-sub {
+  color: #444444;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+body[data-theme="neobrutalism"] .panel-interactive-strip {
+  border-top: 2.5px solid #000000;
+}
+
+body[data-theme="neobrutalism"] .strip-label {
+  color: #000000;
+  font-weight: 700;
+}
+
+body[data-theme="neobrutalism"] .toggle-slider {
+  background-color: #E2E8F0;
+  border: 2.5px solid #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .toggle-slider::before {
+  border-radius: 0;
+  border: 1.5px solid #000000;
+}
+
+body[data-theme="neobrutalism"] .toggle-switch input:checked + .toggle-slider {
+  background-color: #05FFA1;
+}
+
+body[data-theme="neobrutalism"] .btn-strip-action {
+  background: #FFE600;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  border-radius: 0;
+  font-weight: 800;
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+}
+
+body[data-theme="neobrutalism"] .btn-strip-action:hover {
+  background: #FF6EC7;
+}
+
+/* Features */
+body[data-theme="neobrutalism"] .section-tag {
+  background: #FFE600;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  padding: 0.25rem 0.65rem;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+body[data-theme="neobrutalism"] .section-title {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}
+
+body[data-theme="neobrutalism"] .section-desc {
+  color: #222222;
+  font-weight: 600;
+}
+
+body[data-theme="neobrutalism"] .feature-card {
+  background: #FFFFFF;
+  border: 3px solid #000000;
+  box-shadow: 6px 6px 0 #000000;
+  border-radius: 0;
+  transition: all 0.15s ease;
+}
+
+body[data-theme="neobrutalism"] .feature-card:nth-child(1) {
+  background: #FFF9E6;
+}
+body[data-theme="neobrutalism"] .feature-card:nth-child(2) {
+  background: #F0FFF4;
+}
+body[data-theme="neobrutalism"] .feature-card:nth-child(3) {
+  background: #FFF0F5;
+}
+
+body[data-theme="neobrutalism"] .feature-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 #000000;
+}
+
+body[data-theme="neobrutalism"] .feature-tag {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  background: #FFE600;
+  border: 1.5px solid #000000;
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  width: fit-content;
+}
+
+body[data-theme="neobrutalism"] .feature-title {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}
+
+body[data-theme="neobrutalism"] .feature-desc {
+  color: #222222;
+  font-weight: 500;
+}
+
+body[data-theme="neobrutalism"] .feature-meta {
+  color: #000000;
+  border-top: 2px solid #000000;
+  font-weight: 800;
+}
+
+/* Sandbox */
+body[data-theme="neobrutalism"] .sandbox-card {
+  background: #FFFFFF;
+  border: 3px solid #000000;
+  box-shadow: 6px 6px 0 #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .sandbox-card-title {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+body[data-theme="neobrutalism"] .sandbox-card-desc {
+  color: #444444;
+}
+
+body[data-theme="neobrutalism"] .text-input {
+  background: #FFF9E6;
+  border: 3px solid #000000;
+  box-shadow: 3px 3px 0 #000000;
+  color: #000000;
+  border-radius: 0;
+  font-weight: 700;
+  font-family: 'Space Mono', monospace;
+}
+
+body[data-theme="neobrutalism"] .text-input:focus {
+  background: #FFFFFF;
+  box-shadow: 5px 5px 0 #000000;
+}
+
+body[data-theme="neobrutalism"] .input-shortcut {
+  background: #000000;
+  color: #FFE600;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .chip-active {
+  background: #05FFA1;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .chip-pending {
+  background: #FFE600;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .chip-neutral {
+  background: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  border-radius: 0;
+}
+
+/* Manifesto */
+body[data-theme="neobrutalism"] .manifesto-card {
+  background: #FFFFFF;
+  border: 3.5px solid #000000;
+  box-shadow: 8px 8px 0 #000000;
+  border-radius: 0;
+}
+
+body[data-theme="neobrutalism"] .manifesto-tag {
+  background: #FF6EC7;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 0 #000000;
+  padding: 0.25rem 0.65rem;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+body[data-theme="neobrutalism"] .manifesto-title {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}
+
+body[data-theme="neobrutalism"] .manifesto-col h4 {
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.15rem;
+}
+
+body[data-theme="neobrutalism"] .manifesto-list li {
+  color: #111111;
+  font-weight: 600;
+}
+
+/* Footer */
+body[data-theme="neobrutalism"] .site-footer {
+  background: #FFFFFF;
+  border-top: 3px solid #000000;
+}

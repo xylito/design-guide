@@ -1,0 +1,374 @@
+/* ==========================================================================
+   THEME: TOSS HUMANIST FINTECH (SQUIRCLE & SPRING PHYSICS)
+   ========================================================================== */
+
+body[data-theme="toss"] {
+  background-color: #F2F4F6;
+  color: #191F28;
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+}
+
+/* Header */
+body[data-theme="toss"] .site-header {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+body[data-theme="toss"] .brand-logo {
+  color: #191F28;
+  font-weight: 800;
+}
+
+body[data-theme="toss"] .logo-mark {
+  color: #3182F6;
+  font-size: 1.25rem;
+}
+
+body[data-theme="toss"] .nav-link {
+  color: #4E5968;
+  font-weight: 600;
+}
+
+body[data-theme="toss"] .nav-link:hover {
+  color: #3182F6;
+}
+
+body[data-theme="toss"] .btn-theme-badge {
+  background: #E8F3FF;
+  border: none;
+  color: #1B64DA;
+  border-radius: 9999px;
+  font-weight: 700;
+  padding: 0.4rem 0.9rem;
+}
+
+body[data-theme="toss"] .btn-header-cta {
+  background: #3182F6;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(49, 130, 246, 0.28);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+body[data-theme="toss"] .btn-header-cta:hover {
+  transform: scale(1.04);
+  background: #1B64DA;
+}
+
+/* Hero */
+body[data-theme="toss"] .hero-badge {
+  background: #E8F3FF;
+  color: #1B64DA;
+  border-radius: 9999px;
+  font-weight: 700;
+  padding: 0.45rem 1.1rem;
+}
+
+body[data-theme="toss"] .badge-dot {
+  background: #3182F6;
+}
+
+body[data-theme="toss"] .hero-title {
+  color: #191F28;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+body[data-theme="toss"] .hero-subtitle {
+  color: #4E5968;
+  line-height: 1.65;
+}
+
+/* Buttons */
+body[data-theme="toss"] .btn-primary {
+  background: #3182F6;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 8px 24px rgba(49, 130, 246, 0.3);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s;
+}
+
+body[data-theme="toss"] .btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: #1B64DA;
+}
+
+body[data-theme="toss"] .btn-secondary {
+  background: #FFFFFF;
+  color: #191F28;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.9rem 1.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+body[data-theme="toss"] .btn-secondary:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: #F9FAFB;
+}
+
+body[data-theme="toss"] .btn-ghost {
+  background: transparent;
+  color: #4E5968;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+body[data-theme="toss"] .btn-ghost:hover {
+  background: rgba(0, 0, 0, 0.04);
+  color: #191F28;
+}
+
+body[data-theme="toss"] .btn-destructive {
+  background: #FEECEE;
+  color: #F04452;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+body[data-theme="toss"] .btn-destructive:hover {
+  background: #FDD8DC;
+}
+
+/* Showcase Panel */
+body[data-theme="toss"] .hero-showcase-panel {
+  background: #FFFFFF;
+  border-radius: 28px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.06), 0 2px 6px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+body[data-theme="toss"] .panel-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 1.1rem 1.5rem;
+}
+
+body[data-theme="toss"] .panel-title-pill {
+  color: #4E5968;
+  font-weight: 700;
+}
+
+body[data-theme="toss"] .panel-status-tag {
+  color: #3182F6;
+  font-weight: 700;
+}
+
+body[data-theme="toss"] .metric-card {
+  background: #F9FAFB;
+  border-radius: 20px;
+  border: none;
+  padding: 1.4rem;
+}
+
+body[data-theme="toss"] .metric-label {
+  color: #8B95A1;
+  font-weight: 700;
+}
+
+body[data-theme="toss"] .metric-value {
+  color: #191F28;
+  font-weight: 800;
+}
+
+body[data-theme="toss"] .metric-sub {
+  color: #6B7684;
+  font-weight: 600;
+}
+
+body[data-theme="toss"] .panel-interactive-strip {
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+body[data-theme="toss"] .strip-label {
+  color: #333D4B;
+  font-weight: 600;
+}
+
+body[data-theme="toss"] .toggle-slider {
+  background-color: #E5E8EB;
+}
+
+body[data-theme="toss"] .toggle-switch input:checked + .toggle-slider {
+  background-color: #3182F6;
+}
+
+body[data-theme="toss"] .btn-strip-action {
+  background: #E8F3FF;
+  color: #1B64DA;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+body[data-theme="toss"] .btn-strip-action:hover {
+  transform: scale(1.05);
+}
+
+/* Features */
+body[data-theme="toss"] .section-tag {
+  color: #3182F6;
+}
+
+body[data-theme="toss"] .section-title {
+  color: #191F28;
+  font-weight: 800;
+}
+
+body[data-theme="toss"] .section-desc {
+  color: #4E5968;
+}
+
+body[data-theme="toss"] .feature-card {
+  background: #FFFFFF;
+  border-radius: 26px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s;
+}
+
+body[data-theme="toss"] .feature-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
+}
+
+body[data-theme="toss"] .feature-tag {
+  color: #3182F6;
+  font-weight: 700;
+}
+
+body[data-theme="toss"] .feature-title {
+  color: #191F28;
+  font-weight: 800;
+}
+
+body[data-theme="toss"] .feature-desc {
+  color: #4E5968;
+}
+
+body[data-theme="toss"] .feature-meta {
+  color: #3182F6;
+  font-weight: 700;
+  border-top: 1px solid #F2F4F6;
+}
+
+/* Sandbox */
+body[data-theme="toss"] .sandbox-card {
+  background: #FFFFFF;
+  border-radius: 26px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+body[data-theme="toss"] .sandbox-card-title {
+  color: #191F28;
+  font-weight: 800;
+}
+
+body[data-theme="toss"] .sandbox-card-desc {
+  color: #8B95A1;
+}
+
+body[data-theme="toss"] .text-input {
+  background: #F9FAFB;
+  border: 1.5px solid #E5E8EB;
+  border-radius: 14px;
+  color: #191F28;
+  padding: 0.95rem 3.5rem 0.95rem 1.25rem;
+}
+
+body[data-theme="toss"] .text-input:focus {
+  border-color: #3182F6;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(49, 130, 246, 0.15);
+}
+
+body[data-theme="toss"] .input-shortcut {
+  background: #E5E8EB;
+  color: #6B7684;
+  border-radius: 6px;
+}
+
+body[data-theme="toss"] .chip-active {
+  background: #E8F3FF;
+  color: #1B64DA;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+body[data-theme="toss"] .chip-pending {
+  background: #FFF0D6;
+  color: #D97706;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+body[data-theme="toss"] .chip-neutral {
+  background: #F2F4F6;
+  color: #6B7684;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+/* Manifesto */
+body[data-theme="toss"] .manifesto-card {
+  background: #FFFFFF;
+  border-radius: 32px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.05);
+}
+
+body[data-theme="toss"] .manifesto-tag {
+  color: #3182F6;
+}
+
+body[data-theme="toss"] .manifesto-title {
+  color: #191F28;
+  font-weight: 800;
+}
+
+body[data-theme="toss"] .manifesto-col h4 {
+  color: #333D4B;
+  font-weight: 800;
+}
+
+body[data-theme="toss"] .manifesto-list li {
+  color: #4E5968;
+}
+
+/* Footer */
+body[data-theme="toss"] .site-footer {
+  background: #F2F4F6;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}

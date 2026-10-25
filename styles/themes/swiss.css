@@ -1,0 +1,441 @@
+/* ==========================================================================
+   THEME: SWISS INTERNATIONAL TYPOGRAPHIC STYLE
+   ========================================================================== */
+
+body[data-theme="swiss"] {
+  background-color: #F4F4F2;
+  color: #111111;
+  font-family: 'Space Grotesk', -apple-system, sans-serif;
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+/* Header */
+body[data-theme="swiss"] .site-header {
+  background: #F4F4F2;
+  border-bottom: 2px solid #111111;
+}
+
+body[data-theme="swiss"] .brand-logo {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+body[data-theme="swiss"] .logo-mark {
+  color: #FF3000;
+  font-size: 1.25rem;
+}
+
+body[data-theme="swiss"] .nav-link {
+  color: #111111;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+body[data-theme="swiss"] .nav-link:hover {
+  color: #FF3000;
+}
+
+body[data-theme="swiss"] .btn-theme-badge {
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  color: #111111;
+  border-radius: 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+body[data-theme="swiss"] .btn-header-cta {
+  background: #111111;
+  color: #FFFFFF;
+  border: 1px solid #111111;
+  padding: 0.45rem 1.15rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+body[data-theme="swiss"] .btn-header-cta:hover {
+  background: #FF3000;
+  border-color: #FF3000;
+}
+
+/* Hero */
+body[data-theme="swiss"] .hero-badge {
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  color: #111111;
+  border-radius: 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+}
+
+body[data-theme="swiss"] .badge-dot {
+  background: #FF3000;
+}
+
+body[data-theme="swiss"] .hero-title {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+  text-align: left;
+}
+
+body[data-theme="swiss"] .hero-subtitle {
+  color: #444444;
+  text-align: left;
+  line-height: 1.6;
+  max-width: 680px;
+}
+
+/* Buttons */
+body[data-theme="swiss"] .btn-primary {
+  background: #FF3000;
+  color: #FFFFFF;
+  border: 1px solid #FF3000;
+  padding: 0.8rem 1.85rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: all 0.15s ease;
+}
+
+body[data-theme="swiss"] .btn-primary:hover {
+  background: #111111;
+  border-color: #111111;
+}
+
+body[data-theme="swiss"] .btn-secondary {
+  background: #FFFFFF;
+  color: #111111;
+  border: 1px solid #111111;
+  padding: 0.8rem 1.6rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.15s ease;
+}
+
+body[data-theme="swiss"] .btn-secondary:hover {
+  background: #111111;
+  color: #FFFFFF;
+}
+
+body[data-theme="swiss"] .btn-ghost {
+  background: transparent;
+  color: #111111;
+  border: 1px solid #111111;
+  padding: 0.7rem 1.25rem;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  transition: all 0.15s;
+}
+
+body[data-theme="swiss"] .btn-ghost:hover {
+  background: #111111;
+  color: #FFFFFF;
+}
+
+body[data-theme="swiss"] .btn-destructive {
+  background: #111111;
+  color: #FF3000;
+  border: 1px solid #FF3000;
+  padding: 0.7rem 1.25rem;
+  border-radius: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  transition: all 0.15s;
+}
+
+body[data-theme="swiss"] .btn-destructive:hover {
+  background: #FF3000;
+  color: #FFFFFF;
+}
+
+/* Showcase Panel */
+body[data-theme="swiss"] .hero-showcase-panel {
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  border-radius: 0;
+}
+
+body[data-theme="swiss"] .panel-header {
+  border-bottom: 1px solid #111111;
+  background: #F4F4F2;
+}
+
+body[data-theme="swiss"] .panel-controls .dot {
+  border-radius: 0;
+  width: 9px;
+  height: 9px;
+}
+
+body[data-theme="swiss"] .panel-title-pill {
+  color: #111111;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+}
+
+body[data-theme="swiss"] .panel-status-tag {
+  color: #FF3000;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+}
+
+body[data-theme="swiss"] .metric-card {
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  border-radius: 0;
+}
+
+body[data-theme="swiss"] .metric-label {
+  color: #666666;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+}
+
+body[data-theme="swiss"] .metric-value {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 2.1rem;
+}
+
+body[data-theme="swiss"] .metric-sub {
+  color: #888888;
+  font-family: 'Space Mono', monospace;
+}
+
+body[data-theme="swiss"] .panel-interactive-strip {
+  border-top: 1px solid #111111;
+}
+
+body[data-theme="swiss"] .strip-label {
+  color: #111111;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+}
+
+body[data-theme="swiss"] .toggle-slider {
+  background-color: #E0E0DE;
+  border: 1px solid #111111;
+  border-radius: 0;
+}
+
+body[data-theme="swiss"] .toggle-slider::before {
+  border-radius: 0;
+  background-color: #111111;
+}
+
+body[data-theme="swiss"] .toggle-switch input:checked + .toggle-slider {
+  background-color: #FF3000;
+}
+
+body[data-theme="swiss"] .btn-strip-action {
+  background: #FFFFFF;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+body[data-theme="swiss"] .btn-strip-action:hover {
+  background: #111111;
+  color: #FFFFFF;
+}
+
+/* Features */
+body[data-theme="swiss"] .section-tag {
+  color: #FF3000;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+}
+
+body[data-theme="swiss"] .section-title {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+body[data-theme="swiss"] .section-desc {
+  color: #555555;
+}
+
+body[data-theme="swiss"] .feature-card {
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  border-radius: 0;
+  position: relative;
+}
+
+body[data-theme="swiss"] .feature-card:hover {
+  transform: none;
+  border-color: #FF3000;
+  outline: 1px solid #FF3000;
+}
+
+body[data-theme="swiss"] .feature-tag {
+  color: #FF3000;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+}
+
+body[data-theme="swiss"] .feature-title {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+body[data-theme="swiss"] .feature-desc {
+  color: #444444;
+}
+
+body[data-theme="swiss"] .feature-meta {
+  color: #111111;
+  border-top: 1px solid #111111;
+  font-family: 'Space Mono', monospace;
+}
+
+/* Sandbox */
+body[data-theme="swiss"] .sandbox-card {
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  border-radius: 0;
+}
+
+body[data-theme="swiss"] .sandbox-card-title {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+}
+
+body[data-theme="swiss"] .sandbox-card-desc {
+  color: #666666;
+}
+
+body[data-theme="swiss"] .text-input {
+  background: #FFFFFF;
+  border: 1px solid #111111;
+  color: #111111;
+  border-radius: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body[data-theme="swiss"] .text-input:focus {
+  border-color: #FF3000;
+}
+
+body[data-theme="swiss"] .input-shortcut {
+  background: #F4F4F2;
+  border: 1px solid #111111;
+  color: #111111;
+  border-radius: 0;
+}
+
+body[data-theme="swiss"] .chip-active {
+  background: #FFFFFF;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+}
+
+body[data-theme="swiss"] .chip-pending {
+  background: #FFFFFF;
+  color: #FF3000;
+  border: 1px solid #FF3000;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+}
+
+body[data-theme="swiss"] .chip-neutral {
+  background: #F4F4F2;
+  color: #666666;
+  border: 1px solid #CCCCCC;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+}
+
+/* Manifesto */
+body[data-theme="swiss"] .manifesto-card {
+  background: #FFFFFF;
+  border: 2px solid #111111;
+  border-radius: 0;
+}
+
+body[data-theme="swiss"] .manifesto-tag {
+  color: #FF3000;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+}
+
+body[data-theme="swiss"] .manifesto-title {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+}
+
+body[data-theme="swiss"] .manifesto-col h4 {
+  color: #111111;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+}
+
+body[data-theme="swiss"] .manifesto-list li {
+  color: #333333;
+}
+
+/* Footer */
+body[data-theme="swiss"] .site-footer {
+  background: #F4F4F2;
+  border-top: 2px solid #111111;
+}

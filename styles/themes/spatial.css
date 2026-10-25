@@ -1,0 +1,382 @@
+/* ==========================================================================
+   THEME: SPATIAL VISIONOS GLASSMORPHISM
+   ========================================================================== */
+
+body[data-theme="spatial"] {
+  background-color: #0B0C1E;
+  color: #FFFFFF;
+  font-family: 'Outfit', -apple-system, sans-serif;
+  background-image: 
+    radial-gradient(ellipse at top left, rgba(139, 92, 246, 0.25), transparent 50%),
+    radial-gradient(ellipse at bottom right, rgba(56, 189, 248, 0.25), transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.15), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Header */
+body[data-theme="spatial"] .site-header {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(28px) saturate(190%);
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+body[data-theme="spatial"] .brand-logo {
+  color: #FFFFFF;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+body[data-theme="spatial"] .logo-mark {
+  color: #A78BFA;
+  filter: drop-shadow(0 0 10px #A78BFA);
+}
+
+body[data-theme="spatial"] .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+body[data-theme="spatial"] .nav-link:hover {
+  color: #FFFFFF;
+}
+
+body[data-theme="spatial"] .btn-theme-badge {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+  border-radius: 9999px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+body[data-theme="spatial"] .btn-header-cta {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(20px);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.5rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  transition: all 0.25s;
+}
+
+body[data-theme="spatial"] .btn-header-cta:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.15));
+  box-shadow: 0 6px 25px rgba(167, 139, 250, 0.4);
+}
+
+/* Hero */
+body[data-theme="spatial"] .hero-badge {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #E2E8F0;
+  border-radius: 9999px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+body[data-theme="spatial"] .badge-dot {
+  background: #38BDF8;
+  box-shadow: 0 0 10px #38BDF8;
+}
+
+body[data-theme="spatial"] .hero-title {
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+body[data-theme="spatial"] .hero-subtitle {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Buttons */
+body[data-theme="spatial"] .btn-primary {
+  background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.85rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  transition: all 0.25s ease;
+}
+
+body[data-theme="spatial"] .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 35px rgba(139, 92, 246, 0.65);
+}
+
+body[data-theme="spatial"] .btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.85rem 1.8rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: all 0.25s ease;
+}
+
+body[data-theme="spatial"] .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+body[data-theme="spatial"] .btn-ghost {
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid transparent;
+  padding: 0.75rem 1.3rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+body[data-theme="spatial"] .btn-ghost:hover {
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+body[data-theme="spatial"] .btn-destructive {
+  background: rgba(239, 68, 68, 0.2);
+  backdrop-filter: blur(16px);
+  color: #FCA5A5;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  padding: 0.75rem 1.3rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+body[data-theme="spatial"] .btn-destructive:hover {
+  background: rgba(239, 68, 68, 0.35);
+}
+
+/* Showcase Panel */
+body[data-theme="spatial"] .hero-showcase-panel {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(32px) saturate(200%);
+  -webkit-backdrop-filter: blur(32px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+body[data-theme="spatial"] .panel-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+body[data-theme="spatial"] .panel-title-pill {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+body[data-theme="spatial"] .panel-status-tag {
+  color: #38BDF8;
+}
+
+body[data-theme="spatial"] .metric-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+body[data-theme="spatial"] .metric-label {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+body[data-theme="spatial"] .metric-value {
+  color: #FFFFFF;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+body[data-theme="spatial"] .metric-sub {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+body[data-theme="spatial"] .panel-interactive-strip {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body[data-theme="spatial"] .strip-label {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+body[data-theme="spatial"] .toggle-slider {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+body[data-theme="spatial"] .toggle-switch input:checked + .toggle-slider {
+  background: linear-gradient(135deg, #8B5CF6, #3B82F6);
+}
+
+body[data-theme="spatial"] .btn-strip-action {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 9999px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+body[data-theme="spatial"] .btn-strip-action:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Features */
+body[data-theme="spatial"] .section-tag {
+  color: #A78BFA;
+  letter-spacing: 0.1em;
+}
+
+body[data-theme="spatial"] .section-title {
+  color: #FFFFFF;
+}
+
+body[data-theme="spatial"] .section-desc {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body[data-theme="spatial"] .feature-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+body[data-theme="spatial"] .feature-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 20px 48px rgba(139, 92, 246, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+body[data-theme="spatial"] .feature-tag {
+  color: #38BDF8;
+}
+
+body[data-theme="spatial"] .feature-title {
+  color: #FFFFFF;
+}
+
+body[data-theme="spatial"] .feature-desc {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body[data-theme="spatial"] .feature-meta {
+  color: #A78BFA;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Sandbox */
+body[data-theme="spatial"] .sandbox-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+body[data-theme="spatial"] .sandbox-card-title {
+  color: #FFFFFF;
+}
+
+body[data-theme="spatial"] .sandbox-card-desc {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+body[data-theme="spatial"] .text-input {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  border-radius: 12px;
+}
+
+body[data-theme="spatial"] .text-input:focus {
+  border-color: #8B5CF6;
+  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.35);
+}
+
+body[data-theme="spatial"] .input-shortcut {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body[data-theme="spatial"] .chip-active {
+  background: rgba(56, 189, 248, 0.18);
+  color: #7DD3FC;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  border-radius: 9999px;
+}
+
+body[data-theme="spatial"] .chip-pending {
+  background: rgba(245, 158, 11, 0.18);
+  color: #FCD34D;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  border-radius: 9999px;
+}
+
+body[data-theme="spatial"] .chip-neutral {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+/* Manifesto */
+body[data-theme="spatial"] .manifesto-card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(32px) saturate(190%);
+  -webkit-backdrop-filter: blur(32px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 24px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+body[data-theme="spatial"] .manifesto-tag {
+  color: #A78BFA;
+}
+
+body[data-theme="spatial"] .manifesto-title {
+  color: #FFFFFF;
+}
+
+body[data-theme="spatial"] .manifesto-col h4 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+body[data-theme="spatial"] .manifesto-list li {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Footer */
+body[data-theme="spatial"] .site-footer {
+  background: rgba(11, 12, 30, 0.85);
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}

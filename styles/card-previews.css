@@ -1,0 +1,2320 @@
+/* ==========================================================================
+   62 ECOSYSTEM CARD LIVE PREVIEWS STYLESHEET (BULLETPROOF SPECIFICITY)
+   Guarantees that each card in the grid permanently renders its own authentic
+   design language (colors, borders, radius, fonts, buttons) regardless of active theme.
+   ========================================================================== */
+
+/* Base card transition */
+body .repo-card {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* --------------------------------------------------------------------------
+   IMPECCABLE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="impeccable"],
+body .repo-card[data-preview-theme="impeccable"] {
+  background: #0E1013 !important;
+  color: #EDEDED !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  font-family: 'Cormorant Garamond', 'Nanum Myeongjo', 'Noto Serif KR', Georgia, serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="impeccable"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Cormorant Garamond', 'Nanum Myeongjo', 'Noto Serif KR', Georgia, serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="impeccable"] .repo-ai-box {
+  background: #14171C !important;
+  color: #EDEDED !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="impeccable"] .repo-ai-box * {
+  color: #EDEDED !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="impeccable"] .btn-repo-apply {
+  background: #6366F1 !important; color: #FFFFFF !important; border: 1px solid rgba(255,255,255,0.2) !important; border-radius: 6px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TUFTE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="tufte"],
+body .repo-card[data-preview-theme="tufte"] {
+  background: #FFFFF8 !important;
+  color: #111111 !important;
+  border: 1px solid #EAE7D6 !important;
+  border-radius: 0px !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03) !important;
+  font-family: 'Cormorant Garamond', 'Nanum Myeongjo', 'Noto Serif KR', Georgia, serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tufte"] .repo-name {
+  color: #111111 !important;
+  font-family: 'Cormorant Garamond', 'Nanum Myeongjo', 'Noto Serif KR', Georgia, serif !important;
+  font-style: italic !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tufte"] .repo-desc {
+  color: #333333 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tufte"] .repo-ai-box {
+  background: #F7F6EE !important;
+  color: #111111 !important;
+  border: 1px solid #E2DEC9 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tufte"] .repo-ai-box * {
+  color: #111111 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tufte"] .btn-repo-apply {
+  background: #A00000 !important; color: #FFFFF8 !important; border-radius: 0px !important; border: 1px solid #A00000 !important; font-family: 'Cormorant Garamond', 'Nanum Myeongjo', Georgia, serif !important; font-weight: 700 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tufte"] .btn-repo-inspect {
+  background: #FFFFF8 !important; color: #111111 !important; border: 1px solid #111111 !important; border-radius: 0px !important; font-family: 'Cormorant Garamond', 'Nanum Myeongjo', Georgia, serif !important;
+}
+
+
+/* --------------------------------------------------------------------------
+   BLUEPRINT CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="blueprint"],
+body .repo-card[data-preview-theme="blueprint"] {
+  background: #0B3C5D !important;
+  color: #E0F4FF !important;
+  border: 1px solid #00F0FF !important;
+  border-radius: 0px !important;
+  box-shadow: inset 0 0 16px rgba(0, 240, 255, 0.12) !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="blueprint"] .repo-name {
+  color: #00F0FF !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="blueprint"] .repo-ai-box {
+  background: rgba(0, 240, 255, 0.08) !important;
+  color: #E0F4FF !important;
+  border: 1px dashed #00F0FF !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="blueprint"] .repo-ai-box * {
+  color: #E0F4FF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="blueprint"] .btn-repo-apply {
+  background: #00F0FF !important; color: #041B2D !important; border-radius: 0px !important; border: none !important; font-weight: 700 !important; font-family: 'Space Mono', monospace !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NOTION CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="notion"],
+body .repo-card[data-preview-theme="notion"] {
+  background: #FFFFFF !important;
+  color: #37352F !important;
+  border: 1px solid #ECECEB !important;
+  border-radius: 8px !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04) !important;
+  font-family: 'Newsreader', 'Gowun Batang', 'Noto Serif KR', serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion"] .repo-name {
+  color: #37352F !important;
+  font-family: 'Newsreader', 'Gowun Batang', 'Noto Serif KR', serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion"] .repo-desc {
+  color: #787774 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion"] .repo-ai-box {
+  background: #F7F6F3 !important;
+  color: #37352F !important;
+  border: 1px solid #ECECEB !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion"] .repo-ai-box * {
+  color: #37352F !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion"] .btn-repo-apply {
+  background: #37352F !important; color: #FFFFFF !important; border-radius: 6px !important; border: 1px solid #37352F !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   RAWBRUTALIST CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="rawbrutalist"],
+body .repo-card[data-preview-theme="rawbrutalist"] {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  font-family: 'Times New Roman', 'Song Myung', 'Nanum Myeongjo', serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="rawbrutalist"] .repo-name {
+  color: #000000 !important;
+  font-family: 'Times New Roman', 'Song Myung', 'Nanum Myeongjo', serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="rawbrutalist"] .repo-ai-box {
+  background: #F0F0F0 !important;
+  color: #000000 !important;
+  border: 2px solid #000000 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="rawbrutalist"] .repo-ai-box * {
+  color: #000000 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="rawbrutalist"] .btn-repo-apply {
+  background: #000000 !important; color: #FFFFFF !important; border-radius: 0px !important; border: 2px solid #000000 !important; font-weight: 900 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NOTION_MOBILE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="notion_mobile"],
+body .repo-card[data-preview-theme="notion_mobile"] {
+  background: #FFFFFF !important;
+  color: #37352F !important;
+  border: 1px solid rgba(55, 53, 47, 0.14) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  font-family: 'Newsreader', 'Gowun Batang', 'Noto Serif KR', serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion_mobile"] .repo-name {
+  color: #37352F !important;
+  font-family: 'Newsreader', 'Gowun Batang', 'Noto Serif KR', serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion_mobile"] .repo-desc {
+  color: #787774 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion_mobile"] .repo-ai-box {
+  background: #F7F6F3 !important;
+  color: #37352F !important;
+  border: 1px solid #ECECEB !important;
+  border-radius: 10px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion_mobile"] .repo-ai-box * {
+  color: #37352F !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="notion_mobile"] .btn-repo-apply {
+  background: #37352F !important; color: #FFFFFF !important; border-radius: 12px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TOSS CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="toss"],
+body .repo-card[data-preview-theme="toss"] {
+  background: #FFFFFF !important;
+  color: #191F28 !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  border-radius: 22px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06) !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss"] .repo-name {
+  color: #191F28 !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss"] .repo-desc {
+  color: #6B7684 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss"] .repo-ai-box {
+  background: #F9FAFB !important;
+  color: #191F28 !important;
+  border: 1px solid #F2F4F6 !important;
+  border-radius: 18px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss"] .repo-ai-box * {
+  color: #191F28 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss"] .btn-repo-apply {
+  background: #3182F6 !important; color: #FFFFFF !important; border-radius: 20px !important; border: none !important; font-weight: 700 !important; box-shadow: 0 4px 12px rgba(49, 130, 246, 0.28) !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   SHADCN CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="shadcn"],
+body .repo-card[data-preview-theme="shadcn"] {
+  background: #09090B !important;
+  color: #FAFAFA !important;
+  border: 1px solid #27272A !important;
+  border-radius: 8px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3) !important;
+  font-family: 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="shadcn"] .repo-name {
+  color: #FAFAFA !important;
+  font-family: 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="shadcn"] .repo-ai-box {
+  background: #121215 !important;
+  color: #FAFAFA !important;
+  border: 1px solid #27272A !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="shadcn"] .repo-ai-box * {
+  color: #FAFAFA !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="shadcn"] .btn-repo-apply {
+  background: #FAFAFA !important; color: #09090B !important; border-radius: 6px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   STRIPE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="stripe"],
+body .repo-card[data-preview-theme="stripe"] {
+  background: #FFFFFF !important;
+  color: #0A2540 !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.15), 0 8px 16px -8px rgba(0, 0, 0, 0.18) !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe"] .repo-name {
+  color: #0A2540 !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe"] .repo-desc {
+  color: #425466 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe"] .repo-ai-box {
+  background: #F8FAFC !important;
+  color: #0A2540 !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe"] .repo-ai-box * {
+  color: #0A2540 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe"] .btn-repo-apply {
+  background: #635BFF !important; color: #FFFFFF !important; border-radius: 8px !important; border: none !important; font-weight: 700 !important; box-shadow: 0 2px 8px rgba(99, 91, 255, 0.4) !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TREMOR CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="tremor"],
+body .repo-card[data-preview-theme="tremor"] {
+  background: #0F172A !important;
+  color: #F8FAFC !important;
+  border: 1px solid #1E293B !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tremor"] .repo-name {
+  color: #F8FAFC !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="tremor"] .repo-ai-box {
+  background: #1E293B !important;
+  color: #F8FAFC !important;
+  border: 1px solid #334155 !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tremor"] .repo-ai-box * {
+  color: #F8FAFC !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tremor"] .btn-repo-apply {
+  background: #3B82F6 !important; color: #FFFFFF !important; border-radius: 6px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   POLARIS CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="polaris"],
+body .repo-card[data-preview-theme="polaris"] {
+  background: #FFFFFF !important;
+  color: #202223 !important;
+  border: 1px solid #E1E3E5 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="polaris"] .repo-name {
+  color: #202223 !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="polaris"] .repo-desc {
+  color: #6D7175 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="polaris"] .repo-ai-box {
+  background: #F6F6F7 !important;
+  color: #202223 !important;
+  border: 1px solid #E1E3E5 !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="polaris"] .repo-ai-box * {
+  color: #202223 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="polaris"] .btn-repo-apply {
+  background: #008060 !important; color: #FFFFFF !important; border-radius: 6px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   ANTD CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="antd"],
+body .repo-card[data-preview-theme="antd"] {
+  background: #FFFFFF !important;
+  color: rgba(0, 0, 0, 0.88) !important;
+  border: 1px solid #F0F0F0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.04) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="antd"] .repo-name {
+  color: rgba(0, 0, 0, 0.88) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="antd"] .repo-desc {
+  color: rgba(0, 0, 0, 0.45) !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="antd"] .repo-ai-box {
+  background: #FAFAFA !important;
+  color: rgba(0, 0, 0, 0.88) !important;
+  border: 1px solid #F0F0F0 !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="antd"] .repo-ai-box * {
+  color: rgba(0, 0, 0, 0.88) !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="antd"] .btn-repo-apply {
+  background: #1677FF !important; color: #FFFFFF !important; border-radius: 6px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TOSS_MOBILE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="toss_mobile"],
+body .repo-card[data-preview-theme="toss_mobile"] {
+  background: #FFFFFF !important;
+  color: #191F28 !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.06) !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss_mobile"] .repo-name {
+  color: #191F28 !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss_mobile"] .repo-desc {
+  color: #6B7684 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss_mobile"] .repo-ai-box {
+  background: #F9FAFB !important;
+  color: #191F28 !important;
+  border: 1px solid #F2F4F6 !important;
+  border-radius: 20px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss_mobile"] .repo-ai-box * {
+  color: #191F28 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="toss_mobile"] .btn-repo-apply {
+  background: #3182F6 !important; color: #FFFFFF !important; border-radius: 22px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   STRIPE_MOBILE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="stripe_mobile"],
+body .repo-card[data-preview-theme="stripe_mobile"] {
+  background: #FFFFFF !important;
+  color: #0A2540 !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 10px 24px rgba(50, 50, 93, 0.12) !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe_mobile"] .repo-name {
+  color: #0A2540 !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe_mobile"] .repo-desc {
+  color: #425466 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe_mobile"] .repo-ai-box {
+  background: #F8FAFC !important;
+  color: #0A2540 !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 10px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe_mobile"] .repo-ai-box * {
+  color: #0A2540 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="stripe_mobile"] .btn-repo-apply {
+  background: #635BFF !important; color: #FFFFFF !important; border-radius: 10px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   REVOLUT CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="revolut"],
+body .repo-card[data-preview-theme="revolut"] {
+  background: #0F172A !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="revolut"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="revolut"] .repo-ai-box {
+  background: #1E293B !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 14px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="revolut"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="revolut"] .btn-repo-apply {
+  background: linear-gradient(135deg, #0075FF 0%, #00F0FF 100%) !important; color: #FFFFFF !important; border-radius: 16px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   BENTO CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="bento"],
+body .repo-card[data-preview-theme="bento"] {
+  background: #12141A !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="bento"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="bento"] .repo-ai-box {
+  background: #1A1D26 !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 14px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="bento"] .repo-ai-box * {
+  color: #E2E8F0 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="bento"] .btn-repo-apply {
+  background: #6366F1 !important; color: #FFFFFF !important; border-radius: 12px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   BENTO_PROD CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="bento_prod"],
+body .repo-card[data-preview-theme="bento_prod"] {
+  background: #12141A !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="bento_prod"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="bento_prod"] .repo-ai-box {
+  background: #1A1D26 !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 14px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="bento_prod"] .repo-ai-box * {
+  color: #E2E8F0 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="bento_prod"] .btn-repo-apply {
+  background: #6366F1 !important; color: #FFFFFF !important; border-radius: 12px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   RADIX CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="radix"],
+body .repo-card[data-preview-theme="radix"] {
+  background: #161618 !important;
+  color: #EDEDED !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="radix"] .repo-name {
+  color: #EDEDED !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="radix"] .repo-ai-box {
+  background: #1F1F23 !important;
+  color: #EDEDED !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="radix"] .repo-ai-box * {
+  color: #EDEDED !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="radix"] .btn-repo-apply {
+  background: #6E56CF !important; color: #FFFFFF !important; border-radius: 6px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   BASEWEB CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="baseweb"],
+body .repo-card[data-preview-theme="baseweb"] {
+  background: #161618 !important;
+  color: #EDEDED !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="baseweb"] .repo-name {
+  color: #EDEDED !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="baseweb"] .repo-ai-box {
+  background: #1F1F23 !important;
+  color: #EDEDED !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="baseweb"] .repo-ai-box * {
+  color: #EDEDED !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="baseweb"] .btn-repo-apply {
+  background: #276EF1 !important; color: #FFFFFF !important; border-radius: 6px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   GEIST CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="geist"],
+body .repo-card[data-preview-theme="geist"] {
+  background: #000000 !important;
+  color: #EDEDED !important;
+  border: 1px solid #333333 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  font-family: 'Geist', 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="geist"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Geist', 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="geist"] .repo-ai-box {
+  background: #111111 !important;
+  color: #EDEDED !important;
+  border: 1px solid #222222 !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="geist"] .repo-ai-box * {
+  color: #EDEDED !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="geist"] .btn-repo-apply {
+  background: #FFFFFF !important; color: #000000 !important; border-radius: 6px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   LINEAR CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="linear"],
+body .repo-card[data-preview-theme="linear"] {
+  background: #0E1015 !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 24px rgba(94, 106, 210, 0.12) !important;
+  font-family: 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="linear"] .repo-name {
+  color: #F7F8F8 !important;
+  font-family: 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="linear"] .repo-ai-box {
+  background: #141720 !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="linear"] .repo-ai-box * {
+  color: #E2E8F0 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="linear"] .btn-repo-apply {
+  background: #5E6AD2 !important; color: #FFFFFF !important; border-radius: 8px !important; box-shadow: 0 2px 10px rgba(94, 106, 210, 0.45) !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   MIDDAY CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="midday"],
+body .repo-card[data-preview-theme="midday"] {
+  background: #121212 !important;
+  color: #EDEDED !important;
+  border: 1px solid #222222 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  font-family: 'Geist Mono', 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="midday"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Geist Mono', 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="midday"] .repo-ai-box {
+  background: #1A1A1A !important;
+  color: #EDEDED !important;
+  border: 1px solid #282828 !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="midday"] .repo-ai-box * {
+  color: #EDEDED !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="midday"] .btn-repo-apply {
+  background: #E5E5E5 !important; color: #121212 !important; border-radius: 6px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   PRIMER CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="primer"],
+body .repo-card[data-preview-theme="primer"] {
+  background: #0D1117 !important;
+  color: #C9D1D9 !important;
+  border: 1px solid #30363D !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="primer"] .repo-name {
+  color: #58A6FF !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="primer"] .repo-ai-box {
+  background: #161B22 !important;
+  color: #C9D1D9 !important;
+  border: 1px solid #30363D !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="primer"] .repo-ai-box * {
+  color: #C9D1D9 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="primer"] .btn-repo-apply {
+  background: #238636 !important; color: #FFFFFF !important; border-radius: 6px !important; border: 1px solid rgba(240,246,252,0.1) !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TUI CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="tui"],
+body .repo-card[data-preview-theme="tui"] {
+  background: #0A0E0A !important;
+  color: #00FF66 !important;
+  border: 1px solid #00FF66 !important;
+  border-radius: 0px !important;
+  box-shadow: 0 0 14px rgba(0, 255, 102, 0.2) !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tui"] .repo-name {
+  color: #00FF66 !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tui"] .repo-desc {
+  color: rgba(0, 255, 102, 0.75) !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tui"] .repo-ai-box {
+  background: #040804 !important;
+  color: #00FF66 !important;
+  border: 1px dashed #00FF66 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tui"] .repo-ai-box * {
+  color: #00FF66 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tui"] .btn-repo-apply {
+  background: #00FF66 !important; color: #0A0E0A !important; border-radius: 0px !important; border: none !important; font-weight: 800 !important; font-family: 'Space Mono', monospace !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   LINEAR_MOBILE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="linear_mobile"],
+body .repo-card[data-preview-theme="linear_mobile"] {
+  background: #0E1015 !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(94, 106, 210, 0.12) !important;
+  font-family: 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="linear_mobile"] .repo-name {
+  color: #F7F8F8 !important;
+  font-family: 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="linear_mobile"] .repo-ai-box {
+  background: #141720 !important;
+  color: #E2E8F0 !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 8px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="linear_mobile"] .repo-ai-box * {
+  color: #E2E8F0 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="linear_mobile"] .btn-repo-apply {
+  background: #5E6AD2 !important; color: #FFFFFF !important; border-radius: 10px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   GEIST_MOBILE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="geist_mobile"],
+body .repo-card[data-preview-theme="geist_mobile"] {
+  background: #000000 !important;
+  color: #EDEDED !important;
+  border: 1px solid #333333 !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  font-family: 'Geist', 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="geist_mobile"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Geist', 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="geist_mobile"] .repo-ai-box {
+  background: #111111 !important;
+  color: #EDEDED !important;
+  border: 1px solid #222222 !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="geist_mobile"] .repo-ai-box * {
+  color: #EDEDED !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="geist_mobile"] .btn-repo-apply {
+  background: #FFFFFF !important; color: #000000 !important; border-radius: 8px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NORD CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="nord"],
+body .repo-card[data-preview-theme="nord"] {
+  background: #2E3440 !important;
+  color: #ECEFF4 !important;
+  border: 1px solid #4C566A !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25) !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nord"] .repo-name {
+  color: #88C0D0 !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="nord"] .repo-ai-box {
+  background: #3B4252 !important;
+  color: #ECEFF4 !important;
+  border: 1px solid #4C566A !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nord"] .repo-ai-box * {
+  color: #ECEFF4 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nord"] .btn-repo-apply {
+  background: #88C0D0 !important; color: #2E3440 !important; border-radius: 6px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   DRACULA CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="dracula"],
+body .repo-card[data-preview-theme="dracula"] {
+  background: #282A36 !important;
+  color: #F8F8F2 !important;
+  border: 1px solid #6272A4 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3) !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="dracula"] .repo-name {
+  color: #BD93F9 !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="dracula"] .repo-ai-box {
+  background: #343746 !important;
+  color: #F8F8F2 !important;
+  border: 1px solid #6272A4 !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="dracula"] .repo-ai-box * {
+  color: #F8F8F2 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="dracula"] .btn-repo-apply {
+  background: #50FA7B !important; color: #282A36 !important; border-radius: 6px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   CATPPUCCIN CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="catppuccin"],
+body .repo-card[data-preview-theme="catppuccin"] {
+  background: #1E1E2E !important;
+  color: #CDD6F4 !important;
+  border: 1px solid #313244 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.25) !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="catppuccin"] .repo-name {
+  color: #CBA6F7 !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="catppuccin"] .repo-ai-box {
+  background: #252538 !important;
+  color: #CDD6F4 !important;
+  border: 1px solid #313244 !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="catppuccin"] .repo-ai-box * {
+  color: #CDD6F4 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="catppuccin"] .btn-repo-apply {
+  background: #CBA6F7 !important; color: #1E1E2E !important; border-radius: 6px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   GRUVBOX CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="gruvbox"],
+body .repo-card[data-preview-theme="gruvbox"] {
+  background: #282828 !important;
+  color: #EBDBB2 !important;
+  border: 1px solid #504945 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2) !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="gruvbox"] .repo-name {
+  color: #FABD2F !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="gruvbox"] .repo-ai-box {
+  background: #32302F !important;
+  color: #EBDBB2 !important;
+  border: 1px solid #504945 !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="gruvbox"] .repo-ai-box * {
+  color: #EBDBB2 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="gruvbox"] .btn-repo-apply {
+  background: #FABD2F !important; color: #282828 !important; border-radius: 4px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TOKYONIGHT CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="tokyonight"],
+body .repo-card[data-preview-theme="tokyonight"] {
+  background: #1A1B26 !important;
+  color: #C0CAF5 !important;
+  border: 1px solid #292E42 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3) !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tokyonight"] .repo-name {
+  color: #7AA2F7 !important;
+  font-family: 'JetBrains Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="tokyonight"] .repo-ai-box {
+  background: #24283B !important;
+  color: #C0CAF5 !important;
+  border: 1px solid #292E42 !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tokyonight"] .repo-ai-box * {
+  color: #C0CAF5 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="tokyonight"] .btn-repo-apply {
+  background: #7AA2F7 !important; color: #1A1B26 !important; border-radius: 6px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   SOLARIZED CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="solarized"],
+body .repo-card[data-preview-theme="solarized"] {
+  background: #002B36 !important;
+  color: #93A1A1 !important;
+  border: 1px solid #073642 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="solarized"] .repo-name {
+  color: #268BD2 !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="solarized"] .repo-ai-box {
+  background: #073642 !important;
+  color: #93A1A1 !important;
+  border: 1px solid #586E75 !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="solarized"] .repo-ai-box * {
+  color: #93A1A1 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="solarized"] .btn-repo-apply {
+  background: #268BD2 !important; color: #002B36 !important; border-radius: 4px !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   CARBON CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="carbon"],
+body .repo-card[data-preview-theme="carbon"] {
+  background: #161616 !important;
+  color: #F4F4F4 !important;
+  border: 1px solid #393939 !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  font-family: 'IBM Plex Sans', 'IBM Plex Sans KR', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="carbon"] .repo-name {
+  color: #F4F4F4 !important;
+  font-family: 'IBM Plex Sans', 'IBM Plex Sans KR', 'Do Hyeon', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="carbon"] .repo-ai-box {
+  background: #262626 !important;
+  color: #F4F4F4 !important;
+  border: 1px solid #393939 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="carbon"] .repo-ai-box * {
+  color: #F4F4F4 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="carbon"] .btn-repo-apply {
+  background: #0F62FE !important; color: #FFFFFF !important; border-radius: 0px !important; border: none !important; font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TEENAGE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="teenage"],
+body .repo-card[data-preview-theme="teenage"] {
+  background: #262626 !important;
+  color: #E5E5E5 !important;
+  border: 2px solid #3F3F3F !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="teenage"] .repo-name {
+  color: #FF5500 !important;
+  font-family: 'Space Mono', 'D2Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="teenage"] .repo-ai-box {
+  background: #1A1A1A !important;
+  color: #E5E5E5 !important;
+  border: 1px solid #3F3F3F !important;
+  border-radius: 4px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="teenage"] .repo-ai-box * {
+  color: #E5E5E5 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="teenage"] .btn-repo-apply {
+  background: #FF5500 !important; color: #FFFFFF !important; border-radius: 3px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NOTHING CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="nothing"],
+body .repo-card[data-preview-theme="nothing"] {
+  background: #000000 !important;
+  color: #FFFFFF !important;
+  border: 1px dotted #555555 !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  font-family: 'Space Mono', 'D2Coding', 'Galmuri11', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nothing"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Space Mono', 'D2Coding', 'Galmuri11', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="nothing"] .repo-ai-box {
+  background: #111111 !important;
+  color: #FFFFFF !important;
+  border: 1px dotted #444444 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nothing"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nothing"] .btn-repo-apply {
+  background: #FFFFFF !important; color: #000000 !important; border-radius: 0px !important; border: 1px solid #FFFFFF !important; font-weight: 800 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   AUGMENTED CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="augmented"],
+body .repo-card[data-preview-theme="augmented"] {
+  background: #050B14 !important;
+  color: #00F0FF !important;
+  border: 1px solid #00F0FF !important;
+  border-radius: 2px !important;
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.25) !important;
+  font-family: 'Space Mono', 'Nanum Gothic Coding', monospace !important;
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px) !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="augmented"] .repo-name {
+  color: #00F0FF !important;
+  font-family: 'Space Mono', 'Nanum Gothic Coding', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="augmented"] .repo-ai-box {
+  background: #081426 !important;
+  color: #00F0FF !important;
+  border: 1px solid rgba(0,240,255,0.4) !important;
+  border-radius: 2px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="augmented"] .repo-ai-box * {
+  color: #00F0FF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="augmented"] .btn-repo-apply {
+  background: #FF0055 !important; color: #FFFFFF !important; border: none !important; border-radius: 0px !important; font-weight: 800 !important; box-shadow: 0 0 14px #FF0055 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   CYBERPUNK_HUD CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="cyberpunk_hud"],
+body .repo-card[data-preview-theme="cyberpunk_hud"] {
+  background: #050B14 !important;
+  color: #00F0FF !important;
+  border: 1px solid #00F0FF !important;
+  border-radius: 2px !important;
+  box-shadow: 0 0 18px rgba(0, 240, 255, 0.25) !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px) !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="cyberpunk_hud"] .repo-name {
+  color: #00F0FF !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="cyberpunk_hud"] .repo-ai-box {
+  background: #081426 !important;
+  color: #00F0FF !important;
+  border: 1px solid rgba(0,240,255,0.4) !important;
+  border-radius: 2px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="cyberpunk_hud"] .repo-ai-box * {
+  color: #00F0FF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="cyberpunk_hud"] .btn-repo-apply {
+  background: #FF0055 !important; color: #FFFFFF !important; border: none !important; border-radius: 0px !important; font-weight: 800 !important; box-shadow: 0 0 14px #FF0055 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   MUI CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="mui"],
+body .repo-card[data-preview-theme="mui"] {
+  background: #1F1B24 !important;
+  color: #E6E1E5 !important;
+  border: 1px solid #49454F !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="mui"] .repo-name {
+  color: #D0BCFF !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="mui"] .repo-ai-box {
+  background: #2D2833 !important;
+  color: #E6E1E5 !important;
+  border: 1px solid #49454F !important;
+  border-radius: 12px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="mui"] .repo-ai-box * {
+  color: #E6E1E5 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="mui"] .btn-repo-apply {
+  background: #D0BCFF !important; color: #381E72 !important; border-radius: 20px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   MATERIAL_YOU CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="material_you"],
+body .repo-card[data-preview-theme="material_you"] {
+  background: #1F1B24 !important;
+  color: #E6E1E5 !important;
+  border: 1px solid #49454F !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3) !important;
+  font-family: 'Roboto', 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="material_you"] .repo-name {
+  color: #D0BCFF !important;
+  font-family: 'Roboto', 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="material_you"] .repo-ai-box {
+  background: #2D2833 !important;
+  color: #E6E1E5 !important;
+  border: 1px solid #49454F !important;
+  border-radius: 14px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="material_you"] .repo-ai-box * {
+  color: #E6E1E5 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="material_you"] .btn-repo-apply {
+  background: #D0BCFF !important; color: #381E72 !important; border-radius: 20px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   FLUENT CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="fluent"],
+body .repo-card[data-preview-theme="fluent"] {
+  background: rgba(32, 32, 32, 0.92) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important;
+  font-family: 'Segoe UI', 'Pretendard Variable', 'Malgun Gothic', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="fluent"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Segoe UI', 'Pretendard Variable', 'Malgun Gothic', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="fluent"] .repo-ai-box {
+  background: rgba(255,255,255,0.05) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="fluent"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="fluent"] .btn-repo-apply {
+  background: #0078D4 !important; color: #FFFFFF !important; border-radius: 6px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   SPATIAL CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="spatial"],
+body .repo-card[data-preview-theme="spatial"] {
+  background: rgba(30, 30, 35, 0.88) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 22px !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="spatial"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="spatial"] .repo-ai-box {
+  background: rgba(255,255,255,0.06) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  border-radius: 18px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="spatial"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="spatial"] .btn-repo-apply {
+  background: #007AFF !important; color: #FFFFFF !important; border-radius: 18px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   IOS_HIG CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="ios_hig"],
+body .repo-card[data-preview-theme="ios_hig"] {
+  background: rgba(30, 30, 35, 0.88) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45) !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Pretendard Variable', 'Apple SD Gothic Neo', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="ios_hig"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Pretendard Variable', 'Apple SD Gothic Neo', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="ios_hig"] .repo-ai-box {
+  background: rgba(255,255,255,0.06) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 16px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="ios_hig"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="ios_hig"] .btn-repo-apply {
+  background: #007AFF !important; color: #FFFFFF !important; border-radius: 18px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   HEROUI CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="heroui"],
+body .repo-card[data-preview-theme="heroui"] {
+  background: #18181B !important;
+  color: #ECEDEE !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.3) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="heroui"] .repo-name {
+  color: #ECEDEE !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="heroui"] .repo-ai-box {
+  background: #27272A !important;
+  color: #ECEDEE !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 10px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="heroui"] .repo-ai-box * {
+  color: #ECEDEE !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="heroui"] .btn-repo-apply {
+  background: #006FEE !important; color: #FFFFFF !important; border-radius: 10px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   DAISYUI CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="daisyui"],
+body .repo-card[data-preview-theme="daisyui"] {
+  background: #1D232A !important;
+  color: #A6ADBA !important;
+  border: 1px solid #2A323C !important;
+  border-radius: 12px !important;
+  box-shadow: none !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui"] .repo-name {
+  color: #A6ADBA !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Do Hyeon', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="daisyui"] .repo-ai-box {
+  background: #191E24 !important;
+  color: #A6ADBA !important;
+  border: 1px solid #2A323C !important;
+  border-radius: 8px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui"] .repo-ai-box * {
+  color: #A6ADBA !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui"] .btn-repo-apply {
+  background: #6419E6 !important; color: #FFFFFF !important; border-radius: 8px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NEUMORPHISM CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="neumorphism"],
+body .repo-card[data-preview-theme="neumorphism"] {
+  background: #E0E5EC !important;
+  color: #313B4D !important;
+  border: none !important;
+  border-radius: 18px !important;
+  box-shadow: 8px 8px 16px #B8B9BE, -8px -8px 16px #FFFFFF !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism"] .repo-name {
+  color: #313B4D !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism"] .repo-desc {
+  color: #5B687C !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism"] .repo-ai-box {
+  background: #E0E5EC !important;
+  color: #313B4D !important;
+  border: none !important;
+  border-radius: 14px !important;
+  box-shadow: inset 4px 4px 8px #B8B9BE, inset -4px -4px 8px #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism"] .repo-ai-box * {
+  color: #313B4D !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism"] .btn-repo-apply {
+  background: #E0E5EC !important; color: #3182F6 !important; border: none !important; border-radius: 14px !important; box-shadow: 4px 4px 10px #B8B9BE, -4px -4px 10px #FFFFFF !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   WIN98 CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="win98"],
+body .repo-card[data-preview-theme="win98"] {
+  background: #C0C0C0 !important;
+  color: #000000 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  box-shadow: 1px 1px 0 #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'MS Sans Serif', monospace !important;
+  border-top: 2px solid #FFFFFF !important;
+  border-left: 2px solid #FFFFFF !important;
+  border-right: 2px solid #808080 !important;
+  border-bottom: 2px solid #808080 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98"] .repo-name {
+  color: #000080 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'MS Sans Serif', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98"] .repo-desc {
+  color: #111111 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98"] .repo-ai-box {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: inset !important;
+  border-radius: 0px !important;
+  border-top: 2px solid #808080 !important;
+  border-left: 2px solid #808080 !important;
+  border-right: 2px solid #FFFFFF !important;
+  border-bottom: 2px solid #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98"] .repo-ai-box * {
+  color: #000000 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98"] .btn-repo-apply {
+  background: #C0C0C0 !important; color: #000000 !important; border-top: 2px solid #FFFFFF !important; border-left: 2px solid #FFFFFF !important; border-right: 2px solid #000000 !important; border-bottom: 2px solid #000000 !important; border-radius: 0px !important; box-shadow: inset 1px 1px #DFDFDF, inset -1px -1px #808080 !important; font-family: 'MS Sans Serif', 'Galmuri11', sans-serif !important; font-weight: bold !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NES CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="nes"],
+body .repo-card[data-preview-theme="nes"] {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 4px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 5px 5px 0 #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nes"] .repo-name {
+  color: #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="nes"] .repo-ai-box {
+  background: #EFEFEF !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nes"] .repo-ai-box * {
+  color: #000000 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nes"] .btn-repo-apply {
+  background: #209CEE !important; color: #FFFFFF !important; border: 3px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-family: 'Press Start 2P', 'Galmuri11', monospace !important; font-size: 0.75rem !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   PAPERCSS CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="papercss"],
+body .repo-card[data-preview-theme="papercss"] {
+  background: #FDFDFD !important;
+  color: #2B2D42 !important;
+  border: 2px solid #2B2D42 !important;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px !important;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.08) !important;
+  font-family: 'Patrick Hand', 'Gaegu', 'Nanum Pen Script', cursive, sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="papercss"] .repo-name {
+  color: #2B2D42 !important;
+  font-family: 'Patrick Hand', 'Gaegu', 'Nanum Pen Script', cursive, sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="papercss"] .repo-ai-box {
+  background: #F4F4F6 !important;
+  color: #2B2D42 !important;
+  border: 2px solid #2B2D42 !important;
+  border-radius: 251px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="papercss"] .repo-ai-box * {
+  color: #2B2D42 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="papercss"] .btn-repo-apply {
+  background: #2B2D42 !important; color: #FDFDFD !important; border: 2px solid #2B2D42 !important; border-radius: 255px 15px 225px 15px/15px 225px 15px 255px !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   ATLASSIAN CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="atlassian"],
+body .repo-card[data-preview-theme="atlassian"] {
+  background: #FFFFFF !important;
+  color: #172B4D !important;
+  border: 1px solid #DFE1E6 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 1px 3px rgba(9, 30, 66, 0.15) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="atlassian"] .repo-name {
+  color: #172B4D !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="atlassian"] .repo-desc {
+  color: #6B778C !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="atlassian"] .repo-ai-box {
+  background: #F4F5F7 !important;
+  color: #172B4D !important;
+  border: 1px solid #DFE1E6 !important;
+  border-radius: 6px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="atlassian"] .repo-ai-box * {
+  color: #172B4D !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="atlassian"] .btn-repo-apply {
+  background: #0052CC !important; color: #FFFFFF !important; border-radius: 4px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NEOBRUTALISM CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="neobrutalism"],
+body .repo-card[data-preview-theme="neobrutalism"] {
+  background: #FFE600 !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 5px 5px 0 #000000 !important;
+  font-family: 'Archivo Black', 'Black Han Sans', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neobrutalism"] .repo-name {
+  color: #000000 !important;
+  font-family: 'Archivo Black', 'Black Han Sans', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neobrutalism"] .repo-desc {
+  color: #111111 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neobrutalism"] .repo-ai-box {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 2px solid #000000 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neobrutalism"] .repo-ai-box * {
+  color: #000000 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neobrutalism"] .btn-repo-apply {
+  background: #000000 !important; color: #FFFFFF !important; border: 2px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-weight: 800 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   DUOLINGO CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="duolingo"],
+body .repo-card[data-preview-theme="duolingo"] {
+  background: #FFFFFF !important;
+  color: #4B4B4B !important;
+  border: 2px solid #E5E5E5 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 4px 0 #E5E5E5 !important;
+  font-family: 'Nunito', 'Jua', 'Dongle', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="duolingo"] .repo-name {
+  color: #58CC02 !important;
+  font-family: 'Nunito', 'Jua', 'Dongle', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="duolingo"] .repo-ai-box {
+  background: #F7F7F7 !important;
+  color: #4B4B4B !important;
+  border: 2px solid #E5E5E5 !important;
+  border-radius: 14px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="duolingo"] .repo-ai-box * {
+  color: #4B4B4B !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="duolingo"] .btn-repo-apply {
+  background: #58CC02 !important; color: #FFFFFF !important; border: none !important; border-bottom: 4px solid #46A302 !important; border-radius: 14px !important; font-weight: 800 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   SPOTIFY CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="spotify"],
+body .repo-card[data-preview-theme="spotify"] {
+  background: #181818 !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5) !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Plus Jakarta Sans', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="spotify"] .repo-name {
+  color: #1DB954 !important;
+  font-family: 'Space Grotesk', 'GmarketSansBold', 'Plus Jakarta Sans', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="spotify"] .repo-ai-box {
+  background: #242424 !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 10px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="spotify"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="spotify"] .btn-repo-apply {
+  background: #1DB954 !important; color: #000000 !important; border-radius: 9999px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   INSTAGRAM CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="instagram"],
+body .repo-card[data-preview-theme="instagram"] {
+  background: #000000 !important;
+  color: #FAFAFA !important;
+  border: 1px solid #262626 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="instagram"] .repo-name {
+  color: #FAFAFA !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="instagram"] .repo-ai-box {
+  background: #121212 !important;
+  color: #FAFAFA !important;
+  border: 1px solid #262626 !important;
+  border-radius: 10px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="instagram"] .repo-ai-box * {
+  color: #FAFAFA !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="instagram"] .btn-repo-apply {
+  background: linear-gradient(45deg, #F09433 0%, #E6683C 25%, #DC2743 50%, #CC2366 75%, #BC1888 100%) !important; color: #FFFFFF !important; border-radius: 8px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   AIRBNB CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="airbnb"],
+body .repo-card[data-preview-theme="airbnb"] {
+  background: #FFFFFF !important;
+  color: #222222 !important;
+  border: 1px solid #DDDDDD !important;
+  border-radius: 16px !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08) !important;
+  font-family: 'Plus Jakarta Sans', 'Gowun Dodum', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="airbnb"] .repo-name {
+  color: #222222 !important;
+  font-family: 'Plus Jakarta Sans', 'Gowun Dodum', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="airbnb"] .repo-desc {
+  color: #717171 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="airbnb"] .repo-ai-box {
+  background: #F7F7F7 !important;
+  color: #222222 !important;
+  border: 1px solid #DDDDDD !important;
+  border-radius: 12px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="airbnb"] .repo-ai-box * {
+  color: #222222 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="airbnb"] .btn-repo-apply {
+  background: #FF385C !important; color: #FFFFFF !important; border-radius: 12px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   UBER CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="uber"],
+body .repo-card[data-preview-theme="uber"] {
+  background: #000000 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #333333 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="uber"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="uber"] .repo-ai-box {
+  background: #161616 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #333333 !important;
+  border-radius: 8px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="uber"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="uber"] .btn-repo-apply {
+  background: #FFFFFF !important; color: #000000 !important; border-radius: 8px !important; border: none !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   DISCORD CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="discord"],
+body .repo-card[data-preview-theme="discord"] {
+  background: #313338 !important;
+  color: #DBDEE1 !important;
+  border: 1px solid #1E1F22 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3) !important;
+  font-family: 'Plus Jakarta Sans', 'Jua', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="discord"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Plus Jakarta Sans', 'Jua', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="discord"] .repo-ai-box {
+  background: #2B2D31 !important;
+  color: #DBDEE1 !important;
+  border: 1px solid #1E1F22 !important;
+  border-radius: 8px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="discord"] .repo-ai-box * {
+  color: #DBDEE1 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="discord"] .btn-repo-apply {
+  background: #5865F2 !important; color: #FFFFFF !important; border-radius: 8px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   TELEGRAM CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="telegram"],
+body .repo-card[data-preview-theme="telegram"] {
+  background: #17212B !important;
+  color: #F5F5F5 !important;
+  border: 1px solid #242F3D !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="telegram"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="telegram"] .repo-ai-box {
+  background: #0E1621 !important;
+  color: #F5F5F5 !important;
+  border: 1px solid #242F3D !important;
+  border-radius: 8px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="telegram"] .repo-ai-box * {
+  color: #F5F5F5 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="telegram"] .btn-repo-apply {
+  background: #24A1DE !important; color: #FFFFFF !important; border-radius: 10px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   GLASSMORPHISM_APP CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="glassmorphism_app"],
+body .repo-card[data-preview-theme="glassmorphism_app"] {
+  background: rgba(30, 30, 35, 0.88) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45) !important;
+  font-family: 'Outfit', 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="glassmorphism_app"] .repo-name {
+  color: #FFFFFF !important;
+  font-family: 'Outfit', 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="glassmorphism_app"] .repo-ai-box {
+  background: rgba(255,255,255,0.06) !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 16px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="glassmorphism_app"] .repo-ai-box * {
+  color: #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="glassmorphism_app"] .btn-repo-apply {
+  background: #007AFF !important; color: #FFFFFF !important; border-radius: 18px !important; border: none !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NEUMORPHISM_TOUCH CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="neumorphism_touch"],
+body .repo-card[data-preview-theme="neumorphism_touch"] {
+  background: #E0E5EC !important;
+  color: #313B4D !important;
+  border: none !important;
+  border-radius: 18px !important;
+  box-shadow: 8px 8px 16px #B8B9BE, -8px -8px 16px #FFFFFF !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism_touch"] .repo-name {
+  color: #313B4D !important;
+  font-family: 'Plus Jakarta Sans', 'Pretendard Variable', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism_touch"] .repo-desc {
+  color: #5B687C !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism_touch"] .repo-ai-box {
+  background: #E0E5EC !important;
+  color: #313B4D !important;
+  border: none !important;
+  border-radius: 14px !important;
+  box-shadow: inset 4px 4px 8px #B8B9BE, inset -4px -4px 8px #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism_touch"] .repo-ai-box * {
+  color: #313B4D !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="neumorphism_touch"] .btn-repo-apply {
+  background: #E0E5EC !important; color: #3182F6 !important; border: none !important; border-radius: 14px !important; box-shadow: 4px 4px 10px #B8B9BE, -4px -4px 10px #FFFFFF !important; font-weight: 700 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   DAISYUI_BRUTAL CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="daisyui_brutal"],
+body .repo-card[data-preview-theme="daisyui_brutal"] {
+  background: #FFE600 !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 5px 5px 0 #000000 !important;
+  font-family: 'Archivo Black', 'Black Han Sans', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui_brutal"] .repo-name {
+  color: #000000 !important;
+  font-family: 'Archivo Black', 'Black Han Sans', 'Do Hyeon', sans-serif !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui_brutal"] .repo-desc {
+  color: #111111 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui_brutal"] .repo-ai-box {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 2px solid #000000 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui_brutal"] .repo-ai-box * {
+  color: #000000 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="daisyui_brutal"] .btn-repo-apply {
+  background: #000000 !important; color: #FFFFFF !important; border: 2px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-weight: 800 !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   WIN98_MOBILE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="win98_mobile"],
+body .repo-card[data-preview-theme="win98_mobile"] {
+  background: #C0C0C0 !important;
+  color: #000000 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  box-shadow: 1px 1px 0 #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Tahoma', monospace !important;
+  border-top: 2px solid #FFFFFF !important;
+  border-left: 2px solid #FFFFFF !important;
+  border-right: 2px solid #808080 !important;
+  border-bottom: 2px solid #808080 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98_mobile"] .repo-name {
+  color: #000080 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Tahoma', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98_mobile"] .repo-desc {
+  color: #111111 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98_mobile"] .repo-ai-box {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: inset !important;
+  border-radius: 0px !important;
+  border-top: 2px solid #808080 !important;
+  border-left: 2px solid #808080 !important;
+  border-right: 2px solid #FFFFFF !important;
+  border-bottom: 2px solid #FFFFFF !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98_mobile"] .repo-ai-box * {
+  color: #000000 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="win98_mobile"] .btn-repo-apply {
+  background: #C0C0C0 !important; color: #000000 !important; border-top: 2px solid #FFFFFF !important; border-left: 2px solid #FFFFFF !important; border-right: 2px solid #000000 !important; border-bottom: 2px solid #000000 !important; border-radius: 0px !important; box-shadow: inset 1px 1px #DFDFDF, inset -1px -1px #808080 !important; font-family: 'MS Sans Serif', 'Galmuri11', sans-serif !important; font-weight: bold !important;
+}
+
+
+
+/* --------------------------------------------------------------------------
+   NES_ARCADE CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="nes_arcade"],
+body .repo-card[data-preview-theme="nes_arcade"] {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 4px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 5px 5px 0 #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nes_arcade"] .repo-name {
+  color: #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+}
+
+
+body[data-theme] .repo-card[data-preview-theme="nes_arcade"] .repo-ai-box {
+  background: #EFEFEF !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nes_arcade"] .repo-ai-box * {
+  color: #000000 !important;
+}
+
+body[data-theme] .repo-card[data-preview-theme="nes_arcade"] .btn-repo-apply {
+  background: #209CEE !important; color: #FFFFFF !important; border: 3px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-family: 'Press Start 2P', 'Galmuri11', monospace !important; font-size: 0.75rem !important;
+}
+
+
