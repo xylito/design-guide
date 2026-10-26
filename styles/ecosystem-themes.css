@@ -9691,3 +9691,944 @@ body[data-theme="swiss"] .floating-side-nav {
 :is(.modal-dialog[data-theme="win98"], .modal-dialog[data-theme="win98_mobile"]) .btn-close-modal:active {
   border: 2px inset #FFFFFF !important;
 }
+
+/* ==========================================================================
+   COMPREHENSIVE 62-THEME SECONDARY BUTTON HARMONIZATION
+   Guarantees that .btn-secondary (including #btn-hero-secondary and #btn-hero-download)
+   strictly adheres to each theme's archetype: borders, radius, fonts, colors,
+   shadows, hover states, and active pressed effects.
+   ========================================================================== */
+
+/* 1. Impeccable Dark */
+body[data-theme="impeccable"] .hero-cta-group .btn-secondary,
+body[data-theme="impeccable"] .btn-secondary {
+  background: #0E1013;
+  color: #EDEDED;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: none;
+}
+body[data-theme="impeccable"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="impeccable"] .btn-secondary:hover {
+  background: #181B20;
+  border-color: rgba(255, 255, 255, 0.28);
+  color: #FFFFFF;
+}
+
+/* 2. Edward Tufte Book Style */
+body[data-theme="tufte"] .hero-cta-group .btn-secondary,
+body[data-theme="tufte"] .btn-secondary {
+  background: #FFFFF8;
+  color: #111111;
+  border: 1px solid #111111;
+  border-radius: 0px !important;
+  font-family: 'Song Myung', 'Gowun Batang', serif;
+  font-weight: 600;
+  box-shadow: none;
+}
+body[data-theme="tufte"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="tufte"] .btn-secondary:hover {
+  background: #111111;
+  color: #FFFFF8;
+  border-color: #111111;
+}
+
+/* 3. Architectural Blueprint */
+body[data-theme="blueprint"] .hero-cta-group .btn-secondary,
+body[data-theme="blueprint"] .btn-secondary {
+  background: rgba(10, 42, 74, 0.85);
+  color: #4CC9F0;
+  border: 1.5px solid #4CC9F0;
+  border-radius: 0px !important;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  box-shadow: none;
+}
+body[data-theme="blueprint"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="blueprint"] .btn-secondary:hover {
+  background: rgba(76, 201, 240, 0.2);
+  box-shadow: 0 0 12px rgba(76, 201, 240, 0.35);
+}
+
+/* 4. Notion Minimal & Notion Mobile */
+:is(body[data-theme="notion"], body[data-theme="notion_mobile"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="notion"], body[data-theme="notion_mobile"]) .btn-secondary {
+  background: #FFFFFF;
+  color: #37352F;
+  border: 1px solid #E9E9E7;
+  border-radius: 4px;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(15, 15, 15, 0.05);
+}
+:is(body[data-theme="notion"], body[data-theme="notion_mobile"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="notion"], body[data-theme="notion_mobile"]) .btn-secondary:hover {
+  background: #F7F6F3;
+  border-color: #D3D1CB;
+  color: #2383E2;
+}
+
+/* 5. Raw Academic Brutalism */
+body[data-theme="rawbrutalist"] .hero-cta-group .btn-secondary,
+body[data-theme="rawbrutalist"] .btn-secondary {
+  background: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 0px !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+body[data-theme="rawbrutalist"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="rawbrutalist"] .btn-secondary:hover {
+  background: #000000;
+  color: #FFFFFF;
+  border-color: #000000;
+}
+
+/* 6. Toss Financial & Toss Mobile */
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .btn-secondary {
+  background: #FFFFFF;
+  color: #3182F6;
+  border: 1px solid rgba(49, 130, 246, 0.25);
+  border-radius: 9999px !important;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(49, 130, 246, 0.08);
+}
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .btn-secondary:hover {
+  background: #F2F4F6;
+  border-color: #3182F6;
+  color: #1B64DA;
+}
+
+/* 7. shadcn/ui Slate Dark */
+body[data-theme="shadcn"] .hero-cta-group .btn-secondary,
+body[data-theme="shadcn"] .btn-secondary {
+  background: #09090B;
+  color: #FAFAFA;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: none;
+}
+body[data-theme="shadcn"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="shadcn"] .btn-secondary:hover {
+  background: #27272A;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* 8. Stripe Payments & Stripe Mobile */
+:is(body[data-theme="stripe"], body[data-theme="stripe_mobile"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="stripe"], body[data-theme="stripe_mobile"]) .btn-secondary {
+  background: #FFFFFF;
+  color: #0A2540;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+:is(body[data-theme="stripe"], body[data-theme="stripe_mobile"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="stripe"], body[data-theme="stripe_mobile"]) .btn-secondary:hover {
+  background: #F8FAFC;
+  border-color: #635BFF;
+  color: #635BFF;
+}
+
+/* 9. Tremor Dashboard */
+body[data-theme="tremor"] .hero-cta-group .btn-secondary,
+body[data-theme="tremor"] .btn-secondary {
+  background: #111827;
+  color: #F3F4F6;
+  border: 1px solid #1F2937;
+  border-radius: 8px;
+  font-weight: 600;
+}
+body[data-theme="tremor"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="tremor"] .btn-secondary:hover {
+  background: #1F2937;
+  border-color: #374151;
+}
+
+/* 10. Shopify Polaris */
+body[data-theme="polaris"] .hero-cta-group .btn-secondary,
+body[data-theme="polaris"] .btn-secondary {
+  background: #FFFFFF;
+  color: #202223;
+  border: 1px solid #BABEC3;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+body[data-theme="polaris"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="polaris"] .btn-secondary:hover {
+  background: #F6F6F7;
+  border-color: #8C9196;
+}
+
+/* 11. Ant Design 5.0 */
+body[data-theme="antd"] .hero-cta-group .btn-secondary,
+body[data-theme="antd"] .btn-secondary {
+  background: #FFFFFF;
+  color: #1F1F1F;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+body[data-theme="antd"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="antd"] .btn-secondary:hover {
+  color: #1677FF;
+  border-color: #1677FF;
+  background: #FFFFFF;
+}
+
+/* 12. Revolut Ultra Cyber */
+body[data-theme="revolut"] .hero-cta-group .btn-secondary,
+body[data-theme="revolut"] .btn-secondary {
+  background: #141822;
+  color: #00E5FF;
+  border: 1px solid #212838;
+  border-radius: 12px;
+  font-weight: 600;
+}
+body[data-theme="revolut"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="revolut"] .btn-secondary:hover {
+  background: #1E2538;
+  border-color: #00E5FF;
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.25);
+}
+
+/* 13. Bento Grid & Bento Production */
+:is(body[data-theme="bento"], body[data-theme="bento_prod"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="bento"], body[data-theme="bento_prod"]) .btn-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #F9FAFB;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  font-weight: 600;
+  backdrop-filter: blur(12px);
+}
+:is(body[data-theme="bento"], body[data-theme="bento_prod"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="bento"], body[data-theme="bento_prod"]) .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* 14. Radix UI Dark */
+body[data-theme="radix"] .hero-cta-group .btn-secondary,
+body[data-theme="radix"] .btn-secondary {
+  background: #16191E;
+  color: #ECEEF0;
+  border: 1px solid #252B34;
+  border-radius: 8px;
+  font-weight: 600;
+}
+body[data-theme="radix"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="radix"] .btn-secondary:hover {
+  background: #21262D;
+  border-color: #343D4A;
+}
+
+/* 15. Uber Base Web */
+body[data-theme="baseweb"] .hero-cta-group .btn-secondary,
+body[data-theme="baseweb"] .btn-secondary {
+  background: #F6F6F6;
+  color: #000000;
+  border: 1px solid #E2E2E2;
+  border-radius: 4px;
+  font-weight: 600;
+}
+body[data-theme="baseweb"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="baseweb"] .btn-secondary:hover {
+  background: #EEEEEE;
+  border-color: #CCCCCC;
+}
+
+/* 16. Vercel Geist & Geist Mobile */
+:is(body[data-theme="geist"], body[data-theme="geist_mobile"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="geist"], body[data-theme="geist_mobile"]) .btn-secondary {
+  background: #000000;
+  color: #EDEDED;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-weight: 500;
+}
+:is(body[data-theme="geist"], body[data-theme="geist_mobile"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="geist"], body[data-theme="geist_mobile"]) .btn-secondary:hover {
+  background: #111111;
+  border-color: #666666;
+  color: #FFFFFF;
+}
+
+/* 17. Linear App & Linear Mobile */
+:is(body[data-theme="linear"], body[data-theme="linear_mobile"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="linear"], body[data-theme="linear_mobile"]) .btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  color: #F7F8F8;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  font-weight: 600;
+}
+:is(body[data-theme="linear"], body[data-theme="linear_mobile"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="linear"], body[data-theme="linear_mobile"]) .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+/* 18. Midday AI Financial */
+body[data-theme="midday"] .hero-cta-group .btn-secondary,
+body[data-theme="midday"] .btn-secondary {
+  background: #0A0A0A;
+  color: #FFFFFF;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  font-weight: 600;
+}
+body[data-theme="midday"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="midday"] .btn-secondary:hover {
+  background: #171717;
+  border-color: #404040;
+}
+
+/* 19. GitHub Primer Dark */
+body[data-theme="primer"] .hero-cta-group .btn-secondary,
+body[data-theme="primer"] .btn-secondary {
+  background: #21262D;
+  color: #C9D1D9;
+  border: 1px solid #30363D;
+  border-radius: 6px;
+  font-weight: 600;
+}
+body[data-theme="primer"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="primer"] .btn-secondary:hover {
+  background: #30363D;
+  border-color: #8B949E;
+  color: #FFFFFF;
+}
+
+/* 20. Matrix TUI Terminal */
+body[data-theme="tui"] .hero-cta-group .btn-secondary,
+body[data-theme="tui"] .btn-secondary {
+  background: #121212;
+  color: #00FF66;
+  border: 2px solid #00FF66;
+  border-radius: 0px !important;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+}
+body[data-theme="tui"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="tui"] .btn-secondary:hover {
+  background: rgba(0, 255, 102, 0.15);
+  box-shadow: 0 0 14px rgba(0, 255, 102, 0.4);
+}
+
+/* 21. Nord Arctic Ice */
+body[data-theme="nord"] .hero-cta-group .btn-secondary,
+body[data-theme="nord"] .btn-secondary {
+  background: #3B4252;
+  color: #ECEFF4;
+  border: 1px solid #4C566A;
+  border-radius: 6px;
+  font-weight: 600;
+}
+body[data-theme="nord"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="nord"] .btn-secondary:hover {
+  background: #434C5E;
+  border-color: #88C0D0;
+  color: #88C0D0;
+}
+
+/* 22. Dracula Pro */
+body[data-theme="dracula"] .hero-cta-group .btn-secondary,
+body[data-theme="dracula"] .btn-secondary {
+  background: #44475A;
+  color: #50FA7B;
+  border: 1px solid #6272A4;
+  border-radius: 8px;
+  font-weight: 700;
+}
+body[data-theme="dracula"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="dracula"] .btn-secondary:hover {
+  background: #6272A4;
+  color: #F8F8F2;
+  border-color: #BD93F9;
+}
+
+/* 23. Catppuccin Mocha */
+body[data-theme="catppuccin"] .hero-cta-group .btn-secondary,
+body[data-theme="catppuccin"] .btn-secondary {
+  background: #313244;
+  color: #FAB387;
+  border: 1px solid #45475A;
+  border-radius: 10px;
+  font-weight: 700;
+}
+body[data-theme="catppuccin"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="catppuccin"] .btn-secondary:hover {
+  background: #45475A;
+  color: #B4BEFE;
+  border-color: #B4BEFE;
+}
+
+/* 24. Gruvbox Retro Groove */
+body[data-theme="gruvbox"] .hero-cta-group .btn-secondary,
+body[data-theme="gruvbox"] .btn-secondary {
+  background: #3C3836;
+  color: #EBDBB2;
+  border: 1px solid #504945;
+  border-radius: 4px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+body[data-theme="gruvbox"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="gruvbox"] .btn-secondary:hover {
+  background: #504945;
+  color: #FE8019;
+  border-color: #FE8019;
+}
+
+/* 25. Tokyo Night Storm */
+body[data-theme="tokyonight"] .hero-cta-group .btn-secondary,
+body[data-theme="tokyonight"] .btn-secondary {
+  background: #24283B;
+  color: #BB9AF7;
+  border: 1px solid #414868;
+  border-radius: 8px;
+  font-weight: 700;
+}
+body[data-theme="tokyonight"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="tokyonight"] .btn-secondary:hover {
+  background: #2F3549;
+  color: #7AA2F7;
+  border-color: #7AA2F7;
+}
+
+/* 26. Solarized Dark Precision */
+body[data-theme="solarized"] .hero-cta-group .btn-secondary,
+body[data-theme="solarized"] .btn-secondary {
+  background: #073642;
+  color: #B58900;
+  border: 1px solid #586E75;
+  border-radius: 6px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+body[data-theme="solarized"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="solarized"] .btn-secondary:hover {
+  background: #0B4151;
+  color: #2AA198;
+  border-color: #2AA198;
+}
+
+/* 27. IBM Carbon Design */
+body[data-theme="carbon"] .hero-cta-group .btn-secondary,
+body[data-theme="carbon"] .btn-secondary {
+  background: #393939;
+  color: #FFFFFF;
+  border: 1px solid #525252;
+  border-radius: 0px !important;
+  font-weight: 600;
+}
+body[data-theme="carbon"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="carbon"] .btn-secondary:hover {
+  background: #4C4C4C;
+  border-color: #6F6F6F;
+}
+
+/* 28. Teenage Engineering Hardware */
+body[data-theme="teenage"] .hero-cta-group .btn-secondary,
+body[data-theme="teenage"] .btn-secondary {
+  background: #ECEAE6;
+  color: #202020;
+  border: 1px solid #C5C3BE;
+  border-radius: 4px;
+  font-weight: 700;
+  box-shadow: 0 2px 0 #AAA8A2;
+}
+body[data-theme="teenage"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="teenage"] .btn-secondary:hover {
+  background: #DFDDD8;
+  border-color: #999792;
+}
+
+/* 29. Nothing Glyph OS */
+body[data-theme="nothing"] .hero-cta-group .btn-secondary,
+body[data-theme="nothing"] .btn-secondary {
+  background: #000000;
+  color: #FFFFFF;
+  border: 2px dotted #444444;
+  border-radius: 16px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+body[data-theme="nothing"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="nothing"] .btn-secondary:hover {
+  background: #111111;
+  border-color: #FFFFFF;
+}
+
+/* 30. Augmented Reality Mech HUD */
+body[data-theme="augmented"] .hero-cta-group .btn-secondary,
+body[data-theme="augmented"] .btn-secondary {
+  clip-path: polygon(0 8px, 8px 0, calc(100% - 8px) 0, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0 calc(100% - 8px));
+  background: #131924;
+  color: #00F0FF;
+  border: 1px solid #00F0FF;
+  border-radius: 0px !important;
+  font-weight: 700;
+}
+body[data-theme="augmented"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="augmented"] .btn-secondary:hover {
+  background: rgba(0, 240, 255, 0.2);
+  box-shadow: 0 0 14px rgba(0, 240, 255, 0.4);
+}
+
+/* 31. Cyberpunk 2077 HUD & Cyberpunk base */
+:is(body[data-theme="cyberpunk"], body[data-theme="cyberpunk_hud"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="cyberpunk"], body[data-theme="cyberpunk_hud"]) .btn-secondary {
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  background: rgba(0, 240, 255, 0.08);
+  color: #00F0FF;
+  border: 1px solid #00F0FF;
+  border-radius: 0px !important;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+:is(body[data-theme="cyberpunk"], body[data-theme="cyberpunk_hud"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="cyberpunk"], body[data-theme="cyberpunk_hud"]) .btn-secondary:hover {
+  background: rgba(0, 240, 255, 0.25);
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.45);
+}
+
+/* 32. Material Design 3 (MUI) */
+body[data-theme="mui"] .hero-cta-group .btn-secondary,
+body[data-theme="mui"] .btn-secondary {
+  background: #FFFFFF;
+  color: #6750A4;
+  border: 1px solid #79747E;
+  border-radius: 9999px !important;
+  font-weight: 600;
+}
+body[data-theme="mui"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="mui"] .btn-secondary:hover {
+  background: #F3EDF7;
+  border-color: #6750A4;
+}
+
+/* 33. Material You Dynamic */
+body[data-theme="material_you"] .hero-cta-group .btn-secondary,
+body[data-theme="material_you"] .btn-secondary {
+  background: #E8DCD5;
+  color: #2A1A14;
+  border: 1px solid rgba(184, 93, 59, 0.3);
+  border-radius: 9999px !important;
+  font-weight: 600;
+}
+body[data-theme="material_you"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="material_you"] .btn-secondary:hover {
+  background: #DDD0C8;
+  border-color: #B85D3B;
+}
+
+/* 34. Microsoft Fluent 2 */
+body[data-theme="fluent"] .hero-cta-group .btn-secondary,
+body[data-theme="fluent"] .btn-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  font-weight: 600;
+}
+body[data-theme="fluent"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="fluent"] .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+/* 35. Apple VisionOS Spatial */
+body[data-theme="spatial"] .hero-cta-group .btn-secondary,
+body[data-theme="spatial"] .btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 9999px !important;
+  font-weight: 600;
+}
+body[data-theme="spatial"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="spatial"] .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* 36. Apple iOS Human Interface */
+body[data-theme="ios_hig"] .hero-cta-group .btn-secondary,
+body[data-theme="ios_hig"] .btn-secondary {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  color: #FFFFFF;
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  border-radius: 9999px !important;
+  font-weight: 600;
+}
+body[data-theme="ios_hig"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="ios_hig"] .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* 37. HeroUI (NextUI) */
+body[data-theme="heroui"] .hero-cta-group .btn-secondary,
+body[data-theme="heroui"] .btn-secondary {
+  background: rgba(26, 20, 44, 0.7);
+  color: #F8FAFC;
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 14px;
+  font-weight: 700;
+}
+body[data-theme="heroui"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="heroui"] .btn-secondary:hover {
+  background: rgba(168, 85, 247, 0.15);
+  border-color: rgba(168, 85, 247, 0.6);
+}
+
+/* 38. DaisyUI Cyberpunk Theme */
+body[data-theme="daisyui"] .hero-cta-group .btn-secondary,
+body[data-theme="daisyui"] .btn-secondary {
+  background: transparent;
+  color: #FFEB3B;
+  border: 2px solid #FFEB3B;
+  border-radius: 12px;
+  font-weight: 800;
+}
+body[data-theme="daisyui"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="daisyui"] .btn-secondary:hover {
+  background: rgba(255, 235, 59, 0.18);
+  box-shadow: 0 0 12px rgba(255, 235, 59, 0.3);
+}
+
+/* 39. Soft Neumorphism Desktop & Touch */
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"]) .btn-secondary {
+  background: #E0E5EC;
+  color: #4A5568;
+  border: none;
+  border-radius: 16px;
+  font-weight: 700;
+  box-shadow: 4px 4px 10px #a3b1c6, -4px -4px 10px #ffffff;
+}
+body[data-theme="neumorphism_touch"] .hero-cta-group .btn-secondary,
+body[data-theme="neumorphism_touch"] .btn-secondary {
+  border-radius: 20px;
+}
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"]) .btn-secondary:hover {
+  box-shadow: 6px 6px 14px #a3b1c6, -6px -6px 14px #ffffff;
+  color: #1E293B;
+}
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"]) .hero-cta-group .btn-secondary:active,
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"]) .btn-secondary:active {
+  box-shadow: inset 3px 3px 6px #a3b1c6, inset -3px -3px 6px #ffffff;
+}
+
+/* 40. Windows 98 Retro OS & Win98 Mobile */
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-secondary {
+  background: #C0C0C0;
+  color: #000000;
+  border-top: 2px solid #FFFFFF;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  border-radius: 0px !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'MS Sans Serif', Tahoma, monospace;
+  font-weight: 700;
+  font-size: 0.85rem;
+  box-shadow: none;
+}
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-secondary:hover {
+  background: #D4D4D4;
+}
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .hero-cta-group .btn-secondary:active,
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-secondary:active {
+  border-top: 2px solid #808080;
+  border-left: 2px solid #808080;
+  border-right: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+  box-shadow: inset 1px 1px #808080;
+}
+
+/* 41. NES 8-Bit Pixel & Arcade */
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .hero-cta-group .btn-secondary,
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .btn-secondary {
+  background: #FFFFFF;
+  color: #000000;
+  border: 4px solid #000000;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0 #000000;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .hero-cta-group .btn-secondary:hover,
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .btn-secondary:hover {
+  background: #FFCC00;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #000000;
+}
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .hero-cta-group .btn-secondary:active,
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .btn-secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+/* 42. PaperCSS Hand-Drawn */
+body[data-theme="papercss"] .hero-cta-group .btn-secondary,
+body[data-theme="papercss"] .btn-secondary {
+  background: #FFFFFF;
+  color: #41403E;
+  border: 2px solid #41403E;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  font-weight: 700;
+}
+body[data-theme="papercss"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="papercss"] .btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 5px 3px -4px rgba(0, 0, 0, 0.4);
+}
+
+/* 43. Atlassian Design System */
+body[data-theme="atlassian"] .hero-cta-group .btn-secondary,
+body[data-theme="atlassian"] .btn-secondary {
+  background: #FFFFFF;
+  color: #172B4D;
+  border: 1px solid #DFE1E6;
+  border-radius: 3px;
+  font-weight: 600;
+  box-shadow: 0 1px 1px rgba(9, 30, 66, 0.1);
+}
+body[data-theme="atlassian"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="atlassian"] .btn-secondary:hover {
+  background: #EBECF0;
+  border-color: #C1C7D0;
+}
+
+/* 44. Neo-Brutalism Raw Contrast */
+body[data-theme="neobrutalism"] .hero-cta-group .btn-secondary,
+body[data-theme="neobrutalism"] .btn-secondary {
+  background: #FFFFFF;
+  color: #000000;
+  border: 3px solid #000000;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0px #000000;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+body[data-theme="neobrutalism"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="neobrutalism"] .btn-secondary:hover {
+  background: #FF6EC7;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000000;
+}
+body[data-theme="neobrutalism"] .hero-cta-group .btn-secondary:active,
+body[data-theme="neobrutalism"] .btn-secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000000;
+}
+
+/* 45. DaisyUI Brutal Pop */
+body[data-theme="daisyui_brutal"] .hero-cta-group .btn-secondary,
+body[data-theme="daisyui_brutal"] .btn-secondary {
+  background: #FFFFFF;
+  color: #000000;
+  border: 3px solid #000000;
+  border-radius: 8px;
+  font-weight: 900;
+  box-shadow: 4px 4px 0 #000000;
+}
+body[data-theme="daisyui_brutal"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="daisyui_brutal"] .btn-secondary:hover {
+  background: #FFE600;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #000000;
+}
+body[data-theme="daisyui_brutal"] .hero-cta-group .btn-secondary:active,
+body[data-theme="daisyui_brutal"] .btn-secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 #000000;
+}
+
+/* 46. Duolingo Gamified */
+body[data-theme="duolingo"] .hero-cta-group .btn-secondary,
+body[data-theme="duolingo"] .btn-secondary {
+  background: #FFFFFF;
+  color: #1CB0F6;
+  border-radius: 16px;
+  border: 2px solid #E5E5E5;
+  border-bottom: 4px solid #E5E5E5;
+  font-weight: 700;
+}
+body[data-theme="duolingo"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="duolingo"] .btn-secondary:hover {
+  background: #F7F7F7;
+  border-color: #D7D7D7;
+}
+body[data-theme="duolingo"] .hero-cta-group .btn-secondary:active,
+body[data-theme="duolingo"] .btn-secondary:active {
+  border-bottom-width: 2px;
+  transform: translateY(2px);
+}
+
+/* 47. Spotify Green Dark */
+body[data-theme="spotify"] .hero-cta-group .btn-secondary,
+body[data-theme="spotify"] .btn-secondary {
+  background: #282828;
+  color: #FFFFFF;
+  border-radius: 9999px !important;
+  border: 1px solid #3E3E3E;
+  font-weight: 700;
+}
+body[data-theme="spotify"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="spotify"] .btn-secondary:hover {
+  background: #3E3E3E;
+  border-color: #555555;
+  transform: scale(1.02);
+}
+
+/* 48. Instagram Vibrant Gradient */
+body[data-theme="instagram"] .hero-cta-group .btn-secondary,
+body[data-theme="instagram"] .btn-secondary {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #FFFFFF;
+  border-radius: 9999px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: 700;
+}
+body[data-theme="instagram"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="instagram"] .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* 49. Airbnb Friendly Warmth */
+body[data-theme="airbnb"] .hero-cta-group .btn-secondary,
+body[data-theme="airbnb"] .btn-secondary {
+  background: #FFFFFF;
+  color: #222222;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  font-weight: 600;
+}
+body[data-theme="airbnb"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="airbnb"] .btn-secondary:hover {
+  background: #F7F7F7;
+  border-color: #000000;
+}
+
+/* 50. Uber Monolith Modern */
+body[data-theme="uber"] .hero-cta-group .btn-secondary,
+body[data-theme="uber"] .btn-secondary {
+  background: #2E2E2E;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #404040;
+  font-weight: 700;
+}
+body[data-theme="uber"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="uber"] .btn-secondary:hover {
+  background: #3A3A3A;
+  border-color: #555555;
+}
+
+/* 51. Discord Cozy Chat */
+body[data-theme="discord"] .hero-cta-group .btn-secondary,
+body[data-theme="discord"] .btn-secondary {
+  background: #383A40;
+  color: #DBDEE1;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-weight: 600;
+}
+body[data-theme="discord"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="discord"] .btn-secondary:hover {
+  background: #404249;
+  color: #FFFFFF;
+}
+
+/* 52. Telegram Fast Messenger */
+body[data-theme="telegram"] .hero-cta-group .btn-secondary,
+body[data-theme="telegram"] .btn-secondary {
+  background: #242F3D;
+  color: #2EA6FF;
+  border: 1px solid rgba(46, 166, 255, 0.25);
+  border-radius: 8px;
+  font-weight: 600;
+}
+body[data-theme="telegram"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="telegram"] .btn-secondary:hover {
+  background: #2D3B4C;
+  border-color: #2EA6FF;
+}
+
+/* 53. Glassmorphism App */
+body[data-theme="glassmorphism_app"] .hero-cta-group .btn-secondary,
+body[data-theme="glassmorphism_app"] .btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 18px;
+  font-weight: 700;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+body[data-theme="glassmorphism_app"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="glassmorphism_app"] .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.45);
+  transform: translateY(-2px);
+}
+
+/* 54. Swiss Grid System */
+body[data-theme="swiss"] .hero-cta-group .btn-secondary,
+body[data-theme="swiss"] .btn-secondary {
+  background: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 0px !important;
+  font-weight: 700;
+}
+body[data-theme="swiss"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="swiss"] .btn-secondary:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+/* 55. Haute Luxury Fashion */
+body[data-theme="luxury"] .hero-cta-group .btn-secondary,
+body[data-theme="luxury"] .btn-secondary {
+  background: transparent;
+  color: #E6AF2E;
+  border: 1px solid #E6AF2E;
+  border-radius: 4px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+body[data-theme="luxury"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="luxury"] .btn-secondary:hover {
+  background: rgba(230, 175, 46, 0.15);
+  box-shadow: 0 0 14px rgba(230, 175, 46, 0.3);
+}

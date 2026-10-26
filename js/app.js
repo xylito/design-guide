@@ -381,7 +381,7 @@ class DesignShowcaseApp {
     const heroPrimaryText = document.getElementById('hero-primary-text');
     if (heroPrimaryText) heroPrimaryText.textContent = this.currentLang === 'ko' ? '스타일 컴포넌트 모음' : 'Style Components Kit';
     const heroSecondaryText = document.getElementById('hero-secondary-text');
-    if (heroSecondaryText) heroSecondaryText.textContent = this.currentLang === 'ko' ? '가이드라인' : 'Guidelines';
+    if (heroSecondaryText) heroSecondaryText.textContent = this.currentLang === 'ko' ? '가이드라인 ↗' : 'Guidelines ↗';
     const heroDownloadText = document.getElementById('hero-download-text');
     if (heroDownloadText) heroDownloadText.textContent = this.currentLang === 'ko' ? 'DESIGN.md 다운로드' : 'Download DESIGN.md';
 
@@ -1043,10 +1043,14 @@ class DesignShowcaseApp {
       this.heroSubtitle.textContent = isKo ? koMeta.heroSubtitle : theme.heroSubtitle;
     }
     if (this.heroPrimaryText) {
-      this.heroPrimaryText.textContent = isKo ? koMeta.ctaPrimary : theme.ctaPrimary;
+      this.heroPrimaryText.textContent = isKo ? '스타일 컴포넌트 모음' : 'Style Components Kit';
     }
     if (this.heroSecondaryText) {
-      this.heroSecondaryText.textContent = isKo ? koMeta.ctaSecondary : theme.ctaSecondary;
+      this.heroSecondaryText.textContent = isKo ? '가이드라인 ↗' : 'Guidelines ↗';
+    }
+    const heroDownloadText = document.getElementById('hero-download-text');
+    if (heroDownloadText) {
+      heroDownloadText.textContent = isKo ? 'DESIGN.md 다운로드' : 'Download DESIGN.md';
     }
 
     // Update Showcase Widget Label
