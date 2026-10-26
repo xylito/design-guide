@@ -1104,7 +1104,7 @@ class DesignShowcaseApp {
       this.modalColorSwatches.innerHTML = `
         <div class="swatch-card" style="grid-column: 1 / -1; padding: 1rem;">
           <div style="font-size: 0.8rem; opacity: 0.7; margin-bottom: 0.35rem;">${isKo ? '설치 및 초기화 CLI 명령:' : 'Installation / Setup CLI:'}</div>
-          <code style="font-family: monospace; font-size: 0.95rem; color: #05FFA1; background: #0A0B0E; padding: 0.5rem 0.75rem; border-radius: 6px; display: block;">${installCmd}</code>
+          <code class="modal-install-code">${installCmd}</code>
         </div>
       `;
     }
@@ -1114,7 +1114,7 @@ class DesignShowcaseApp {
     if (this.modalInfoBox) {
       this.modalInfoBox.innerHTML = `
         <div><strong>${isKo ? 'DESIGN.md 저장 위치:' : 'DESIGN.md Location:'}</strong> <code>design-systems/${repo.themeId}/DESIGN.md</code></div>
-        <div><strong>${isKo ? '공식 저장소:' : 'Repository:'}</strong> <a href="${repoUrl}" target="_blank" style="color: #5E6AD2; text-decoration: underline;">${repo.repo}</a></div>
+        <div><strong>${isKo ? '공식 저장소:' : 'Repository:'}</strong> <a href="${repoUrl}" target="_blank" rel="noopener noreferrer" class="modal-repo-link">${repo.repo}</a></div>
         <div><strong>${isKo ? '카테고리:' : 'Category:'}</strong> ${repo.categoryLabel} (${isKo ? '스타 수' : 'Stars'}: ${repo.starsFormatted})</div>
         <div><strong>${isKo ? 'AI 에이전트 역할:' : 'AI Role:'}</strong> ${repo.roleInAI}</div>
         <div><strong>${isKo ? '전용 스타일 테마 ID:' : 'Dedicated Theme ID:'}</strong> <code>${repo.themeId}</code></div>

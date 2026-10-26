@@ -1475,6 +1475,32 @@ body[data-theme="cyberpunk"] .scanline-overlay {
   border-radius: 4px;
 }
 
+.modal-info-box a,
+.modal-repo-link {
+  color: var(--accent-primary, #5E6AD2) !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  transition: opacity 0.15s ease;
+}
+
+.modal-info-box a:hover,
+.modal-repo-link:hover {
+  opacity: 0.8;
+}
+
+.modal-install-code {
+  font-family: var(--font-mono, monospace) !important;
+  font-size: 0.92rem !important;
+  color: var(--accent-primary, #05FFA1) !important;
+  background: var(--bg-surface, #0A0B0E) !important;
+  border: 1px solid var(--border-hairline, rgba(255, 255, 255, 0.15)) !important;
+  padding: 0.55rem 0.85rem !important;
+  border-radius: var(--theme-radius, 6px) !important;
+  display: block !important;
+  word-break: break-all;
+}
+
 .prompt-header-row {
   display: flex;
   align-items: baseline;
@@ -2520,7 +2546,8 @@ body.catalog-initial-view #hero,
 body.catalog-initial-view #features,
 body.catalog-initial-view #components,
 body.catalog-initial-view #manifesto,
-body.catalog-initial-view #dock,
+body.catalog-initial-view #floating-dock,
+body.catalog-initial-view .floating-dock-container,
 body.catalog-initial-view .floating-side-nav {
   display: none !important;
 }
@@ -2534,7 +2561,8 @@ body.showcase-expanded-anim #hero {
   animation: slideDownFade 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
-body.showcase-expanded-anim #dock {
+body.showcase-expanded-anim #floating-dock,
+body.showcase-expanded-anim .floating-dock-container {
   animation: slideUpFade 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
