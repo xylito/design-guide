@@ -58,11 +58,11 @@ LLMs frequently default to a generic, rounded, low-contrast template (often call
 ### 3.2 Typography Stack & Latin-Korean Font Pairing
 To prevent Korean glyphs from breaking, appearing blurry, or falling back to mismatched default fonts when English fonts are declared, strictly apply this harmonious Latin-Korean paired font stack:
 
-- **Primary Headings Stack:** `'Press Start 2P', 'Galmuri11', 'Space Mono', monospace`
-- **Body & UI Font Stack:** `'Galmuri11', 'Galmuri9', monospace`
-- **Monospace & Metadata Stack:** `'Press Start 2P', 'Galmuri11', monospace`
-- **Paired Korean Typography:** `Galmuri9 / Galmuri11 (8비트 도트 아케이드)`
-- **Typographic Fallback Rationale:** 8비트 도트 퀘스트 다이얼로그와 아케이드 점수판을 위한 갈무리 픽셀 서체
+- **Primary Headings Stack:** `'Press Start 2P', 'NeoDunggeunmo', 'PfStardust', monospace`
+- **Body & UI Font Stack:** `'NeoDunggeunmo', 'PfStardust', 'Galmuri11', monospace`
+- **Monospace & Metadata Stack:** `'NeoDunggeunmo Code', 'Press Start 2P', monospace`
+- **Paired Korean Typography:** `NeoDunggeunmo (오락실 아케이드 기판 둥근모꼴 도트 폰트)`
+- **Typographic Fallback Rationale:** 네오지오 및 90년대 오락실 아케이드 기판 타이포그래피의 굵고 또렷한 둥근모 도트 서체
 - **Heading Line Height:** `1.1` ~ `1.2` with tight tracking (`-0.02em`).
 - **Body Line Height:** `1.5` ~ `1.65` for maximum legibility.
 

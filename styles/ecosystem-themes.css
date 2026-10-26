@@ -9,6 +9,16 @@
    5. Expressive & Retro (fluent, spatial, mui, heroui, daisyui, neumorphism, win98, nes, papercss, atlassian, neobrutalism)
    ========================================================================== */
 
+/* Retro Pixel Font Definitions (PF Stardust 8-Bit Korean) */
+@font-face {
+  font-family: 'PfStardust';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/PFStardust.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* --------------------------------------------------------------------------
    1. EDITORIAL & PRINT (도면·인쇄물)
    -------------------------------------------------------------------------- */
@@ -662,9 +672,9 @@ body[data-theme="tui"] {
   --border-hairline: #38EF7D;
   --accent-primary: #38EF7D;
   --text-primary: #38EF7D;
-  --font-heading: 'Space Mono', 'D2Coding', monospace;
-  --font-body: 'Space Mono', 'D2Coding', monospace;
-  --font-mono: 'Space Mono', 'D2Coding', monospace;
+  --font-heading: 'Space Mono', 'NeoDunggeunmo', 'D2Coding', monospace;
+  --font-body: 'NeoDunggeunmo', 'Space Mono', 'D2Coding', monospace;
+  --font-mono: 'NeoDunggeunmo Code', 'Space Mono', monospace;
   --theme-radius: 0px;
   font-family: var(--font-body);
 }
@@ -674,7 +684,7 @@ body[data-theme="tui"] .btn-primary {
   border-radius: 0px;
   border: 2px solid #00FF66;
   font-weight: 800;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'NeoDunggeunmo', 'JetBrains Mono', monospace;
   box-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
 }
 body[data-theme="tui"] .btn-secondary {
@@ -799,9 +809,9 @@ body[data-theme="nothing"] {
   --border-hairline: #444444;
   --accent-primary: #D71921;
   --text-primary: #FFFFFF;
-  --font-heading: 'Space Mono', 'D2Coding', 'Galmuri11', monospace;
-  --font-body: 'Space Mono', 'D2Coding', monospace;
-  --font-mono: 'Space Mono', 'D2Coding', monospace;
+  --font-heading: 'Space Mono', 'NeoDunggeunmo Code', 'D2Coding', monospace;
+  --font-body: 'Space Mono', 'NeoDunggeunmo Code', 'D2Coding', monospace;
+  --font-mono: 'Space Mono', 'NeoDunggeunmo Code', monospace;
   --theme-radius: 0px;
   font-family: var(--font-body);
 }
@@ -1218,9 +1228,9 @@ body[data-theme="nes"] {
   --border-hairline: #000000;
   --accent-primary: #209CEE;
   --text-primary: #FFFFFF;
-  --font-heading: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace;
-  --font-body: 'Galmuri11', 'Galmuri9', monospace;
-  --font-mono: 'Press Start 2P', 'Galmuri11', monospace;
+  --font-heading: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace;
+  --font-body: 'PfStardust', 'NeoDunggeunmo', 'Galmuri11', monospace;
+  --font-mono: 'Press Start 2P', 'PfStardust', monospace;
   --theme-radius: 0px;
   font-family: var(--font-body);
 }
@@ -1230,7 +1240,7 @@ body[data-theme="nes"] .btn-primary {
   border: 4px solid #000000;
   border-radius: 0px;
   font-weight: 800;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Press Start 2P', 'PfStardust', monospace;
   box-shadow: 3px 3px 0 #000000;
 }
 body[data-theme="nes"] .btn-primary:active {
@@ -2681,9 +2691,9 @@ body[data-theme="nes_arcade"] {
   --border-hairline: #000000;
   --accent-primary: #209CEE;
   --text-primary: #FFFFFF;
-  --font-heading: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace;
-  --font-body: 'Galmuri11', 'Galmuri9', monospace;
-  --font-mono: 'Press Start 2P', 'Galmuri11', monospace;
+  --font-heading: 'Press Start 2P', 'NeoDunggeunmo', 'PfStardust', monospace;
+  --font-body: 'NeoDunggeunmo', 'PfStardust', 'Galmuri11', monospace;
+  --font-mono: 'NeoDunggeunmo Code', 'Press Start 2P', monospace;
   --theme-radius: 0px;
   font-family: var(--font-body);
 }
@@ -2693,6 +2703,7 @@ body[data-theme="nes_arcade"] .btn-primary {
   border: 4px solid #000000;
   border-radius: 0px;
   font-weight: 800;
+  font-family: 'Press Start 2P', 'NeoDunggeunmo', monospace;
   box-shadow: 4px 4px 0 #000000;
 }
 body[data-theme="nes_arcade"] .feature-card,
@@ -2850,7 +2861,7 @@ body[data-theme="nes_arcade"] .btn-ghost {
   border: 4px solid #000000;
   border-radius: 0px;
   box-shadow: 4px 4px 0 #000000;
-  font-family: 'Press Start 2P', 'Galmuri11', monospace;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace;
   font-size: 0.8rem;
 }
 body[data-theme="nes"] .btn-destructive,
@@ -2860,7 +2871,7 @@ body[data-theme="nes_arcade"] .btn-destructive {
   border: 4px solid #000000;
   border-radius: 0px;
   box-shadow: 4px 4px 0 #000000;
-  font-family: 'Press Start 2P', 'Galmuri11', monospace;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace;
   font-size: 0.8rem;
 }
 
@@ -3115,7 +3126,7 @@ body[data-theme="nes_arcade"] .modal-dialog,
   border-radius: 0px !important;
   box-shadow: 6px 6px 0 #000000 !important;
   color: #212529 !important;
-  font-family: 'Space Mono', 'Galmuri11', monospace !important;
+  font-family: 'PfStardust', 'NeoDunggeunmo', 'Galmuri11', monospace !important;
 }
 body[data-theme="nes"] .modal-header,
 body[data-theme="nes_arcade"] .modal-header,
@@ -3130,7 +3141,7 @@ body[data-theme="nes_arcade"] .modal-title,
 .modal-dialog[data-theme="nes"] .modal-title,
 .modal-dialog[data-theme="nes_arcade"] .modal-title {
   color: #FFFFFF !important;
-  font-family: 'Press Start 2P', 'Galmuri11', monospace !important;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace !important;
   font-size: 0.85rem !important;
 }
 body[data-theme="nes"] .btn-close-modal,
@@ -3150,7 +3161,7 @@ body[data-theme="nes_arcade"] .ecosystem-search-bar input {
   border-radius: 0px !important;
   box-shadow: 4px 4px 0 #000000 !important;
   color: #212529 !important;
-  font-family: 'Press Start 2P', 'Galmuri11', monospace !important;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace !important;
   font-size: 0.8rem !important;
 }
 body[data-theme="nes"] .cat-filter-btn,
@@ -3160,7 +3171,7 @@ body[data-theme="nes_arcade"] .cat-filter-btn {
   border-radius: 0px !important;
   box-shadow: 3px 3px 0 #000000 !important;
   color: #212529 !important;
-  font-family: 'Press Start 2P', 'Galmuri11', monospace !important;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace !important;
   font-size: 0.7rem !important;
 }
 body[data-theme="nes"] .cat-filter-btn.active,
@@ -10375,7 +10386,7 @@ body[data-theme="neumorphism_touch"] .btn-secondary {
   border: 4px solid #000000;
   border-radius: 0px !important;
   box-shadow: 4px 4px 0 #000000;
-  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -10662,7 +10673,7 @@ body[data-theme="luxury"] .btn-secondary:hover {
   border: 3px solid #000000 !important;
   border-radius: 0px !important;
   box-shadow: 3px 3px 0 #000000 !important;
-  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace !important;
 }
 
 /* 3. Neobrutalism & Brutalist Inputs */

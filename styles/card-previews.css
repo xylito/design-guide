@@ -878,12 +878,12 @@ body .repo-card[data-preview-theme="tui"] {
   border: 1px solid #00FF66 !important;
   border-radius: 0px !important;
   box-shadow: 0 0 14px rgba(0, 255, 102, 0.2) !important;
-  font-family: 'Space Mono', 'D2Coding', monospace !important;
+  font-family: 'Space Mono', 'NeoDunggeunmo', 'D2Coding', monospace !important;
 }
 
 body[data-theme] .repo-card[data-preview-theme="tui"] .repo-name {
   color: #00FF66 !important;
-  font-family: 'Space Mono', 'D2Coding', monospace !important;
+  font-family: 'Space Mono', 'NeoDunggeunmo', monospace !important;
 }
 
 body[data-theme] .repo-card[data-preview-theme="tui"] .repo-desc {
@@ -1277,12 +1277,12 @@ body .repo-card[data-preview-theme="nothing"] {
   border: 1px dotted #555555 !important;
   border-radius: 0px !important;
   box-shadow: none !important;
-  font-family: 'Space Mono', 'D2Coding', 'Galmuri11', monospace !important;
+  font-family: 'Space Mono', 'NeoDunggeunmo Code', 'D2Coding', monospace !important;
 }
 
 body[data-theme] .repo-card[data-preview-theme="nothing"] .repo-name {
   color: #FFFFFF !important;
-  font-family: 'Space Mono', 'D2Coding', 'Galmuri11', monospace !important;
+  font-family: 'Space Mono', 'NeoDunggeunmo Code', 'D2Coding', monospace !important;
 }
 
 
@@ -1726,12 +1726,12 @@ body .repo-card[data-preview-theme="nes"] {
   border: 4px solid #000000 !important;
   border-radius: 0px !important;
   box-shadow: 5px 5px 0 #000000 !important;
-  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace !important;
 }
 
 body[data-theme] .repo-card[data-preview-theme="nes"] .repo-name {
   color: #000000 !important;
-  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+  font-family: 'Press Start 2P', 'PfStardust', 'NeoDunggeunmo', monospace !important;
 }
 
 
@@ -1747,7 +1747,7 @@ body[data-theme] .repo-card[data-preview-theme="nes"] .repo-ai-box * {
 }
 
 body[data-theme] .repo-card[data-preview-theme="nes"] .btn-repo-apply {
-  background: #209CEE !important; color: #FFFFFF !important; border: 3px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-family: 'Press Start 2P', 'Galmuri11', monospace !important; font-size: 0.75rem !important;
+  background: #209CEE !important; color: #FFFFFF !important; border: 3px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-family: 'Press Start 2P', 'PfStardust', monospace !important; font-size: 0.75rem !important;
 }
 
 
@@ -2293,12 +2293,12 @@ body .repo-card[data-preview-theme="nes_arcade"] {
   border: 4px solid #000000 !important;
   border-radius: 0px !important;
   box-shadow: 5px 5px 0 #000000 !important;
-  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+  font-family: 'Press Start 2P', 'NeoDunggeunmo', 'PfStardust', monospace !important;
 }
 
 body[data-theme] .repo-card[data-preview-theme="nes_arcade"] .repo-name {
   color: #000000 !important;
-  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+  font-family: 'Press Start 2P', 'NeoDunggeunmo', 'PfStardust', monospace !important;
 }
 
 
@@ -2314,7 +2314,7 @@ body[data-theme] .repo-card[data-preview-theme="nes_arcade"] .repo-ai-box * {
 }
 
 body[data-theme] .repo-card[data-preview-theme="nes_arcade"] .btn-repo-apply {
-  background: #209CEE !important; color: #FFFFFF !important; border: 3px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-family: 'Press Start 2P', 'Galmuri11', monospace !important; font-size: 0.75rem !important;
+  background: #209CEE !important; color: #FFFFFF !important; border: 3px solid #000000 !important; border-radius: 0px !important; box-shadow: 3px 3px 0 #000000 !important; font-family: 'Press Start 2P', 'NeoDunggeunmo', monospace !important; font-size: 0.75rem !important;
 }
 
 

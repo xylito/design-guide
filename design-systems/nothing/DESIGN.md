@@ -58,11 +58,11 @@ LLMs frequently default to a generic, rounded, low-contrast template (often call
 ### 3.2 Typography Stack & Latin-Korean Font Pairing
 To prevent Korean glyphs from breaking, appearing blurry, or falling back to mismatched default fonts when English fonts are declared, strictly apply this harmonious Latin-Korean paired font stack:
 
-- **Primary Headings Stack:** `'Space Mono', 'D2Coding', 'Galmuri11', monospace`
-- **Body & UI Font Stack:** `'Space Mono', 'D2Coding', monospace`
-- **Monospace & Metadata Stack:** `'Space Mono', 'D2Coding', monospace`
-- **Paired Korean Typography:** `D2Coding / Galmuri11 (낫싱 글리프 도트 매트릭스)`
-- **Typographic Fallback Rationale:** 낫싱 폰(Nothing Phone)의 글리프 도트 매트릭스 LED 감성을 갈무리11 및 D2Coding으로 조화롭게 표현
+- **Primary Headings Stack:** `'Space Mono', 'NeoDunggeunmo Code', 'D2Coding', monospace`
+- **Body & UI Font Stack:** `'Space Mono', 'NeoDunggeunmo Code', 'D2Coding', monospace`
+- **Monospace & Metadata Stack:** `'Space Mono', 'NeoDunggeunmo Code', monospace`
+- **Paired Korean Typography:** `NeoDunggeunmo Code / D2Coding (낫싱 글리프 도트 매트릭스)`
+- **Typographic Fallback Rationale:** 낫싱 폰(Nothing Phone)의 글리프 도트 매트릭스 LED 감성을 네오둥근모 코드 및 D2Coding으로 조화롭게 표현
 - **Heading Line Height:** `1.1` ~ `1.2` with tight tracking (`-0.02em`).
 - **Body Line Height:** `1.5` ~ `1.65` for maximum legibility.
 

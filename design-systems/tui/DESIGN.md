@@ -58,11 +58,11 @@ LLMs frequently default to a generic, rounded, low-contrast template (often call
 ### 3.2 Typography Stack & Latin-Korean Font Pairing
 To prevent Korean glyphs from breaking, appearing blurry, or falling back to mismatched default fonts when English fonts are declared, strictly apply this harmonious Latin-Korean paired font stack:
 
-- **Primary Headings Stack:** `'Space Mono', 'D2Coding', monospace`
-- **Body & UI Font Stack:** `'Space Mono', 'D2Coding', monospace`
-- **Monospace & Metadata Stack:** `'Space Mono', 'D2Coding', monospace`
-- **Paired Korean Typography:** `D2Coding (터미널 TUI 모노스페이스)`
-- **Typographic Fallback Rationale:** CLI 및 TUI 터미널 유저 인터페이스를 위한 한글 고정폭 D2Coding 매칭
+- **Primary Headings Stack:** `'Space Mono', 'NeoDunggeunmo', 'D2Coding', monospace`
+- **Body & UI Font Stack:** `'NeoDunggeunmo', 'Space Mono', 'D2Coding', monospace`
+- **Monospace & Metadata Stack:** `'NeoDunggeunmo Code', 'Space Mono', monospace`
+- **Paired Korean Typography:** `NeoDunggeunmo / NeoDunggeunmo Code (90년대 도스 터미널 / PC통신 둥근모꼴)`
+- **Typographic Fallback Rationale:** 90년대 PC통신(하이텔/나우누리) 및 이야기(IYAGI), Mdir 도스 터미널의 완벽한 유니코드 선문자(┌ ─ ┐) 정렬과 레트로 감성을 위한 둥근모꼴 서체
 - **Heading Line Height:** `1.1` ~ `1.2` with tight tracking (`-0.02em`).
 - **Body Line Height:** `1.5` ~ `1.65` for maximum legibility.
 
