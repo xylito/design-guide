@@ -72,7 +72,33 @@ export const I18N = {
     modalPromptHint: '프로젝트 루트의 DESIGN.md 또는 .cursorrules에 바로 붙여넣으세요',
     copyPromptBtn: '프롬프트 전체 복사',
     copiedToast: '클립보드에 복사되었습니다!',
-    themeAppliedToast: '스타일 적용'
+    themeAppliedToast: '스타일 적용',
+    tutorialBtn: '가이드',
+    tutorialBtnTitle: '튜토리얼 가이드 (단축키: ?)',
+    tutorialPill: 'ONBOARDING GUIDE',
+    tutorialSkip: '건너뛰기 [ESC]',
+    tutorialPrev: '◀ 이전',
+    tutorialNext: '다음 ▶',
+    tutorialStart: '시작하기 🚀',
+    tutSlide1Title: '62대 프론티어 디자인 시스템 탐색',
+    tutSlide1Desc: 'Linear, Toss, Apple iOS HIG, Neobrutalism, 8-Bit NES 등 62개 최신 프론트엔드 & 모바일 디자인 언어가 완벽하게 준비되어 있습니다.',
+    tutBox1Title: '카드 클릭 즉시 적용',
+    tutBox1Sub: '그리드의 카드를 누르면 전체 화면에 해당 스타일이 즉각 주입됩니다.',
+    tutBox2Title: '좌우 방향키 [←] [→]',
+    tutBox2Sub: '키보드 방향키 또는 하단 독(Dock)으로 62개 테마를 자유롭게 순회하세요.',
+    tutBox3Title: '단축키 [1~7] 퀵 체인지',
+    tutBox3Sub: 'Linear(1), Toss(2), iOS(3), Spotify(4), Duolingo(5), Dracula(6), Win98(7)',
+    tutSlide2Title: '실시간 한/영 언어 전환 (L 단축키)',
+    tutSlide2Desc: '디자인 토큰, 안티패턴, 아키텍처 철학부터 버튼 인터랙션까지 모든 콘텐츠가 한국어와 영어로 실시간 매핑됩니다.',
+    tutLangInstruction: '지금 키보드의 [L] 키를 누르거나 아래 버튼을 클릭하여 언어를 변경해보세요!',
+    tutLangTestBtn: '언어 전환 테스트 (현재: 한국어)',
+    tutTipText: '💡 언제 어디서나 L 키를 누르면 페이지 전체 언어가 즉시 변경됩니다.',
+    tutSlide3Title: 'AI 에이전트 주입용 DESIGN.md & 컴포넌트',
+    tutSlide3Desc: 'Cursor, Claude Code, Gemini 등의 AI 코딩 어시스턴트에 프롬프트로 바로 주입할 수 있는 표준 디자인 가이드라인을 제공합니다.',
+    tutBox4Title: 'DESIGN.md 원클릭 다운로드',
+    tutBox4Sub: "히어로 섹션의 '.md 다운로드' 버튼으로 프로젝트 루트에 바로 넣을 수 있는 문서를 다운로드하세요.",
+    tutBox5Title: '실제 스타일 컴포넌트 키트',
+    tutBox5Sub: "'스타일 컴포넌트' 버튼을 눌러 버튼, 폼 인풋, 토글 노브의 실제 디자인을 직접 조작해보세요."
   },
   en: {
     langBtn: '한국어',
@@ -143,7 +169,33 @@ export const I18N = {
     modalPromptHint: 'Paste into project root DESIGN.md or .cursorrules directly',
     copyPromptBtn: 'Copy Full DESIGN.md',
     copiedToast: 'Copied to clipboard!',
-    themeAppliedToast: 'Theme applied'
+    themeAppliedToast: 'Theme applied',
+    tutorialBtn: 'Guide',
+    tutorialBtnTitle: 'Tutorial Guide (Key: ?)',
+    tutorialPill: 'ONBOARDING GUIDE',
+    tutorialSkip: 'Skip [ESC]',
+    tutorialPrev: '◀ Prev',
+    tutorialNext: 'Next ▶',
+    tutorialStart: 'Get Started 🚀',
+    tutSlide1Title: 'Explore 62 Frontier Design Systems',
+    tutSlide1Desc: '62 frontier frontend and mobile design languages—including Linear, Toss, Apple iOS HIG, Neobrutalism, and 8-Bit NES—fully interactive.',
+    tutBox1Title: 'Instant Theme Injection',
+    tutBox1Sub: 'Click anywhere on any card in the catalog to instantly apply that design language.',
+    tutBox2Title: 'Arrow Keys [←] [→]',
+    tutBox2Sub: 'Cycle through all 62 themes effortlessly using keyboard arrows or the floating dock.',
+    tutBox3Title: 'Quick Keys [1–7]',
+    tutBox3Sub: 'Linear(1), Toss(2), iOS(3), Spotify(4), Duolingo(5), Dracula(6), Win98(7)',
+    tutSlide2Title: 'Instant Dual-Language Switching (Key: L)',
+    tutSlide2Desc: 'All design tokens, anti-patterns, architectural philosophies, and interactive components are fully localized in Korean and English.',
+    tutLangInstruction: 'Press the [L] key on your keyboard or click the button below to toggle language right now!',
+    tutLangTestBtn: 'Toggle Language Test (Current: English)',
+    tutTipText: '💡 Press L anywhere, anytime to toggle the entire site between Korean and English.',
+    tutSlide3Title: 'DESIGN.md for AI Agents & Component Kit',
+    tutSlide3Desc: 'Production-ready standardized rules crafted to inject directly into AI coding assistants like Cursor, Claude Code, and Gemini.',
+    tutBox4Title: 'One-Click DESIGN.md Download',
+    tutBox4Sub: "Click the '.md Download' button in the hero section to save a clean DESIGN.md file for your project.",
+    tutBox5Title: 'Live Interactive Component Kit',
+    tutBox5Sub: 'Click the "Style Components" button to test actual buttons, inputs, and toggles tailored to each theme.'
   }
 };
 
@@ -158,6 +210,8 @@ class DesignShowcaseApp {
     this.currentCategory = 'all';
     this.currentSearchQuery = '';
     this.repositories = ALL_30_REPOSITORIES;
+    this.currentTutSlide = 0;
+    this.totalTutSlides = 3;
 
     this.initElements();
     this.populateThemeSelectors();
@@ -165,6 +219,18 @@ class DesignShowcaseApp {
     this.applyTheme(this.currentThemeId, false);
     this.renderEcosystemCards();
     this.applyLanguage(this.currentLang);
+
+    // Auto-open tutorial for new visitors
+    setTimeout(() => {
+      try {
+        const seen = localStorage.getItem('design_guide_tutorial_viewed');
+        if (!seen) {
+          this.openTutorial();
+        }
+      } catch (e) {
+        this.openTutorial();
+      }
+    }, 300);
   }
 
   t(key) {
@@ -175,11 +241,26 @@ class DesignShowcaseApp {
     // Body & Themes
     this.body = document.body;
 
-    // Floating Language Toggle
+    // Floating Language Toggle & Tutorial Button
     this.btnLangToggle = document.getElementById('btn-lang-toggle');
+    this.btnTutorialTrigger = document.getElementById('btn-tutorial-trigger');
+    this.tutorialBtnText = document.getElementById('tutorial-btn-text');
     this.btnTopDownload = document.getElementById('btn-top-download');
     this.btnModalDownloadPrompt = document.getElementById('btn-modal-download-prompt');
     this.langIndicatorText = document.getElementById('lang-indicator-text');
+
+    // Onboarding Tutorial Overlay Elements
+    this.tutorialOverlay = document.getElementById('tutorial-overlay');
+    this.btnTutorialClose = document.getElementById('btn-tutorial-close');
+    this.btnTutorialSkip = document.getElementById('btn-tutorial-skip');
+    this.btnTutPrev = document.getElementById('btn-tut-prev');
+    this.btnTutNext = document.getElementById('btn-tut-next');
+    this.tutCarouselTrack = document.getElementById('tutorial-carousel-track');
+    this.tutCarouselViewport = document.getElementById('tut-carousel-viewport');
+    this.tutStepCounter = document.getElementById('tutorial-step-counter');
+    this.tutDots = document.querySelectorAll('.tut-dot');
+    this.tutBtnLangTest = document.getElementById('tut-btn-lang-test');
+    this.tutNextText = document.getElementById('tut-next-text');
 
     // Header elements (legacy/optional)
     this.logoText = document.getElementById('logo-text');
@@ -400,6 +481,66 @@ class DesignShowcaseApp {
 
     // Re-render cards with updated button texts and previews
     this.renderEcosystemCards();
+
+    // Tutorial Modal Elements Localization
+    if (this.tutorialBtnText) this.tutorialBtnText.textContent = this.t('tutorialBtn');
+    if (this.btnTutorialTrigger) this.btnTutorialTrigger.title = this.t('tutorialBtnTitle');
+    const tutPill = document.getElementById('tut-pill-text');
+    if (tutPill) tutPill.textContent = this.t('tutorialPill');
+    if (this.btnTutorialSkip) this.btnTutorialSkip.textContent = this.t('tutorialSkip');
+    const tutPrevText = document.getElementById('tut-prev-text');
+    if (tutPrevText) tutPrevText.textContent = this.t('tutorialPrev');
+    if (this.tutNextText) {
+      this.tutNextText.textContent = this.currentTutSlide === (this.totalTutSlides - 1)
+        ? this.t('tutorialStart')
+        : this.t('tutorialNext');
+    }
+    const tutS1Title = document.getElementById('tut-slide1-title');
+    if (tutS1Title) tutS1Title.textContent = this.t('tutSlide1Title');
+    const tutS1Desc = document.getElementById('tut-slide1-desc');
+    if (tutS1Desc) tutS1Desc.textContent = this.t('tutSlide1Desc');
+    const tutB1Title = document.getElementById('tut-b1-title');
+    if (tutB1Title) tutB1Title.textContent = this.t('tutBox1Title');
+    const tutB1Sub = document.getElementById('tut-b1-sub');
+    if (tutB1Sub) tutB1Sub.textContent = this.t('tutBox1Sub');
+    const tutB2Title = document.getElementById('tut-b2-title');
+    if (tutB2Title) tutB2Title.textContent = this.t('tutBox2Title');
+    const tutB2Sub = document.getElementById('tut-b2-sub');
+    if (tutB2Sub) tutB2Sub.textContent = this.t('tutBox2Sub');
+    const tutB3Title = document.getElementById('tut-b3-title');
+    if (tutB3Title) tutB3Title.textContent = this.t('tutBox3Title');
+    const tutB3Sub = document.getElementById('tut-b3-sub');
+    if (tutB3Sub) tutB3Sub.textContent = this.t('tutBox3Sub');
+
+    const tutS2Title = document.getElementById('tut-slide2-title');
+    if (tutS2Title) tutS2Title.textContent = this.t('tutSlide2Title');
+    const tutS2Desc = document.getElementById('tut-slide2-desc');
+    if (tutS2Desc) tutS2Desc.textContent = this.t('tutSlide2Desc');
+    const tutLangInstr = document.getElementById('tut-lang-instruction');
+    if (tutLangInstr) {
+      tutLangInstr.innerHTML = this.currentLang === 'ko'
+        ? '지금 키보드의 <strong>[L]</strong> 키를 누르거나 아래 버튼을 클릭하여 언어를 변경해보세요!'
+        : 'Press the <strong>[L]</strong> key on your keyboard or click the button below to toggle language right now!';
+    }
+    const tutLangBtnLabel = document.getElementById('tut-lang-btn-label');
+    if (tutLangBtnLabel) tutLangBtnLabel.textContent = this.t('tutLangTestBtn');
+    const tutTipBox = document.getElementById('tut-tip-box');
+    if (tutTipBox) {
+      tutTipBox.innerHTML = `<span>${this.t('tutTipText')}</span>`;
+    }
+
+    const tutS3Title = document.getElementById('tut-slide3-title');
+    if (tutS3Title) tutS3Title.textContent = this.t('tutSlide3Title');
+    const tutS3Desc = document.getElementById('tut-slide3-desc');
+    if (tutS3Desc) tutS3Desc.textContent = this.t('tutSlide3Desc');
+    const tutB4Title = document.getElementById('tut-b4-title');
+    if (tutB4Title) tutB4Title.textContent = this.t('tutBox4Title');
+    const tutB4Sub = document.getElementById('tut-b4-sub');
+    if (tutB4Sub) tutB4Sub.textContent = this.t('tutBox4Sub');
+    const tutB5Title = document.getElementById('tut-b5-title');
+    if (tutB5Title) tutB5Title.textContent = this.t('tutBox5Title');
+    const tutB5Sub = document.getElementById('tut-b5-sub');
+    if (tutB5Sub) tutB5Sub.textContent = this.t('tutBox5Sub');
   }
 
   populateThemeSelectors() {
@@ -588,13 +729,134 @@ class DesignShowcaseApp {
       if (btn) btn.addEventListener('click', () => this.stepTheme(1));
     });
 
+    // Onboarding Tutorial Trigger Button
+    if (this.btnTutorialTrigger) {
+      this.btnTutorialTrigger.addEventListener('click', () => {
+        this.openTutorial();
+      });
+    }
+
+    // Tutorial Close & Skip Buttons
+    if (this.btnTutorialClose) {
+      this.btnTutorialClose.addEventListener('click', () => {
+        this.closeTutorial();
+      });
+    }
+    if (this.btnTutorialSkip) {
+      this.btnTutorialSkip.addEventListener('click', () => {
+        this.closeTutorial();
+      });
+    }
+
+    // Tutorial Prev & Next Navigation
+    if (this.btnTutPrev) {
+      this.btnTutPrev.addEventListener('click', () => {
+        this.goToTutSlide(this.currentTutSlide - 1);
+      });
+    }
+    if (this.btnTutNext) {
+      this.btnTutNext.addEventListener('click', () => {
+        if (this.currentTutSlide >= this.totalTutSlides - 1) {
+          this.closeTutorial();
+        } else {
+          this.goToTutSlide(this.currentTutSlide + 1);
+        }
+      });
+    }
+
+    // Tutorial Step Indicator Dots
+    this.tutDots.forEach((dot) => {
+      dot.addEventListener('click', () => {
+        const idx = parseInt(dot.dataset.index, 10);
+        if (!isNaN(idx)) {
+          this.goToTutSlide(idx);
+        }
+      });
+    });
+
+    // Tutorial Slide 2 Interactive Language Test Button
+    if (this.tutBtnLangTest) {
+      this.tutBtnLangTest.addEventListener('click', () => {
+        const nextLang = this.currentLang === 'ko' ? 'en' : 'ko';
+        this.applyLanguage(nextLang);
+        this.showToast(nextLang === 'ko' ? '한국어로 전환되었습니다! (단축키: L)' : 'Switched to English! (Key: L)', 1200);
+      });
+    }
+
+    // Tutorial Overlay Backdrop Click
+    if (this.tutorialOverlay) {
+      this.tutorialOverlay.addEventListener('click', (e) => {
+        if (e.target === this.tutorialOverlay) {
+          this.closeTutorial();
+        }
+      });
+    }
+
+    // Mobile Touch Swipe Handling on Tutorial Carousel
+    if (this.tutCarouselViewport) {
+      let touchStartX = 0;
+      this.tutCarouselViewport.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+
+      this.tutCarouselViewport.addEventListener('touchend', (e) => {
+        const touchEndX = e.changedTouches[0].screenX;
+        const diffX = touchEndX - touchStartX;
+        if (diffX < -45) {
+          if (this.currentTutSlide >= this.totalTutSlides - 1) {
+            this.closeTutorial();
+          } else {
+            this.goToTutSlide(this.currentTutSlide + 1);
+          }
+        } else if (diffX > 45) {
+          this.goToTutSlide(this.currentTutSlide - 1);
+        }
+      }, { passive: true });
+    }
+
     // Keyboard Shortcuts
     window.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') {
         return;
       }
 
-      // Left & Right Arrow Theme Stepping
+      // Tutorial Overlay Active Keyboard Navigation
+      if (this.tutorialOverlay && this.tutorialOverlay.classList.contains('open')) {
+        if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          this.goToTutSlide(this.currentTutSlide - 1);
+          return;
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          if (this.currentTutSlide >= this.totalTutSlides - 1) {
+            this.closeTutorial();
+          } else {
+            this.goToTutSlide(this.currentTutSlide + 1);
+          }
+          return;
+        } else if (e.key === 'Escape') {
+          e.preventDefault();
+          this.closeTutorial();
+          return;
+        } else if (e.key === 'Enter') {
+          e.preventDefault();
+          if (this.currentTutSlide >= this.totalTutSlides - 1) {
+            this.closeTutorial();
+          } else {
+            this.goToTutSlide(this.currentTutSlide + 1);
+          }
+          return;
+        }
+      }
+
+      // Help/Tutorial Re-open Shortcut: '?'
+      if (e.key === '?' || (e.shiftKey && e.key === '/')) {
+        e.preventDefault();
+        this.openTutorial();
+        return;
+      }
+
+      // Left & Right Arrow Theme Stepping (when tutorial is closed)
       if (e.key === 'ArrowLeft') {
         e.preventDefault();
         this.stepTheme(-1);
@@ -633,6 +895,7 @@ class DesignShowcaseApp {
           this.openThemeInspectorModal(this.currentThemeId);
         }
       } else if (e.key === 'Escape') {
+        this.closeTutorial();
         this.closeInspectorModal();
         this.closeComponentsModal();
       }
@@ -1221,6 +1484,56 @@ ${theme.prompt}
     if (this.modal) {
       this.modal.classList.remove('open');
       this.modal.setAttribute('aria-hidden', 'true');
+    }
+  }
+
+  openTutorial() {
+    if (!this.tutorialOverlay) return;
+    this.tutorialOverlay.classList.add('open');
+    this.tutorialOverlay.setAttribute('aria-hidden', 'false');
+    this.goToTutSlide(0);
+  }
+
+  closeTutorial() {
+    if (!this.tutorialOverlay) return;
+    this.tutorialOverlay.classList.remove('open');
+    this.tutorialOverlay.setAttribute('aria-hidden', 'true');
+    try {
+      localStorage.setItem('design_guide_tutorial_viewed', 'true');
+    } catch (e) {}
+  }
+
+  goToTutSlide(index) {
+    if (index < 0) index = 0;
+    if (index >= this.totalTutSlides) index = this.totalTutSlides - 1;
+    this.currentTutSlide = index;
+
+    if (this.tutCarouselTrack) {
+      this.tutCarouselTrack.style.transform = `translateX(-${index * (100 / this.totalTutSlides)}%)`;
+    }
+
+    if (this.tutStepCounter) {
+      this.tutStepCounter.textContent = `${index + 1} / ${this.totalTutSlides}`;
+    }
+
+    if (this.tutDots) {
+      this.tutDots.forEach((dot, idx) => {
+        dot.classList.toggle('active', idx === index);
+      });
+    }
+
+    if (this.btnTutPrev) {
+      this.btnTutPrev.disabled = index === 0;
+    }
+
+    if (this.btnTutNext && this.tutNextText) {
+      if (index === this.totalTutSlides - 1) {
+        this.btnTutNext.classList.add('btn-start-exploring');
+        this.tutNextText.textContent = this.t('tutorialStart');
+      } else {
+        this.btnTutNext.classList.remove('btn-start-exploring');
+        this.tutNextText.textContent = this.t('tutorialNext');
+      }
     }
   }
 

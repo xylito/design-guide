@@ -9543,7 +9543,8 @@ body[data-theme="swiss"] .floating-side-nav {
 /* --------------------------------------------------------------------------
    ARCHETYPE SPECIFIC .btn-lang-toggle STYLES
    -------------------------------------------------------------------------- */
-:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-lang-toggle {
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-lang-toggle,
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-tutorial-trigger {
   border: 2px outset #FFFFFF !important;
   background: #C0C0C0 !important;
   color: #000000 !important;
@@ -9552,11 +9553,13 @@ body[data-theme="swiss"] .floating-side-nav {
   font-weight: 700 !important;
   box-shadow: 2px 2px 0 #000000 !important;
 }
-:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-lang-toggle:active {
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-lang-toggle:active,
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .btn-tutorial-trigger:active {
   border: 2px inset #FFFFFF !important;
 }
 
-:is(body[data-theme="neobrutalism"], body[data-theme="daisyui_brutal"], body[data-theme="rawbrutalist"]) .btn-lang-toggle {
+:is(body[data-theme="neobrutalism"], body[data-theme="daisyui_brutal"], body[data-theme="rawbrutalist"]) .btn-lang-toggle,
+:is(body[data-theme="neobrutalism"], body[data-theme="daisyui_brutal"], body[data-theme="rawbrutalist"]) .btn-tutorial-trigger {
   border: 2.5px solid #000000 !important;
   background: #FFFFFF !important;
   color: #000000 !important;
@@ -9565,7 +9568,8 @@ body[data-theme="swiss"] .floating-side-nav {
   font-weight: 800 !important;
 }
 
-:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .btn-lang-toggle {
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .btn-lang-toggle,
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .btn-tutorial-trigger {
   border: 3px solid #000000 !important;
   background: #FFFFFF !important;
   color: #000000 !important;
@@ -9574,7 +9578,8 @@ body[data-theme="swiss"] .floating-side-nav {
   font-family: 'Space Mono', monospace !important;
 }
 
-:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .btn-lang-toggle {
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .btn-lang-toggle,
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .btn-tutorial-trigger {
   border: none !important;
   background: #FFFFFF !important;
   color: #191F28 !important;
@@ -9583,7 +9588,8 @@ body[data-theme="swiss"] .floating-side-nav {
   font-weight: 700 !important;
 }
 
-:is(body[data-theme="teenage"]) .btn-lang-toggle {
+:is(body[data-theme="teenage"]) .btn-lang-toggle,
+:is(body[data-theme="teenage"]) .btn-tutorial-trigger {
   border: 2px solid #2B2B2B !important;
   background: #E5E5E5 !important;
   color: #FF4500 !important;
@@ -9592,21 +9598,24 @@ body[data-theme="swiss"] .floating-side-nav {
   font-weight: 700 !important;
 }
 
-:is(body[data-theme="nothing"]) .btn-lang-toggle {
+:is(body[data-theme="nothing"]) .btn-lang-toggle,
+:is(body[data-theme="nothing"]) .btn-tutorial-trigger {
   border: 1px dashed rgba(255, 255, 255, 0.4) !important;
   background: #000000 !important;
   color: #FFFFFF !important;
   border-radius: 0 !important;
 }
 
-:is(body[data-theme="blueprint"]) .btn-lang-toggle {
+:is(body[data-theme="blueprint"]) .btn-lang-toggle,
+:is(body[data-theme="blueprint"]) .btn-tutorial-trigger {
   border: 1px solid #00E5FF !important;
   background: #002B49 !important;
   color: #00E5FF !important;
   border-radius: 0 !important;
 }
 
-:is(body[data-theme="tui"]) .btn-lang-toggle {
+:is(body[data-theme="tui"]) .btn-lang-toggle,
+:is(body[data-theme="tui"]) .btn-tutorial-trigger {
   border: 1px solid #05FFA1 !important;
   background: #000000 !important;
   color: #05FFA1 !important;

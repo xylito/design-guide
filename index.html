@@ -42,10 +42,14 @@
   <!-- Main Application Wrapper -->
   <div class="app-root" id="app-root">
 
-    <!-- Floating Top Language Switcher (KO / EN) -->
-    <aside class="floating-lang-control" id="floating-lang-control" aria-label="언어 전환">
+    <!-- Floating Top Language Switcher (KO / EN) & Tutorial Guide Button -->
+    <aside class="floating-lang-control" id="floating-lang-control" aria-label="언어 전환 및 가이드">
+      <button type="button" class="btn-tutorial-trigger" id="btn-tutorial-trigger" title="가이드 튜토리얼 (단축키: ?)">
+        <span class="tutorial-icon">💡</span>
+        <span class="tutorial-btn-label" id="tutorial-btn-text">가이드</span>
+      </button>
       <button type="button" class="btn-lang-toggle" id="btn-lang-toggle" title="영문으로 변경 (단축키: L) / Switch Language (Key: L)">
-        <span class="lang-globe"></span>
+        <span class="lang-globe">🌐</span>
         <span class="lang-indicator" id="lang-indicator-text">EN</span>
       </button>
     </aside>
@@ -504,6 +508,130 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- INTERACTIVE ONBOARDING TUTORIAL OVERLAY -->
+  <div class="tutorial-overlay" id="tutorial-overlay" aria-hidden="true">
+    <div class="tutorial-modal-card" role="dialog" aria-modal="true" aria-labelledby="tut-slide1-title">
+      
+      <!-- Top Bar with Step Dots and Close -->
+      <div class="tutorial-top-bar">
+        <div class="tutorial-badge-cluster">
+          <span class="tutorial-pill" id="tut-pill-text">ONBOARDING GUIDE</span>
+          <span class="tutorial-step-counter" id="tutorial-step-counter">1 / 3</span>
+        </div>
+        <div class="tutorial-top-actions">
+          <button type="button" class="btn-tutorial-skip" id="btn-tutorial-skip">건너뛰기 [ESC]</button>
+          <button type="button" class="btn-tutorial-close" id="btn-tutorial-close" aria-label="닫기">✕</button>
+        </div>
+      </div>
+
+      <!-- Carousel Viewport -->
+      <div class="tutorial-carousel-viewport" id="tut-carousel-viewport">
+        <div class="tutorial-carousel-track" id="tutorial-carousel-track">
+          
+          <!-- Slide 1: 62 Design Systems & Live Switching -->
+          <div class="tutorial-slide" data-slide-index="0">
+            <div class="tutorial-slide-icon">🎨</div>
+            <h2 class="tutorial-slide-title" id="tut-slide1-title">62대 프론티어 디자인 시스템 탐색</h2>
+            <p class="tutorial-slide-desc" id="tut-slide1-desc">
+              Linear, Toss, Apple iOS HIG, Neobrutalism, 8-Bit NES 등 62개 최신 프론트엔드 & 모바일 디자인 언어가 완벽하게 준비되어 있습니다.
+            </p>
+            <div class="tutorial-feature-boxes">
+              <div class="tut-box">
+                <span class="tut-box-icon">👆</span>
+                <div class="tut-box-text">
+                  <strong id="tut-b1-title">카드 클릭 즉시 적용</strong>
+                  <span id="tut-b1-sub">그리드의 카드를 누르면 전체 화면에 해당 스타일이 즉각 주입됩니다.</span>
+                </div>
+              </div>
+              <div class="tut-box">
+                <span class="tut-box-icon">⌨️</span>
+                <div class="tut-box-text">
+                  <strong id="tut-b2-title">좌우 방향키 [←] [→]</strong>
+                  <span id="tut-b2-sub">키보드 방향키 또는 하단 독(Dock)으로 62개 테마를 자유롭게 순회하세요.</span>
+                </div>
+              </div>
+              <div class="tut-box">
+                <span class="tut-box-icon">⚡</span>
+                <div class="tut-box-text">
+                  <strong id="tut-b3-title">단축키 [1~7] 퀵 체인지</strong>
+                  <span id="tut-b3-sub">Linear(1), Toss(2), iOS(3), Spotify(4), Duolingo(5), Dracula(6), Win98(7)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2: Language Switching with L Key -->
+          <div class="tutorial-slide" data-slide-index="1">
+            <div class="tutorial-slide-icon">🌐</div>
+            <h2 class="tutorial-slide-title" id="tut-slide2-title">실시간 한/영 언어 전환 (L 단축키)</h2>
+            <p class="tutorial-slide-desc" id="tut-slide2-desc">
+              디자인 토큰, 안티패턴, 아키텍처 철학부터 버튼 인터랙션까지 모든 콘텐츠가 한국어와 영어로 실시간 매핑됩니다.
+            </p>
+            <div class="tutorial-interactive-area">
+              <div class="tut-lang-demo-card">
+                <div class="tut-lang-key-badge">단축키: L</div>
+                <p class="tut-lang-instruction" id="tut-lang-instruction">
+                  지금 키보드의 <strong>[L]</strong> 키를 누르거나 아래 버튼을 클릭하여 언어를 변경해보세요!
+                </p>
+                <button type="button" class="tut-btn-lang-test" id="tut-btn-lang-test">
+                  <span class="tut-globe">🌍</span>
+                  <span id="tut-lang-btn-label">언어 전환 테스트 (현재: 한국어)</span>
+                </button>
+              </div>
+            </div>
+            <div class="tut-tip-box" id="tut-tip-box">
+              <span>💡 언제 어디서나 <strong>L</strong> 키를 누르면 페이지 전체 언어가 즉시 변경됩니다.</span>
+            </div>
+          </div>
+
+          <!-- Slide 3: DESIGN.md & Component Kit -->
+          <div class="tutorial-slide" data-slide-index="2">
+            <div class="tutorial-slide-icon">🤖</div>
+            <h2 class="tutorial-slide-title" id="tut-slide3-title">AI 에이전트 주입용 DESIGN.md & 컴포넌트</h2>
+            <p class="tutorial-slide-desc" id="tut-slide3-desc">
+              Cursor, Claude Code, Gemini 등의 AI 코딩 어시스턴트에 프롬프트로 바로 주입할 수 있는 표준 디자인 가이드라인을 제공합니다.
+            </p>
+            <div class="tutorial-feature-boxes">
+              <div class="tut-box">
+                <span class="tut-box-icon">📥</span>
+                <div class="tut-box-text">
+                  <strong id="tut-b4-title">DESIGN.md 원클릭 다운로드</strong>
+                  <span id="tut-b4-sub">히어로 섹션의 '.md 다운로드' 버튼으로 프로젝트 루트에 바로 넣을 수 있는 문서를 다운로드하세요.</span>
+                </div>
+              </div>
+              <div class="tut-box">
+                <span class="tut-box-icon">🎛️</span>
+                <div class="tut-box-text">
+                  <strong id="tut-b5-title">실제 스타일 컴포넌트 키트</strong>
+                  <span id="tut-b5-sub">'스타일 컴포넌트' 버튼을 눌러 버튼, 폼 인풋, 토글 노브의 실제 디자인을 직접 조작해보세요.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bottom Controls: Prev, Step Dots, Next/Start -->
+      <div class="tutorial-footer">
+        <button type="button" class="btn-tut-nav btn-tut-prev" id="btn-tut-prev" title="이전 (단축키: ←)">
+          <span id="tut-prev-text">◀ 이전</span>
+        </button>
+
+        <div class="tutorial-dots" id="tutorial-dots">
+          <button type="button" class="tut-dot active" data-index="0" aria-label="1단계"></button>
+          <button type="button" class="tut-dot" data-index="1" aria-label="2단계"></button>
+          <button type="button" class="tut-dot" data-index="2" aria-label="3단계"></button>
+        </div>
+
+        <button type="button" class="btn-tut-nav btn-tut-next" id="btn-tut-next" title="다음 (단축키: →)">
+          <span id="tut-next-text">다음 ▶</span>
+        </button>
+      </div>
+
     </div>
   </div>
 
