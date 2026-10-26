@@ -10632,3 +10632,114 @@ body[data-theme="luxury"] .btn-secondary:hover {
   background: rgba(230, 175, 46, 0.15);
   box-shadow: 0 0 14px rgba(230, 175, 46, 0.3);
 }
+
+/* ==========================================================================
+   COMPREHENSIVE COMPONENT SHOWCASE & FORM CONTROLS THEME HARMONIZATION
+   Guarantees that Form Controls (.text-input, .ecosystem-search-bar input),
+   Toggles (.toggle-slider), and Cards (.metric-card) strictly adhere to
+   the archetypal radius, borders, fonts, and shadows of all themes.
+   ========================================================================== */
+
+/* 1. Retro Windows 98 Inset Bevel Inputs */
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"], .modal-dialog[data-theme="win98"], .modal-dialog[data-theme="win98_mobile"]) .text-input,
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"], .modal-dialog[data-theme="win98"], .modal-dialog[data-theme="win98_mobile"]) .ecosystem-search-bar input {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border-top: 2px solid #808080 !important;
+  border-left: 2px solid #808080 !important;
+  border-right: 2px solid #FFFFFF !important;
+  border-bottom: 2px solid #FFFFFF !important;
+  border-radius: 0px !important;
+  box-shadow: inset 1px 1px #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'MS Sans Serif', Tahoma, monospace !important;
+}
+
+/* 2. NES 8-Bit Pixel Inputs */
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"], .modal-dialog[data-theme="nes"], .modal-dialog[data-theme="nes_arcade"]) .text-input,
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"], .modal-dialog[data-theme="nes"], .modal-dialog[data-theme="nes_arcade"]) .ecosystem-search-bar input {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 3px 3px 0 #000000 !important;
+  font-family: 'Press Start 2P', 'Galmuri11', 'Space Mono', monospace !important;
+}
+
+/* 3. Neobrutalism & Brutalist Inputs */
+:is(body[data-theme="neobrutalism"], body[data-theme="daisyui_brutal"], body[data-theme="rawbrutalist"], .modal-dialog[data-theme="neobrutalism"], .modal-dialog[data-theme="daisyui_brutal"]) .text-input,
+:is(body[data-theme="neobrutalism"], body[data-theme="daisyui_brutal"], body[data-theme="rawbrutalist"], .modal-dialog[data-theme="neobrutalism"], .modal-dialog[data-theme="daisyui_brutal"]) .ecosystem-search-bar input {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: var(--theme-radius, 0px) !important;
+  box-shadow: 4px 4px 0 #000000 !important;
+}
+
+/* 4. Soft Neumorphism Inset Dual Shadow Inputs */
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"], .modal-dialog[data-theme="neumorphism"], .modal-dialog[data-theme="neumorphism_touch"]) .text-input,
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"], .modal-dialog[data-theme="neumorphism"], .modal-dialog[data-theme="neumorphism_touch"]) .ecosystem-search-bar input {
+  background: #E0E5EC !important;
+  color: #2D3748 !important;
+  border: none !important;
+  border-radius: 14px !important;
+  box-shadow: inset 3px 3px 6px #a3b1c6, inset -3px -3px 6px #ffffff !important;
+}
+
+/* 5. Terminal & Monospace Sharp Theme Inputs */
+:is(body[data-theme="tui"], body[data-theme="blueprint"], body[data-theme="carbon"], body[data-theme="tufte"]) .text-input,
+:is(body[data-theme="tui"], body[data-theme="blueprint"], body[data-theme="carbon"], body[data-theme="tufte"]) .ecosystem-search-bar input {
+  border-radius: 0px !important;
+}
+
+/* 6. Clean Light SaaS Inputs (Notion, Toss, Stripe) */
+:is(body[data-theme="notion"], body[data-theme="notion_mobile"]) .text-input,
+:is(body[data-theme="notion"], body[data-theme="notion_mobile"]) .ecosystem-search-bar input {
+  background: #FFFFFF !important;
+  color: #37352F !important;
+  border: 1px solid #E9E9E7 !important;
+  border-radius: 4px !important;
+}
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .text-input,
+:is(body[data-theme="toss"], body[data-theme="toss_mobile"]) .ecosystem-search-bar input {
+  background: #FFFFFF !important;
+  color: #191F28 !important;
+  border: 1px solid #E5E8EB !important;
+  border-radius: 12px !important;
+}
+:is(body[data-theme="stripe"], body[data-theme="stripe_mobile"]) .text-input,
+:is(body[data-theme="stripe"], body[data-theme="stripe_mobile"]) .ecosystem-search-bar input {
+  background: #FFFFFF !important;
+  color: #0A2540 !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 8px !important;
+}
+
+/* 7. Metric Cards Adaptive Theming */
+:is(body[data-theme="win98"], body[data-theme="win98_mobile"]) .metric-card {
+  background: #C0C0C0 !important;
+  color: #000000 !important;
+  border-top: 2px solid #FFFFFF !important;
+  border-left: 2px solid #FFFFFF !important;
+  border-right: 2px solid #808080 !important;
+  border-bottom: 2px solid #808080 !important;
+  border-radius: 0px !important;
+}
+:is(body[data-theme="nes"], body[data-theme="nes_arcade"]) .metric-card {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  border-radius: 0px !important;
+  box-shadow: 4px 4px 0 #000000 !important;
+}
+:is(body[data-theme="neobrutalism"], body[data-theme="daisyui_brutal"]) .metric-card {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  box-shadow: 4px 4px 0 #000000 !important;
+}
+:is(body[data-theme="neumorphism"], body[data-theme="neumorphism_touch"]) .metric-card {
+  background: #E0E5EC !important;
+  color: #2D3748 !important;
+  border: none !important;
+  box-shadow: 4px 4px 10px #a3b1c6, -4px -4px 10px #ffffff !important;
+}

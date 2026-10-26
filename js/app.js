@@ -1,6 +1,19 @@
 import { DESIGN_LANGUAGES, THEME_CATEGORIES, ALL_30_REPOSITORIES, ORDERED_THEME_IDS } from './data.js';
-import { DESIGN_MD_MAP } from './design-md-map.js';
 import { THEME_KO } from './theme-ko.js';
+
+let cachedDesignMdMap = null;
+async function getDesignMdSpec(themeId) {
+  if (!cachedDesignMdMap) {
+    try {
+      const mod = await import('./design-md-map.js');
+      cachedDesignMdMap = mod.DESIGN_MD_MAP;
+    } catch (e) {
+      console.warn('Failed to dynamically load design-md-map:', e);
+      return '';
+    }
+  }
+  return cachedDesignMdMap ? (cachedDesignMdMap[themeId] || '') : '';
+}
 
 export const I18N = {
   ko: {
@@ -707,7 +720,15 @@ class DesignShowcaseApp {
       this.btnCopyPrompt.addEventListener('click', () => {
         if (this.modalPromptContent) {
           const textToCopy = this.modalPromptContent.textContent;
-          this.copyToClipboard(textToCopy, '프롬프트 및 설정 규칙이 클립보드에 복사되었습니다!');
+          const isKo = this.currentLang === 'ko';
+          this.copyToClipboard(textToCopy, isKo ? '프롬프트 및 설정 규칙이 클립보드에 복사되었습니다!' : 'Prompt & rules copied to clipboard!');
+          const originalHtml = this.btnCopyPrompt.innerHTML;
+          this.btnCopyPrompt.innerHTML = isKo ? '✓ 복사 완료!' : '✓ Copied!';
+          this.btnCopyPrompt.style.borderColor = 'var(--accent-primary, #3B82F6)';
+          setTimeout(() => {
+            this.btnCopyPrompt.innerHTML = originalHtml;
+            this.btnCopyPrompt.style.borderColor = '';
+          }, 1800);
         }
       });
     }
@@ -817,6 +838,47 @@ class DesignShowcaseApp {
     // Keyboard Shortcuts
     window.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') {
+        if (e.key === 'Escape') {
+          e.target.blur();
+          this.closeTutorial();
+          this.closeInspectorModal();
+          this.closeComponentsModal();
+        }
+        return;
+      }
+
+      // Search focus shortcut: '/' or '⌘K' / 'Ctrl+K'
+      if (e.key === '/' || ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K'))) {
+        e.preventDefault();
+        const searchInput = this.repoSearchInput || document.getElementById('repo-search-input');
+        if (searchInput) {
+          const section = document.getElementById('ecosystem');
+          if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          searchInput.focus();
+          searchInput.select();
+        }
+        return;
+      }
+
+      // Components Modal shortcut: 'M' or 'm' or 'ㅡ'
+      if (e.key === 'm' || e.key === 'M' || e.key === 'ㅡ') {
+        e.preventDefault();
+        if (this.componentsModal && this.componentsModal.classList.contains('open')) {
+          this.closeComponentsModal();
+        } else {
+          this.openComponentsModal();
+        }
+        return;
+      }
+
+      // Guidelines Inspector Modal shortcut: 'G' or 'g' or 'ㅎ'
+      if (e.key === 'g' || e.key === 'G' || e.key === 'ㅎ') {
+        e.preventDefault();
+        if (this.modal && this.modal.classList.contains('open')) {
+          this.closeInspectorModal();
+        } else {
+          this.openThemeInspectorModal(this.currentThemeId);
+        }
         return;
       }
 
@@ -1303,7 +1365,7 @@ class DesignShowcaseApp {
     });
   }
 
-  openThemeInspectorModal(themeId) {
+  async openThemeInspectorModal(themeId) {
     const theme = DESIGN_LANGUAGES[themeId];
     if (!theme) return;
 
@@ -1339,9 +1401,8 @@ class DesignShowcaseApp {
       `;
     }
 
-    const fullSpec = DESIGN_MD_MAP[themeId] || theme.prompt;
     if (this.modalPromptContent) {
-      this.modalPromptContent.textContent = fullSpec;
+      this.modalPromptContent.textContent = theme.prompt || 'Loading DESIGN.md specification...';
     }
 
     this.modal.dataset.theme = themeId;
@@ -1350,9 +1411,14 @@ class DesignShowcaseApp {
 
     this.modal.classList.add('open');
     this.modal.setAttribute('aria-hidden', 'false');
+
+    const fullSpec = (await getDesignMdSpec(themeId)) || theme.prompt;
+    if (this.modalPromptContent) {
+      this.modalPromptContent.textContent = fullSpec;
+    }
   }
 
-  openRepoInspectorModal(repo) {
+  async openRepoInspectorModal(repo) {
     if (!repo) return;
 
     this.modal.dataset.theme = repo.themeId;
@@ -1361,7 +1427,6 @@ class DesignShowcaseApp {
 
     const theme = DESIGN_LANGUAGES[repo.themeId];
     const installCmd = repo.installCmd || `npm install ${repo.repo.split('/')[1] || repo.themeId}`;
-    const fullSpec = DESIGN_MD_MAP[repo.themeId] || (theme ? theme.prompt : repo.desc);
     const isKo = this.currentLang === 'ko';
 
     if (this.modalTitle) this.modalTitle.textContent = `#${repo.rank} ${repo.name} (${repo.starsFormatted} ⭐)`;
@@ -1389,19 +1454,24 @@ class DesignShowcaseApp {
     }
 
     if (this.modalPromptContent) {
-      this.modalPromptContent.textContent = fullSpec;
+      this.modalPromptContent.textContent = theme ? theme.prompt : repo.desc;
     }
 
     this.modal.classList.add('open');
     this.modal.setAttribute('aria-hidden', 'false');
+
+    const fullSpec = (await getDesignMdSpec(repo.themeId)) || (theme ? theme.prompt : repo.desc);
+    if (this.modalPromptContent) {
+      this.modalPromptContent.textContent = fullSpec;
+    }
   }
 
   
-  downloadThemeDesignMd(themeId = this.currentThemeId) {
+  async downloadThemeDesignMd(themeId = this.currentThemeId) {
     const theme = DESIGN_LANGUAGES[themeId];
     if (!theme) return;
 
-    let content = DESIGN_MD_MAP[themeId];
+    let content = await getDesignMdSpec(themeId);
     if (!content) {
       content = `# DESIGN.md - ${theme.name} (${theme.badge})
 > ${theme.tagline}

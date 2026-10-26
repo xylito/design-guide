@@ -1110,7 +1110,7 @@ body[data-theme="cyberpunk"] .scanline-overlay {
    -------------------------------------------------------------------------- */
 .floating-dock-container {
   position: fixed;
-  bottom: 1.5rem;
+  bottom: max(1.5rem, calc(env(safe-area-inset-bottom) + 0.75rem));
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
@@ -1677,6 +1677,21 @@ body[data-theme="cyberpunk"] .scanline-overlay {
   font-family: var(--font-mono, monospace);
   border: 1px solid var(--border-hairline, transparent);
   box-shadow: var(--theme-shadow, none);
+}
+
+.search-shortcut-badge {
+  position: absolute;
+  right: 5.85rem;
+  font-size: 0.725rem;
+  font-weight: 700;
+  padding: 0.18rem 0.45rem;
+  border-radius: var(--theme-radius, 4px);
+  background: var(--surface-card, rgba(255, 255, 255, 0.08));
+  color: var(--text-secondary, #A1A1AA);
+  border: 1px solid var(--border-hairline, rgba(255, 255, 255, 0.15));
+  font-family: var(--font-mono, monospace);
+  pointer-events: none;
+  line-height: 1;
 }
 
 .category-filters-row {
@@ -2324,11 +2339,25 @@ body[data-theme="spatial"] .btn-repo-github {
     grid-template-columns: 1fr;
   }
   .floating-dock-container {
-    bottom: 0.85rem;
+    bottom: max(0.85rem, calc(env(safe-area-inset-bottom) + 0.5rem));
   }
   .dock-wrapper {
     gap: 0.2rem;
     padding: 0.4rem 0.5rem;
+  }
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 0.75rem;
+  }
+  .hero-cta-group .btn-primary,
+  .hero-cta-group .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
   }
 }
 
