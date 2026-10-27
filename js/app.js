@@ -65,7 +65,7 @@ export const I18N = {
       dark_dev: '⚡ 3. Dark & Developer (개발자·터미널)',
       hardware: '🎛️ 4. Hardware & Industrial (로봇·계기판)',
       expressive: '🎨 5. Expressive & Retro (질감·서브컬처)',
-      hallmark: '🏛️ 6. Hallmark Materials (48종)'
+      hallmark: '🏛️ 6. Hallmark (49종)'
     },
     dockTitle: 'STYLE PICKER',
     dockKey: '1-7키',
@@ -163,7 +163,7 @@ export const I18N = {
       dark_dev: '⚡ 3. Dark & Developer',
       hardware: '🎛️ 4. Hardware & Industrial',
       expressive: '🎨 5. Expressive & Retro',
-      hallmark: '🏛️ 6. Hallmark Materials (48 Themes)'
+      hallmark: '🏛️ 6. Hallmark (49 Themes)'
     },
     dockTitle: 'STYLE PICKER',
     dockKey: 'Keys 1-7',
