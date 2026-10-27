@@ -1,0 +1,913 @@
+/* 자동 생성: scripts/gen-hallmark-css.mjs — Hallmark 머티리얼 48종 사이트 테마 */
+
+body[data-theme="hallmark_almanac"] {
+  background-color: oklch(84% 0.012 245); color: oklch(16% 0.020 245);
+  --theme-id: "hallmark_almanac"; --theme-name: "Hallmark Almanac";
+  --bg-base: oklch(84% 0.012 245); --surface-card: oklch(81% 0.012 245); --surface-elevated: oklch(77% 0.012 245);
+  --border-hairline: oklch(73% 0.013 240); --accent-primary: oklch(45% 0.180 350); --accent-ink: oklch(97% 0.006 245);
+  --text-primary: oklch(16% 0.020 245); --text-secondary: oklch(24% 0.018 245); --text-muted: oklch(38% 0.016 245);
+  --font-heading: 'Hanken Grotesk', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_almanac"] .site-header { background: oklch(84% 0.012 245); border-bottom: 1px solid oklch(73% 0.013 240); color: oklch(16% 0.020 245); }
+body[data-theme="hallmark_almanac"] h1, body[data-theme="hallmark_almanac"] h2, body[data-theme="hallmark_almanac"] h3 { font-family: var(--font-heading); color: oklch(16% 0.020 245); }
+body[data-theme="hallmark_almanac"] .btn-primary { background: oklch(45% 0.180 350); color: oklch(97% 0.006 245); border: 1px solid oklch(45% 0.180 350); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_almanac"] .btn-secondary { background: oklch(81% 0.012 245); color: oklch(16% 0.020 245); border: 1px solid oklch(73% 0.013 240); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_almanac"] .feature-card, body[data-theme="hallmark_almanac"] .card, body[data-theme="hallmark_almanac"] .component-card, body[data-theme="hallmark_almanac"] .repo-card, body[data-theme="hallmark_almanac"] .hero-showcase-panel, body[data-theme="hallmark_almanac"] .sandbox-card, body[data-theme="hallmark_almanac"] .manifesto-card { background: oklch(81% 0.012 245); color: oklch(16% 0.020 245); border: 1px solid oklch(73% 0.013 240); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_almanac"] a { color: oklch(45% 0.180 350); }
+body[data-theme="hallmark_almanac"] :focus-visible { outline: 2px solid oklch(46% 0.190 350); outline-offset: 2px; }
+body[data-theme="hallmark_almanac"] input, body[data-theme="hallmark_almanac"] select, body[data-theme="hallmark_almanac"] textarea { background: oklch(84% 0.012 245); color: oklch(16% 0.020 245); border: 1px solid oklch(73% 0.013 240); border-radius: 0px; }
+
+body[data-theme="hallmark_arcade"] {
+  background-color: oklch(14% 0.04 312); color: oklch(95% 0.014 315);
+  --theme-id: "hallmark_arcade"; --theme-name: "Hallmark Arcade";
+  --bg-base: oklch(14% 0.04 312); --surface-card: oklch(18.5% 0.042 312); --surface-elevated: oklch(23% 0.045 312);
+  --border-hairline: oklch(34% 0.05 312); --accent-primary: oklch(66% 0.215 40); --accent-ink: oklch(14% 0.04 312);
+  --text-primary: oklch(95% 0.014 315); --text-secondary: oklch(87% 0.018 315); --text-muted: oklch(71% 0.024 315);
+  --font-heading: 'Silkscreen', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_arcade"] .site-header { background: oklch(14% 0.04 312); border-bottom: 1px solid oklch(34% 0.05 312); color: oklch(95% 0.014 315); }
+body[data-theme="hallmark_arcade"] h1, body[data-theme="hallmark_arcade"] h2, body[data-theme="hallmark_arcade"] h3 { font-family: var(--font-heading); color: oklch(95% 0.014 315); }
+body[data-theme="hallmark_arcade"] .btn-primary { background: oklch(66% 0.215 40); color: oklch(14% 0.04 312); border: 1px solid oklch(66% 0.215 40); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_arcade"] .btn-secondary { background: oklch(18.5% 0.042 312); color: oklch(95% 0.014 315); border: 1px solid oklch(34% 0.05 312); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_arcade"] .feature-card, body[data-theme="hallmark_arcade"] .card, body[data-theme="hallmark_arcade"] .component-card, body[data-theme="hallmark_arcade"] .repo-card, body[data-theme="hallmark_arcade"] .hero-showcase-panel, body[data-theme="hallmark_arcade"] .sandbox-card, body[data-theme="hallmark_arcade"] .manifesto-card { background: oklch(18.5% 0.042 312); color: oklch(95% 0.014 315); border: 1px solid oklch(34% 0.05 312); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_arcade"] a { color: oklch(66% 0.215 40); }
+body[data-theme="hallmark_arcade"] :focus-visible { outline: 2px solid oklch(88% 0.195 115); outline-offset: 2px; }
+body[data-theme="hallmark_arcade"] input, body[data-theme="hallmark_arcade"] select, body[data-theme="hallmark_arcade"] textarea { background: oklch(14% 0.04 312); color: oklch(95% 0.014 315); border: 1px solid oklch(34% 0.05 312); border-radius: 18px; }
+
+body[data-theme="hallmark_atelier"] {
+  background-color: oklch(94.5% 0.010 76); color: oklch(19% 0.024 52);
+  --theme-id: "hallmark_atelier"; --theme-name: "Hallmark Atelier";
+  --bg-base: oklch(94.5% 0.010 76); --surface-card: oklch(91.8% 0.013 74); --surface-elevated: oklch(88% 0.015 72);
+  --border-hairline: oklch(81% 0.011 70); --accent-primary: oklch(41% 0.075 248); --accent-ink: oklch(96% 0.008 76);
+  --text-primary: oklch(19% 0.024 52); --text-secondary: oklch(31% 0.018 54); --text-muted: oklch(47% 0.014 60);
+  --font-heading: 'Sentient', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_atelier"] .site-header { background: oklch(94.5% 0.010 76); border-bottom: 1px solid oklch(81% 0.011 70); color: oklch(19% 0.024 52); }
+body[data-theme="hallmark_atelier"] h1, body[data-theme="hallmark_atelier"] h2, body[data-theme="hallmark_atelier"] h3 { font-family: var(--font-heading); color: oklch(19% 0.024 52); }
+body[data-theme="hallmark_atelier"] .btn-primary { background: oklch(41% 0.075 248); color: oklch(96% 0.008 76); border: 1px solid oklch(41% 0.075 248); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_atelier"] .btn-secondary { background: oklch(91.8% 0.013 74); color: oklch(19% 0.024 52); border: 1px solid oklch(81% 0.011 70); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_atelier"] .feature-card, body[data-theme="hallmark_atelier"] .card, body[data-theme="hallmark_atelier"] .component-card, body[data-theme="hallmark_atelier"] .repo-card, body[data-theme="hallmark_atelier"] .hero-showcase-panel, body[data-theme="hallmark_atelier"] .sandbox-card, body[data-theme="hallmark_atelier"] .manifesto-card { background: oklch(91.8% 0.013 74); color: oklch(19% 0.024 52); border: 1px solid oklch(81% 0.011 70); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_atelier"] a { color: oklch(41% 0.075 248); }
+body[data-theme="hallmark_atelier"] :focus-visible { outline: 2px solid oklch(50% 0.095 248); outline-offset: 2px; }
+body[data-theme="hallmark_atelier"] input, body[data-theme="hallmark_atelier"] select, body[data-theme="hallmark_atelier"] textarea { background: oklch(94.5% 0.010 76); color: oklch(19% 0.024 52); border: 1px solid oklch(81% 0.011 70); border-radius: 8px; }
+
+body[data-theme="hallmark_bloom"] {
+  background-color: oklch(97% 0.010 72); color: oklch(21% 0.024 40);
+  --theme-id: "hallmark_bloom"; --theme-name: "Hallmark Bloom";
+  --bg-base: oklch(97% 0.010 72); --surface-card: oklch(94.6% 0.013 70); --surface-elevated: oklch(91.5% 0.016 66);
+  --border-hairline: oklch(88% 0.014 64); --accent-primary: oklch(53% 0.145 36); --accent-ink: oklch(98.5% 0.008 72);
+  --text-primary: oklch(21% 0.024 40); --text-secondary: oklch(31% 0.022 46); --text-muted: oklch(49% 0.02 56);
+  --font-heading: 'Ranade', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_bloom"] .site-header { background: oklch(97% 0.010 72); border-bottom: 1px solid oklch(88% 0.014 64); color: oklch(21% 0.024 40); }
+body[data-theme="hallmark_bloom"] h1, body[data-theme="hallmark_bloom"] h2, body[data-theme="hallmark_bloom"] h3 { font-family: var(--font-heading); color: oklch(21% 0.024 40); }
+body[data-theme="hallmark_bloom"] .btn-primary { background: oklch(53% 0.145 36); color: oklch(98.5% 0.008 72); border: 1px solid oklch(53% 0.145 36); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_bloom"] .btn-secondary { background: oklch(94.6% 0.013 70); color: oklch(21% 0.024 40); border: 1px solid oklch(88% 0.014 64); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_bloom"] .feature-card, body[data-theme="hallmark_bloom"] .card, body[data-theme="hallmark_bloom"] .component-card, body[data-theme="hallmark_bloom"] .repo-card, body[data-theme="hallmark_bloom"] .hero-showcase-panel, body[data-theme="hallmark_bloom"] .sandbox-card, body[data-theme="hallmark_bloom"] .manifesto-card { background: oklch(94.6% 0.013 70); color: oklch(21% 0.024 40); border: 1px solid oklch(88% 0.014 64); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_bloom"] a { color: oklch(53% 0.145 36); }
+body[data-theme="hallmark_bloom"] :focus-visible { outline: 2px solid oklch(53% 0.145 36); outline-offset: 2px; }
+body[data-theme="hallmark_bloom"] input, body[data-theme="hallmark_bloom"] select, body[data-theme="hallmark_bloom"] textarea { background: oklch(97% 0.010 72); color: oklch(21% 0.024 40); border: 1px solid oklch(88% 0.014 64); border-radius: 18px; }
+
+body[data-theme="hallmark_blueprint"] {
+  background-color: oklch(35% 0.105 256); color: oklch(97% 0.012 240);
+  --theme-id: "hallmark_blueprint"; --theme-name: "Hallmark Blueprint";
+  --bg-base: oklch(35% 0.105 256); --surface-card: oklch(31% 0.10 257); --surface-elevated: oklch(26.5% 0.095 258);
+  --border-hairline: oklch(93% 0.02 240 / 0.85); --accent-primary: oklch(97% 0.012 240); --accent-ink: oklch(33% 0.105 256);
+  --text-primary: oklch(97% 0.012 240); --text-secondary: oklch(90% 0.025 242); --text-muted: oklch(80% 0.045 244);
+  --font-heading: 'Chakra Petch', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_blueprint"] .site-header { background: oklch(35% 0.105 256); border-bottom: 1px solid oklch(93% 0.02 240 / 0.85); color: oklch(97% 0.012 240); }
+body[data-theme="hallmark_blueprint"] h1, body[data-theme="hallmark_blueprint"] h2, body[data-theme="hallmark_blueprint"] h3 { font-family: var(--font-heading); color: oklch(97% 0.012 240); }
+body[data-theme="hallmark_blueprint"] .btn-primary { background: oklch(97% 0.012 240); color: oklch(33% 0.105 256); border: 1px solid oklch(97% 0.012 240); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_blueprint"] .btn-secondary { background: oklch(31% 0.10 257); color: oklch(97% 0.012 240); border: 1px solid oklch(93% 0.02 240 / 0.85); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_blueprint"] .feature-card, body[data-theme="hallmark_blueprint"] .card, body[data-theme="hallmark_blueprint"] .component-card, body[data-theme="hallmark_blueprint"] .repo-card, body[data-theme="hallmark_blueprint"] .hero-showcase-panel, body[data-theme="hallmark_blueprint"] .sandbox-card, body[data-theme="hallmark_blueprint"] .manifesto-card { background: oklch(31% 0.10 257); color: oklch(97% 0.012 240); border: 1px solid oklch(93% 0.02 240 / 0.85); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_blueprint"] a { color: oklch(97% 0.012 240); }
+body[data-theme="hallmark_blueprint"] :focus-visible { outline: 2px solid oklch(97% 0.012 240); outline-offset: 2px; }
+body[data-theme="hallmark_blueprint"] input, body[data-theme="hallmark_blueprint"] select, body[data-theme="hallmark_blueprint"] textarea { background: oklch(35% 0.105 256); color: oklch(97% 0.012 240); border: 1px solid oklch(93% 0.02 240 / 0.85); border-radius: 0px; }
+
+body[data-theme="hallmark_broadside"] {
+  background-color: oklch(92% 0.028 88); color: oklch(18% 0.01 50);
+  --theme-id: "hallmark_broadside"; --theme-name: "Hallmark Broadside";
+  --bg-base: oklch(92% 0.028 88); --surface-card: oklch(88.5% 0.032 88); --surface-elevated: oklch(85% 0.036 86);
+  --border-hairline: oklch(75% 0.028 82); --accent-primary: oklch(53% 0.19 33); --accent-ink: oklch(95.5% 0.018 88);
+  --text-primary: oklch(18% 0.01 50); --text-secondary: oklch(30% 0.012 50); --text-muted: oklch(43% 0.02 62);
+  --font-heading: 'Six Caps', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_broadside"] .site-header { background: oklch(92% 0.028 88); border-bottom: 1px solid oklch(75% 0.028 82); color: oklch(18% 0.01 50); }
+body[data-theme="hallmark_broadside"] h1, body[data-theme="hallmark_broadside"] h2, body[data-theme="hallmark_broadside"] h3 { font-family: var(--font-heading); color: oklch(18% 0.01 50); }
+body[data-theme="hallmark_broadside"] .btn-primary { background: oklch(53% 0.19 33); color: oklch(95.5% 0.018 88); border: 1px solid oklch(53% 0.19 33); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_broadside"] .btn-secondary { background: oklch(88.5% 0.032 88); color: oklch(18% 0.01 50); border: 1px solid oklch(75% 0.028 82); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_broadside"] .feature-card, body[data-theme="hallmark_broadside"] .card, body[data-theme="hallmark_broadside"] .component-card, body[data-theme="hallmark_broadside"] .repo-card, body[data-theme="hallmark_broadside"] .hero-showcase-panel, body[data-theme="hallmark_broadside"] .sandbox-card, body[data-theme="hallmark_broadside"] .manifesto-card { background: oklch(88.5% 0.032 88); color: oklch(18% 0.01 50); border: 1px solid oklch(75% 0.028 82); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_broadside"] a { color: oklch(53% 0.19 33); }
+body[data-theme="hallmark_broadside"] :focus-visible { outline: 2px solid oklch(53% 0.19 33); outline-offset: 2px; }
+body[data-theme="hallmark_broadside"] input, body[data-theme="hallmark_broadside"] select, body[data-theme="hallmark_broadside"] textarea { background: oklch(92% 0.028 88); color: oklch(18% 0.01 50); border: 1px solid oklch(75% 0.028 82); border-radius: 8px; }
+
+body[data-theme="hallmark_brutal"] {
+  background-color: oklch(97.5% 0.006 95); color: oklch(10% 0.006 95);
+  --theme-id: "hallmark_brutal"; --theme-name: "Hallmark Brutal";
+  --bg-base: oklch(97.5% 0.006 95); --surface-card: oklch(94% 0.007 95); --surface-elevated: oklch(89.5% 0.008 95);
+  --border-hairline: oklch(10% 0.006 95); --accent-primary: oklch(90% 0.19 105); --accent-ink: oklch(10% 0.006 95);
+  --text-primary: oklch(10% 0.006 95); --text-secondary: oklch(16% 0.006 95); --text-muted: oklch(40% 0.008 95);
+  --font-heading: 'Libre Franklin', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_brutal"] .site-header { background: oklch(97.5% 0.006 95); border-bottom: 1px solid oklch(10% 0.006 95); color: oklch(10% 0.006 95); }
+body[data-theme="hallmark_brutal"] h1, body[data-theme="hallmark_brutal"] h2, body[data-theme="hallmark_brutal"] h3 { font-family: var(--font-heading); color: oklch(10% 0.006 95); }
+body[data-theme="hallmark_brutal"] .btn-primary { background: oklch(90% 0.19 105); color: oklch(10% 0.006 95); border: 1px solid oklch(90% 0.19 105); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_brutal"] .btn-secondary { background: oklch(94% 0.007 95); color: oklch(10% 0.006 95); border: 1px solid oklch(10% 0.006 95); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_brutal"] .feature-card, body[data-theme="hallmark_brutal"] .card, body[data-theme="hallmark_brutal"] .component-card, body[data-theme="hallmark_brutal"] .repo-card, body[data-theme="hallmark_brutal"] .hero-showcase-panel, body[data-theme="hallmark_brutal"] .sandbox-card, body[data-theme="hallmark_brutal"] .manifesto-card { background: oklch(94% 0.007 95); color: oklch(10% 0.006 95); border: 1px solid oklch(10% 0.006 95); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_brutal"] a { color: oklch(90% 0.19 105); }
+body[data-theme="hallmark_brutal"] :focus-visible { outline: 2px solid oklch(48% 0.1 110); outline-offset: 2px; }
+body[data-theme="hallmark_brutal"] input, body[data-theme="hallmark_brutal"] select, body[data-theme="hallmark_brutal"] textarea { background: oklch(97.5% 0.006 95); color: oklch(10% 0.006 95); border: 1px solid oklch(10% 0.006 95); border-radius: 0px; }
+
+body[data-theme="hallmark_carnival"] {
+  background-color: oklch(92% 0.045 50); color: oklch(18% 0.080 20);
+  --theme-id: "hallmark_carnival"; --theme-name: "Hallmark Carnival";
+  --bg-base: oklch(92% 0.045 50); --surface-card: oklch(88% 0.050 45); --surface-elevated: oklch(82% 0.060 40);
+  --border-hairline: oklch(40% 0.21 25); --accent-primary: oklch(86% 0.18 95); --accent-ink: oklch(18% 0.080 20);
+  --text-primary: oklch(18% 0.080 20); --text-secondary: oklch(28% 0.060 25); --text-muted: oklch(42% 0.050 30);
+  --font-heading: 'Big Shoulders Display', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_carnival"] .site-header { background: oklch(92% 0.045 50); border-bottom: 1px solid oklch(40% 0.21 25); color: oklch(18% 0.080 20); }
+body[data-theme="hallmark_carnival"] h1, body[data-theme="hallmark_carnival"] h2, body[data-theme="hallmark_carnival"] h3 { font-family: var(--font-heading); color: oklch(18% 0.080 20); }
+body[data-theme="hallmark_carnival"] .btn-primary { background: oklch(86% 0.18 95); color: oklch(18% 0.080 20); border: 1px solid oklch(86% 0.18 95); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_carnival"] .btn-secondary { background: oklch(88% 0.050 45); color: oklch(18% 0.080 20); border: 1px solid oklch(40% 0.21 25); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_carnival"] .feature-card, body[data-theme="hallmark_carnival"] .card, body[data-theme="hallmark_carnival"] .component-card, body[data-theme="hallmark_carnival"] .repo-card, body[data-theme="hallmark_carnival"] .hero-showcase-panel, body[data-theme="hallmark_carnival"] .sandbox-card, body[data-theme="hallmark_carnival"] .manifesto-card { background: oklch(88% 0.050 45); color: oklch(18% 0.080 20); border: 1px solid oklch(40% 0.21 25); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_carnival"] a { color: oklch(86% 0.18 95); }
+body[data-theme="hallmark_carnival"] :focus-visible { outline: 2px solid oklch(40% 0.21 25); outline-offset: 2px; }
+body[data-theme="hallmark_carnival"] input, body[data-theme="hallmark_carnival"] select, body[data-theme="hallmark_carnival"] textarea { background: oklch(92% 0.045 50); color: oklch(18% 0.080 20); border: 1px solid oklch(40% 0.21 25); border-radius: 8px; }
+
+body[data-theme="hallmark_cobalt"] {
+  background-color: oklch(98.6% 0.005 250); color: oklch(21% 0.028 262);
+  --theme-id: "hallmark_cobalt"; --theme-name: "Hallmark Cobalt";
+  --bg-base: oklch(98.6% 0.005 250); --surface-card: oklch(96.2% 0.008 252); --surface-elevated: oklch(93% 0.011 252);
+  --border-hairline: oklch(90% 0.009 252); --accent-primary: oklch(52% 0.19 258); --accent-ink: oklch(98.6% 0.005 250);
+  --text-primary: oklch(21% 0.028 262); --text-secondary: oklch(36% 0.022 260); --text-muted: oklch(50% 0.018 258);
+  --font-heading: 'Familjen Grotesk', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_cobalt"] .site-header { background: oklch(98.6% 0.005 250); border-bottom: 1px solid oklch(90% 0.009 252); color: oklch(21% 0.028 262); }
+body[data-theme="hallmark_cobalt"] h1, body[data-theme="hallmark_cobalt"] h2, body[data-theme="hallmark_cobalt"] h3 { font-family: var(--font-heading); color: oklch(21% 0.028 262); }
+body[data-theme="hallmark_cobalt"] .btn-primary { background: oklch(52% 0.19 258); color: oklch(98.6% 0.005 250); border: 1px solid oklch(52% 0.19 258); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_cobalt"] .btn-secondary { background: oklch(96.2% 0.008 252); color: oklch(21% 0.028 262); border: 1px solid oklch(90% 0.009 252); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_cobalt"] .feature-card, body[data-theme="hallmark_cobalt"] .card, body[data-theme="hallmark_cobalt"] .component-card, body[data-theme="hallmark_cobalt"] .repo-card, body[data-theme="hallmark_cobalt"] .hero-showcase-panel, body[data-theme="hallmark_cobalt"] .sandbox-card, body[data-theme="hallmark_cobalt"] .manifesto-card { background: oklch(96.2% 0.008 252); color: oklch(21% 0.028 262); border: 1px solid oklch(90% 0.009 252); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_cobalt"] a { color: oklch(52% 0.19 258); }
+body[data-theme="hallmark_cobalt"] :focus-visible { outline: 2px solid oklch(52% 0.19 258); outline-offset: 2px; }
+body[data-theme="hallmark_cobalt"] input, body[data-theme="hallmark_cobalt"] select, body[data-theme="hallmark_cobalt"] textarea { background: oklch(98.6% 0.005 250); color: oklch(21% 0.028 262); border: 1px solid oklch(90% 0.009 252); border-radius: 8px; }
+
+body[data-theme="hallmark_console"] {
+  background-color: oklch(17% 0.008 250); color: oklch(95% 0.005 250);
+  --theme-id: "hallmark_console"; --theme-name: "Hallmark Console";
+  --bg-base: oklch(17% 0.008 250); --surface-card: oklch(21% 0.009 250); --surface-elevated: oklch(13.5% 0.007 250);
+  --border-hairline: oklch(31% 0.01 250); --accent-primary: oklch(82% 0.15 80); --accent-ink: oklch(18% 0.04 75);
+  --text-primary: oklch(95% 0.005 250); --text-secondary: oklch(83% 0.008 250); --text-muted: oklch(71% 0.01 250);
+  --font-heading: 'Host Grotesk', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_console"] .site-header { background: oklch(17% 0.008 250); border-bottom: 1px solid oklch(31% 0.01 250); color: oklch(95% 0.005 250); }
+body[data-theme="hallmark_console"] h1, body[data-theme="hallmark_console"] h2, body[data-theme="hallmark_console"] h3 { font-family: var(--font-heading); color: oklch(95% 0.005 250); }
+body[data-theme="hallmark_console"] .btn-primary { background: oklch(82% 0.15 80); color: oklch(18% 0.04 75); border: 1px solid oklch(82% 0.15 80); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_console"] .btn-secondary { background: oklch(21% 0.009 250); color: oklch(95% 0.005 250); border: 1px solid oklch(31% 0.01 250); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_console"] .feature-card, body[data-theme="hallmark_console"] .card, body[data-theme="hallmark_console"] .component-card, body[data-theme="hallmark_console"] .repo-card, body[data-theme="hallmark_console"] .hero-showcase-panel, body[data-theme="hallmark_console"] .sandbox-card, body[data-theme="hallmark_console"] .manifesto-card { background: oklch(21% 0.009 250); color: oklch(95% 0.005 250); border: 1px solid oklch(31% 0.01 250); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_console"] a { color: oklch(82% 0.15 80); }
+body[data-theme="hallmark_console"] :focus-visible { outline: 2px solid oklch(82% 0.15 80); outline-offset: 2px; }
+body[data-theme="hallmark_console"] input, body[data-theme="hallmark_console"] select, body[data-theme="hallmark_console"] textarea { background: oklch(17% 0.008 250); color: oklch(95% 0.005 250); border: 1px solid oklch(31% 0.01 250); border-radius: 18px; }
+
+body[data-theme="hallmark_coral"] {
+  background-color: oklch(97% 0.006 55); color: oklch(21% 0.012 38);
+  --theme-id: "hallmark_coral"; --theme-name: "Hallmark Coral";
+  --bg-base: oklch(97% 0.006 55); --surface-card: oklch(94.5% 0.007 55); --surface-elevated: oklch(91.5% 0.009 55);
+  --border-hairline: oklch(87% 0.009 55); --accent-primary: oklch(74% 0.125 30); --accent-ink: oklch(21% 0.012 38);
+  --text-primary: oklch(21% 0.012 38); --text-secondary: oklch(29% 0.013 40); --text-muted: oklch(47% 0.013 45);
+  --font-heading: 'General Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_coral"] .site-header { background: oklch(97% 0.006 55); border-bottom: 1px solid oklch(87% 0.009 55); color: oklch(21% 0.012 38); }
+body[data-theme="hallmark_coral"] h1, body[data-theme="hallmark_coral"] h2, body[data-theme="hallmark_coral"] h3 { font-family: var(--font-heading); color: oklch(21% 0.012 38); }
+body[data-theme="hallmark_coral"] .btn-primary { background: oklch(74% 0.125 30); color: oklch(21% 0.012 38); border: 1px solid oklch(74% 0.125 30); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_coral"] .btn-secondary { background: oklch(94.5% 0.007 55); color: oklch(21% 0.012 38); border: 1px solid oklch(87% 0.009 55); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_coral"] .feature-card, body[data-theme="hallmark_coral"] .card, body[data-theme="hallmark_coral"] .component-card, body[data-theme="hallmark_coral"] .repo-card, body[data-theme="hallmark_coral"] .hero-showcase-panel, body[data-theme="hallmark_coral"] .sandbox-card, body[data-theme="hallmark_coral"] .manifesto-card { background: oklch(94.5% 0.007 55); color: oklch(21% 0.012 38); border: 1px solid oklch(87% 0.009 55); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_coral"] a { color: oklch(74% 0.125 30); }
+body[data-theme="hallmark_coral"] :focus-visible { outline: 2px solid oklch(54% 0.17 30); outline-offset: 2px; }
+body[data-theme="hallmark_coral"] input, body[data-theme="hallmark_coral"] select, body[data-theme="hallmark_coral"] textarea { background: oklch(97% 0.006 55); color: oklch(21% 0.012 38); border: 1px solid oklch(87% 0.009 55); border-radius: 8px; }
+
+body[data-theme="hallmark_darkroom"] {
+  background-color: oklch(12.5% 0.008 55); color: oklch(92% 0.012 78);
+  --theme-id: "hallmark_darkroom"; --theme-name: "Hallmark Darkroom";
+  --bg-base: oklch(12.5% 0.008 55); --surface-card: oklch(16% 0.009 55); --surface-elevated: oklch(20.5% 0.01 55);
+  --border-hairline: oklch(29% 0.01 55); --accent-primary: oklch(73% 0.15 58); --accent-ink: oklch(12.5% 0.008 55);
+  --text-primary: oklch(92% 0.012 78); --text-secondary: oklch(80% 0.012 75); --text-muted: oklch(64% 0.012 65);
+  --font-heading: 'Sofia Sans Extra Condensed', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_darkroom"] .site-header { background: oklch(12.5% 0.008 55); border-bottom: 1px solid oklch(29% 0.01 55); color: oklch(92% 0.012 78); }
+body[data-theme="hallmark_darkroom"] h1, body[data-theme="hallmark_darkroom"] h2, body[data-theme="hallmark_darkroom"] h3 { font-family: var(--font-heading); color: oklch(92% 0.012 78); }
+body[data-theme="hallmark_darkroom"] .btn-primary { background: oklch(73% 0.15 58); color: oklch(12.5% 0.008 55); border: 1px solid oklch(73% 0.15 58); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_darkroom"] .btn-secondary { background: oklch(16% 0.009 55); color: oklch(92% 0.012 78); border: 1px solid oklch(29% 0.01 55); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_darkroom"] .feature-card, body[data-theme="hallmark_darkroom"] .card, body[data-theme="hallmark_darkroom"] .component-card, body[data-theme="hallmark_darkroom"] .repo-card, body[data-theme="hallmark_darkroom"] .hero-showcase-panel, body[data-theme="hallmark_darkroom"] .sandbox-card, body[data-theme="hallmark_darkroom"] .manifesto-card { background: oklch(16% 0.009 55); color: oklch(92% 0.012 78); border: 1px solid oklch(29% 0.01 55); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_darkroom"] a { color: oklch(73% 0.15 58); }
+body[data-theme="hallmark_darkroom"] :focus-visible { outline: 2px solid oklch(73% 0.15 58); outline-offset: 2px; }
+body[data-theme="hallmark_darkroom"] input, body[data-theme="hallmark_darkroom"] select, body[data-theme="hallmark_darkroom"] textarea { background: oklch(12.5% 0.008 55); color: oklch(92% 0.012 78); border: 1px solid oklch(29% 0.01 55); border-radius: 0px; }
+
+body[data-theme="hallmark_dose"] {
+  background-color: oklch(97.6% 0.011 88); color: oklch(21% 0.025 170);
+  --theme-id: "hallmark_dose"; --theme-name: "Hallmark Dose";
+  --bg-base: oklch(97.6% 0.011 88); --surface-card: oklch(96.5% 0.02 160); --surface-elevated: oklch(93% 0.036 160);
+  --border-hairline: oklch(86.5% 0.022 140); --accent-primary: oklch(50% 0.13 160); --accent-ink: oklch(99% 0.006 160);
+  --text-primary: oklch(21% 0.025 170); --text-secondary: oklch(31% 0.02 170); --text-muted: oklch(49% 0.024 165);
+  --font-heading: 'Schibsted Grotesk', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_dose"] .site-header { background: oklch(97.6% 0.011 88); border-bottom: 1px solid oklch(86.5% 0.022 140); color: oklch(21% 0.025 170); }
+body[data-theme="hallmark_dose"] h1, body[data-theme="hallmark_dose"] h2, body[data-theme="hallmark_dose"] h3 { font-family: var(--font-heading); color: oklch(21% 0.025 170); }
+body[data-theme="hallmark_dose"] .btn-primary { background: oklch(50% 0.13 160); color: oklch(99% 0.006 160); border: 1px solid oklch(50% 0.13 160); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_dose"] .btn-secondary { background: oklch(96.5% 0.02 160); color: oklch(21% 0.025 170); border: 1px solid oklch(86.5% 0.022 140); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_dose"] .feature-card, body[data-theme="hallmark_dose"] .card, body[data-theme="hallmark_dose"] .component-card, body[data-theme="hallmark_dose"] .repo-card, body[data-theme="hallmark_dose"] .hero-showcase-panel, body[data-theme="hallmark_dose"] .sandbox-card, body[data-theme="hallmark_dose"] .manifesto-card { background: oklch(96.5% 0.02 160); color: oklch(21% 0.025 170); border: 1px solid oklch(86.5% 0.022 140); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_dose"] a { color: oklch(50% 0.13 160); }
+body[data-theme="hallmark_dose"] :focus-visible { outline: 2px solid oklch(45% 0.14 160); outline-offset: 2px; }
+body[data-theme="hallmark_dose"] input, body[data-theme="hallmark_dose"] select, body[data-theme="hallmark_dose"] textarea { background: oklch(97.6% 0.011 88); color: oklch(21% 0.025 170); border: 1px solid oklch(86.5% 0.022 140); border-radius: 8px; }
+
+body[data-theme="hallmark_dusk"] {
+  background-color: oklch(17.5% 0.014 268); color: oklch(96% 0.006 75);
+  --theme-id: "hallmark_dusk"; --theme-name: "Hallmark Dusk";
+  --bg-base: oklch(17.5% 0.014 268); --surface-card: oklch(21% 0.016 268); --surface-elevated: oklch(25% 0.017 268);
+  --border-hairline: oklch(30% 0.016 266); --accent-primary: oklch(77% 0.10 274); --accent-ink: oklch(19% 0.035 274);
+  --text-primary: oklch(96% 0.006 75); --text-secondary: oklch(85% 0.010 262); --text-muted: oklch(70% 0.016 262);
+  --font-heading: 'Wix Madefor Display', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_dusk"] .site-header { background: oklch(17.5% 0.014 268); border-bottom: 1px solid oklch(30% 0.016 266); color: oklch(96% 0.006 75); }
+body[data-theme="hallmark_dusk"] h1, body[data-theme="hallmark_dusk"] h2, body[data-theme="hallmark_dusk"] h3 { font-family: var(--font-heading); color: oklch(96% 0.006 75); }
+body[data-theme="hallmark_dusk"] .btn-primary { background: oklch(77% 0.10 274); color: oklch(19% 0.035 274); border: 1px solid oklch(77% 0.10 274); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_dusk"] .btn-secondary { background: oklch(21% 0.016 268); color: oklch(96% 0.006 75); border: 1px solid oklch(30% 0.016 266); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_dusk"] .feature-card, body[data-theme="hallmark_dusk"] .card, body[data-theme="hallmark_dusk"] .component-card, body[data-theme="hallmark_dusk"] .repo-card, body[data-theme="hallmark_dusk"] .hero-showcase-panel, body[data-theme="hallmark_dusk"] .sandbox-card, body[data-theme="hallmark_dusk"] .manifesto-card { background: oklch(21% 0.016 268); color: oklch(96% 0.006 75); border: 1px solid oklch(30% 0.016 266); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_dusk"] a { color: oklch(77% 0.10 274); }
+body[data-theme="hallmark_dusk"] :focus-visible { outline: 2px solid oklch(80% 0.10 274); outline-offset: 2px; }
+body[data-theme="hallmark_dusk"] input, body[data-theme="hallmark_dusk"] select, body[data-theme="hallmark_dusk"] textarea { background: oklch(17.5% 0.014 268); color: oklch(96% 0.006 75); border: 1px solid oklch(30% 0.016 266); border-radius: 8px; }
+
+body[data-theme="hallmark_editorial"] {
+  background-color: oklch(97% 0.007 86); color: oklch(16% 0.012 280);
+  --theme-id: "hallmark_editorial"; --theme-name: "Hallmark Editorial";
+  --bg-base: oklch(97% 0.007 86); --surface-card: oklch(94% 0.010 86); --surface-elevated: oklch(91% 0.012 84);
+  --border-hairline: oklch(85% 0.009 85); --accent-primary: oklch(49% 0.130 152); --accent-ink: oklch(98% 0.005 88);
+  --text-primary: oklch(16% 0.012 280); --text-secondary: oklch(29% 0.011 280); --text-muted: oklch(48% 0.010 75);
+  --font-heading: 'Bricolage Grotesque', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_editorial"] .site-header { background: oklch(97% 0.007 86); border-bottom: 1px solid oklch(85% 0.009 85); color: oklch(16% 0.012 280); }
+body[data-theme="hallmark_editorial"] h1, body[data-theme="hallmark_editorial"] h2, body[data-theme="hallmark_editorial"] h3 { font-family: var(--font-heading); color: oklch(16% 0.012 280); }
+body[data-theme="hallmark_editorial"] .btn-primary { background: oklch(49% 0.130 152); color: oklch(98% 0.005 88); border: 1px solid oklch(49% 0.130 152); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_editorial"] .btn-secondary { background: oklch(94% 0.010 86); color: oklch(16% 0.012 280); border: 1px solid oklch(85% 0.009 85); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_editorial"] .feature-card, body[data-theme="hallmark_editorial"] .card, body[data-theme="hallmark_editorial"] .component-card, body[data-theme="hallmark_editorial"] .repo-card, body[data-theme="hallmark_editorial"] .hero-showcase-panel, body[data-theme="hallmark_editorial"] .sandbox-card, body[data-theme="hallmark_editorial"] .manifesto-card { background: oklch(94% 0.010 86); color: oklch(16% 0.012 280); border: 1px solid oklch(85% 0.009 85); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_editorial"] a { color: oklch(49% 0.130 152); }
+body[data-theme="hallmark_editorial"] :focus-visible { outline: 2px solid oklch(52% 0.135 152); outline-offset: 2px; }
+body[data-theme="hallmark_editorial"] input, body[data-theme="hallmark_editorial"] select, body[data-theme="hallmark_editorial"] textarea { background: oklch(97% 0.007 86); color: oklch(16% 0.012 280); border: 1px solid oklch(85% 0.009 85); border-radius: 0px; }
+
+body[data-theme="hallmark_formwork"] {
+  background-color: oklch(74% 0.008 80); color: oklch(18% 0.005 270);
+  --theme-id: "hallmark_formwork"; --theme-name: "Hallmark Formwork";
+  --bg-base: oklch(74% 0.008 80); --surface-card: oklch(69% 0.009 80); --surface-elevated: oklch(64% 0.01 80);
+  --border-hairline: oklch(64% 0.01 80); --accent-primary: oklch(66% 0.21 38); --accent-ink: oklch(18% 0.005 270);
+  --text-primary: oklch(18% 0.005 270); --text-secondary: oklch(28% 0.006 80); --text-muted: oklch(31.5% 0.008 80);
+  --font-heading: 'Oswald', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_formwork"] .site-header { background: oklch(74% 0.008 80); border-bottom: 1px solid oklch(64% 0.01 80); color: oklch(18% 0.005 270); }
+body[data-theme="hallmark_formwork"] h1, body[data-theme="hallmark_formwork"] h2, body[data-theme="hallmark_formwork"] h3 { font-family: var(--font-heading); color: oklch(18% 0.005 270); }
+body[data-theme="hallmark_formwork"] .btn-primary { background: oklch(66% 0.21 38); color: oklch(18% 0.005 270); border: 1px solid oklch(66% 0.21 38); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_formwork"] .btn-secondary { background: oklch(69% 0.009 80); color: oklch(18% 0.005 270); border: 1px solid oklch(64% 0.01 80); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_formwork"] .feature-card, body[data-theme="hallmark_formwork"] .card, body[data-theme="hallmark_formwork"] .component-card, body[data-theme="hallmark_formwork"] .repo-card, body[data-theme="hallmark_formwork"] .hero-showcase-panel, body[data-theme="hallmark_formwork"] .sandbox-card, body[data-theme="hallmark_formwork"] .manifesto-card { background: oklch(69% 0.009 80); color: oklch(18% 0.005 270); border: 1px solid oklch(64% 0.01 80); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_formwork"] a { color: oklch(66% 0.21 38); }
+body[data-theme="hallmark_formwork"] :focus-visible { outline: 2px solid oklch(42% 0.15 38); outline-offset: 2px; }
+body[data-theme="hallmark_formwork"] input, body[data-theme="hallmark_formwork"] select, body[data-theme="hallmark_formwork"] textarea { background: oklch(74% 0.008 80); color: oklch(18% 0.005 270); border: 1px solid oklch(64% 0.01 80); border-radius: 0px; }
+
+body[data-theme="hallmark_furrow"] {
+  background-color: oklch(96% 0.011 85); color: oklch(18% 0.006 60);
+  --theme-id: "hallmark_furrow"; --theme-name: "Hallmark Furrow";
+  --bg-base: oklch(96% 0.011 85); --surface-card: oklch(99.5% 0.005 85); --surface-elevated: oklch(92% 0.016 85);
+  --border-hairline: oklch(88% 0.013 85); --accent-primary: oklch(70% 0.19 40); --accent-ink: oklch(18% 0.006 60);
+  --text-primary: oklch(18% 0.006 60); --text-secondary: oklch(28% 0.008 60); --text-muted: oklch(44% 0.012 60);
+  --font-heading: 'Red Hat Display', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_furrow"] .site-header { background: oklch(96% 0.011 85); border-bottom: 1px solid oklch(88% 0.013 85); color: oklch(18% 0.006 60); }
+body[data-theme="hallmark_furrow"] h1, body[data-theme="hallmark_furrow"] h2, body[data-theme="hallmark_furrow"] h3 { font-family: var(--font-heading); color: oklch(18% 0.006 60); }
+body[data-theme="hallmark_furrow"] .btn-primary { background: oklch(70% 0.19 40); color: oklch(18% 0.006 60); border: 1px solid oklch(70% 0.19 40); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_furrow"] .btn-secondary { background: oklch(99.5% 0.005 85); color: oklch(18% 0.006 60); border: 1px solid oklch(88% 0.013 85); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_furrow"] .feature-card, body[data-theme="hallmark_furrow"] .card, body[data-theme="hallmark_furrow"] .component-card, body[data-theme="hallmark_furrow"] .repo-card, body[data-theme="hallmark_furrow"] .hero-showcase-panel, body[data-theme="hallmark_furrow"] .sandbox-card, body[data-theme="hallmark_furrow"] .manifesto-card { background: oklch(99.5% 0.005 85); color: oklch(18% 0.006 60); border: 1px solid oklch(88% 0.013 85); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_furrow"] a { color: oklch(70% 0.19 40); }
+body[data-theme="hallmark_furrow"] :focus-visible { outline: 2px solid oklch(60% 0.19 40); outline-offset: 2px; }
+body[data-theme="hallmark_furrow"] input, body[data-theme="hallmark_furrow"] select, body[data-theme="hallmark_furrow"] textarea { background: oklch(96% 0.011 85); color: oklch(18% 0.006 60); border: 1px solid oklch(88% 0.013 85); border-radius: 8px; }
+
+body[data-theme="hallmark_garden"] {
+  background-color: oklch(95.8% 0.024 90); color: oklch(23% 0.050 152);
+  --theme-id: "hallmark_garden"; --theme-name: "Hallmark Garden";
+  --bg-base: oklch(95.8% 0.024 90); --surface-card: oklch(92.6% 0.030 90); --surface-elevated: oklch(89% 0.034 90);
+  --border-hairline: oklch(83% 0.024 112); --accent-primary: oklch(46% 0.135 142); --accent-ink: oklch(97% 0.015 95);
+  --text-primary: oklch(23% 0.050 152); --text-secondary: oklch(33% 0.048 150); --text-muted: oklch(46% 0.034 142);
+  --font-heading: 'Vollkorn', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_garden"] .site-header { background: oklch(95.8% 0.024 90); border-bottom: 1px solid oklch(83% 0.024 112); color: oklch(23% 0.050 152); }
+body[data-theme="hallmark_garden"] h1, body[data-theme="hallmark_garden"] h2, body[data-theme="hallmark_garden"] h3 { font-family: var(--font-heading); color: oklch(23% 0.050 152); }
+body[data-theme="hallmark_garden"] .btn-primary { background: oklch(46% 0.135 142); color: oklch(97% 0.015 95); border: 1px solid oklch(46% 0.135 142); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_garden"] .btn-secondary { background: oklch(92.6% 0.030 90); color: oklch(23% 0.050 152); border: 1px solid oklch(83% 0.024 112); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_garden"] .feature-card, body[data-theme="hallmark_garden"] .card, body[data-theme="hallmark_garden"] .component-card, body[data-theme="hallmark_garden"] .repo-card, body[data-theme="hallmark_garden"] .hero-showcase-panel, body[data-theme="hallmark_garden"] .sandbox-card, body[data-theme="hallmark_garden"] .manifesto-card { background: oklch(92.6% 0.030 90); color: oklch(23% 0.050 152); border: 1px solid oklch(83% 0.024 112); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_garden"] a { color: oklch(46% 0.135 142); }
+body[data-theme="hallmark_garden"] :focus-visible { outline: 2px solid oklch(46% 0.135 142); outline-offset: 2px; }
+body[data-theme="hallmark_garden"] input, body[data-theme="hallmark_garden"] select, body[data-theme="hallmark_garden"] textarea { background: oklch(95.8% 0.024 90); color: oklch(23% 0.050 152); border: 1px solid oklch(83% 0.024 112); border-radius: 8px; }
+
+body[data-theme="hallmark_grid"] {
+  background-color: oklch(97.5% 0.005 90); color: oklch(19% 0.022 266);
+  --theme-id: "hallmark_grid"; --theme-name: "Hallmark Grid";
+  --bg-base: oklch(97.5% 0.005 90); --surface-card: oklch(94.2% 0.006 90); --surface-elevated: oklch(90.5% 0.008 90);
+  --border-hairline: oklch(87.5% 0.008 90); --accent-primary: oklch(44% 0.2 266); --accent-ink: oklch(97.5% 0.005 90);
+  --text-primary: oklch(19% 0.022 266); --text-secondary: oklch(31% 0.02 266); --text-muted: oklch(47% 0.016 266);
+  --font-heading: 'Radio Canada Big', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_grid"] .site-header { background: oklch(97.5% 0.005 90); border-bottom: 1px solid oklch(87.5% 0.008 90); color: oklch(19% 0.022 266); }
+body[data-theme="hallmark_grid"] h1, body[data-theme="hallmark_grid"] h2, body[data-theme="hallmark_grid"] h3 { font-family: var(--font-heading); color: oklch(19% 0.022 266); }
+body[data-theme="hallmark_grid"] .btn-primary { background: oklch(44% 0.2 266); color: oklch(97.5% 0.005 90); border: 1px solid oklch(44% 0.2 266); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_grid"] .btn-secondary { background: oklch(94.2% 0.006 90); color: oklch(19% 0.022 266); border: 1px solid oklch(87.5% 0.008 90); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_grid"] .feature-card, body[data-theme="hallmark_grid"] .card, body[data-theme="hallmark_grid"] .component-card, body[data-theme="hallmark_grid"] .repo-card, body[data-theme="hallmark_grid"] .hero-showcase-panel, body[data-theme="hallmark_grid"] .sandbox-card, body[data-theme="hallmark_grid"] .manifesto-card { background: oklch(94.2% 0.006 90); color: oklch(19% 0.022 266); border: 1px solid oklch(87.5% 0.008 90); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_grid"] a { color: oklch(44% 0.2 266); }
+body[data-theme="hallmark_grid"] :focus-visible { outline: 2px solid oklch(46% 0.2 266); outline-offset: 2px; }
+body[data-theme="hallmark_grid"] input, body[data-theme="hallmark_grid"] select, body[data-theme="hallmark_grid"] textarea { background: oklch(97.5% 0.005 90); color: oklch(19% 0.022 266); border: 1px solid oklch(87.5% 0.008 90); border-radius: 8px; }
+
+body[data-theme="hallmark_halftone"] {
+  background-color: oklch(96.2% 0.032 94); color: oklch(23% 0.040 38);
+  --theme-id: "hallmark_halftone"; --theme-name: "Hallmark Halftone";
+  --bg-base: oklch(96.2% 0.032 94); --surface-card: oklch(92.6% 0.046 92); --surface-elevated: oklch(87.5% 0.058 90);
+  --border-hairline: oklch(82% 0.042 82); --accent-primary: oklch(54.5% 0.215 33); --accent-ink: oklch(97% 0.022 94);
+  --text-primary: oklch(23% 0.040 38); --text-secondary: oklch(33% 0.045 40); --text-muted: oklch(44% 0.048 44);
+  --font-heading: 'Ultra', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_halftone"] .site-header { background: oklch(96.2% 0.032 94); border-bottom: 1px solid oklch(82% 0.042 82); color: oklch(23% 0.040 38); }
+body[data-theme="hallmark_halftone"] h1, body[data-theme="hallmark_halftone"] h2, body[data-theme="hallmark_halftone"] h3 { font-family: var(--font-heading); color: oklch(23% 0.040 38); }
+body[data-theme="hallmark_halftone"] .btn-primary { background: oklch(54.5% 0.215 33); color: oklch(97% 0.022 94); border: 1px solid oklch(54.5% 0.215 33); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_halftone"] .btn-secondary { background: oklch(92.6% 0.046 92); color: oklch(23% 0.040 38); border: 1px solid oklch(82% 0.042 82); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_halftone"] .feature-card, body[data-theme="hallmark_halftone"] .card, body[data-theme="hallmark_halftone"] .component-card, body[data-theme="hallmark_halftone"] .repo-card, body[data-theme="hallmark_halftone"] .hero-showcase-panel, body[data-theme="hallmark_halftone"] .sandbox-card, body[data-theme="hallmark_halftone"] .manifesto-card { background: oklch(92.6% 0.046 92); color: oklch(23% 0.040 38); border: 1px solid oklch(82% 0.042 82); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_halftone"] a { color: oklch(54.5% 0.215 33); }
+body[data-theme="hallmark_halftone"] :focus-visible { outline: 2px solid oklch(46% 0.19 31); outline-offset: 2px; }
+body[data-theme="hallmark_halftone"] input, body[data-theme="hallmark_halftone"] select, body[data-theme="hallmark_halftone"] textarea { background: oklch(96.2% 0.032 94); color: oklch(23% 0.040 38); border: 1px solid oklch(82% 0.042 82); border-radius: 0px; }
+
+body[data-theme="hallmark_hedgerow"] {
+  background-color: oklch(24% 0.052 158); color: oklch(93% 0.022 88);
+  --theme-id: "hallmark_hedgerow"; --theme-name: "Hallmark Hedgerow";
+  --bg-base: oklch(24% 0.052 158); --surface-card: oklch(19.5% 0.045 158); --surface-elevated: oklch(29.5% 0.05 158);
+  --border-hairline: oklch(35% 0.05 158); --accent-primary: oklch(87% 0.19 118); --accent-ink: oklch(22% 0.05 158);
+  --text-primary: oklch(93% 0.022 88); --text-secondary: oklch(81% 0.035 150); --text-muted: oklch(69% 0.045 150);
+  --font-heading: 'Prata', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_hedgerow"] .site-header { background: oklch(24% 0.052 158); border-bottom: 1px solid oklch(35% 0.05 158); color: oklch(93% 0.022 88); }
+body[data-theme="hallmark_hedgerow"] h1, body[data-theme="hallmark_hedgerow"] h2, body[data-theme="hallmark_hedgerow"] h3 { font-family: var(--font-heading); color: oklch(93% 0.022 88); }
+body[data-theme="hallmark_hedgerow"] .btn-primary { background: oklch(87% 0.19 118); color: oklch(22% 0.05 158); border: 1px solid oklch(87% 0.19 118); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_hedgerow"] .btn-secondary { background: oklch(19.5% 0.045 158); color: oklch(93% 0.022 88); border: 1px solid oklch(35% 0.05 158); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_hedgerow"] .feature-card, body[data-theme="hallmark_hedgerow"] .card, body[data-theme="hallmark_hedgerow"] .component-card, body[data-theme="hallmark_hedgerow"] .repo-card, body[data-theme="hallmark_hedgerow"] .hero-showcase-panel, body[data-theme="hallmark_hedgerow"] .sandbox-card, body[data-theme="hallmark_hedgerow"] .manifesto-card { background: oklch(19.5% 0.045 158); color: oklch(93% 0.022 88); border: 1px solid oklch(35% 0.05 158); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_hedgerow"] a { color: oklch(87% 0.19 118); }
+body[data-theme="hallmark_hedgerow"] :focus-visible { outline: 2px solid oklch(92% 0.13 118); outline-offset: 2px; }
+body[data-theme="hallmark_hedgerow"] input, body[data-theme="hallmark_hedgerow"] select, body[data-theme="hallmark_hedgerow"] textarea { background: oklch(24% 0.052 158); color: oklch(93% 0.022 88); border: 1px solid oklch(35% 0.05 158); border-radius: 0px; }
+
+body[data-theme="hallmark_hum"] {
+  background-color: oklch(97% 0.012 95); color: oklch(20% 0.014 255);
+  --theme-id: "hallmark_hum"; --theme-name: "Hallmark Hum";
+  --bg-base: oklch(97% 0.012 95); --surface-card: oklch(94.5% 0.018 95); --surface-elevated: oklch(91% 0.022 95);
+  --border-hairline: oklch(87% 0.016 95); --accent-primary: oklch(87% 0.175 96); --accent-ink: oklch(20% 0.014 255);
+  --text-primary: oklch(20% 0.014 255); --text-secondary: oklch(29% 0.014 255); --text-muted: oklch(47% 0.014 255);
+  --font-heading: 'Chillax', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_hum"] .site-header { background: oklch(97% 0.012 95); border-bottom: 1px solid oklch(87% 0.016 95); color: oklch(20% 0.014 255); }
+body[data-theme="hallmark_hum"] h1, body[data-theme="hallmark_hum"] h2, body[data-theme="hallmark_hum"] h3 { font-family: var(--font-heading); color: oklch(20% 0.014 255); }
+body[data-theme="hallmark_hum"] .btn-primary { background: oklch(87% 0.175 96); color: oklch(20% 0.014 255); border: 1px solid oklch(87% 0.175 96); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_hum"] .btn-secondary { background: oklch(94.5% 0.018 95); color: oklch(20% 0.014 255); border: 1px solid oklch(87% 0.016 95); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_hum"] .feature-card, body[data-theme="hallmark_hum"] .card, body[data-theme="hallmark_hum"] .component-card, body[data-theme="hallmark_hum"] .repo-card, body[data-theme="hallmark_hum"] .hero-showcase-panel, body[data-theme="hallmark_hum"] .sandbox-card, body[data-theme="hallmark_hum"] .manifesto-card { background: oklch(94.5% 0.018 95); color: oklch(20% 0.014 255); border: 1px solid oklch(87% 0.016 95); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_hum"] a { color: oklch(87% 0.175 96); }
+body[data-theme="hallmark_hum"] :focus-visible { outline: 2px solid oklch(50% 0.17 250); outline-offset: 2px; }
+body[data-theme="hallmark_hum"] input, body[data-theme="hallmark_hum"] select, body[data-theme="hallmark_hum"] textarea { background: oklch(97% 0.012 95); color: oklch(20% 0.014 255); border: 1px solid oklch(87% 0.016 95); border-radius: 8px; }
+
+body[data-theme="hallmark_ink"] {
+  background-color: oklch(99.5% 0.003 100); color: oklch(16% 0 0);
+  --theme-id: "hallmark_ink"; --theme-name: "Hallmark Ink";
+  --bg-base: oklch(99.5% 0.003 100); --surface-card: oklch(97% 0.004 100); --surface-elevated: oklch(94% 0.006 100);
+  --border-hairline: oklch(89% 0.004 100); --accent-primary: oklch(50% 0.095 188); --accent-ink: oklch(99.5% 0.003 100);
+  --text-primary: oklch(16% 0 0); --text-secondary: oklch(28% 0 0); --text-muted: oklch(44% 0 0);
+  --font-heading: 'Epilogue', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_ink"] .site-header { background: oklch(99.5% 0.003 100); border-bottom: 1px solid oklch(89% 0.004 100); color: oklch(16% 0 0); }
+body[data-theme="hallmark_ink"] h1, body[data-theme="hallmark_ink"] h2, body[data-theme="hallmark_ink"] h3 { font-family: var(--font-heading); color: oklch(16% 0 0); }
+body[data-theme="hallmark_ink"] .btn-primary { background: oklch(50% 0.095 188); color: oklch(99.5% 0.003 100); border: 1px solid oklch(50% 0.095 188); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_ink"] .btn-secondary { background: oklch(97% 0.004 100); color: oklch(16% 0 0); border: 1px solid oklch(89% 0.004 100); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_ink"] .feature-card, body[data-theme="hallmark_ink"] .card, body[data-theme="hallmark_ink"] .component-card, body[data-theme="hallmark_ink"] .repo-card, body[data-theme="hallmark_ink"] .hero-showcase-panel, body[data-theme="hallmark_ink"] .sandbox-card, body[data-theme="hallmark_ink"] .manifesto-card { background: oklch(97% 0.004 100); color: oklch(16% 0 0); border: 1px solid oklch(89% 0.004 100); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_ink"] a { color: oklch(50% 0.095 188); }
+body[data-theme="hallmark_ink"] :focus-visible { outline: 2px solid oklch(50% 0.095 188); outline-offset: 2px; }
+body[data-theme="hallmark_ink"] input, body[data-theme="hallmark_ink"] select, body[data-theme="hallmark_ink"] textarea { background: oklch(99.5% 0.003 100); color: oklch(16% 0 0); border: 1px solid oklch(89% 0.004 100); border-radius: 18px; }
+
+body[data-theme="hallmark_kiln"] {
+  background-color: oklch(13% 0.012 40); color: oklch(94% 0.02 80);
+  --theme-id: "hallmark_kiln"; --theme-name: "Hallmark Kiln";
+  --bg-base: oklch(13% 0.012 40); --surface-card: oklch(17.5% 0.016 40); --surface-elevated: oklch(22% 0.018 40);
+  --border-hairline: oklch(96% 0.01 80 / 0.12); --accent-primary: oklch(70% 0.2 45); --accent-ink: oklch(14% 0.02 40);
+  --text-primary: oklch(94% 0.02 80); --text-secondary: oklch(84% 0.025 70); --text-muted: oklch(72% 0.03 60);
+  --font-heading: 'Boska', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_kiln"] .site-header { background: oklch(13% 0.012 40); border-bottom: 1px solid oklch(96% 0.01 80 / 0.12); color: oklch(94% 0.02 80); }
+body[data-theme="hallmark_kiln"] h1, body[data-theme="hallmark_kiln"] h2, body[data-theme="hallmark_kiln"] h3 { font-family: var(--font-heading); color: oklch(94% 0.02 80); }
+body[data-theme="hallmark_kiln"] .btn-primary { background: oklch(70% 0.2 45); color: oklch(14% 0.02 40); border: 1px solid oklch(70% 0.2 45); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_kiln"] .btn-secondary { background: oklch(17.5% 0.016 40); color: oklch(94% 0.02 80); border: 1px solid oklch(96% 0.01 80 / 0.12); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_kiln"] .feature-card, body[data-theme="hallmark_kiln"] .card, body[data-theme="hallmark_kiln"] .component-card, body[data-theme="hallmark_kiln"] .repo-card, body[data-theme="hallmark_kiln"] .hero-showcase-panel, body[data-theme="hallmark_kiln"] .sandbox-card, body[data-theme="hallmark_kiln"] .manifesto-card { background: oklch(17.5% 0.016 40); color: oklch(94% 0.02 80); border: 1px solid oklch(96% 0.01 80 / 0.12); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_kiln"] a { color: oklch(70% 0.2 45); }
+body[data-theme="hallmark_kiln"] :focus-visible { outline: 2px solid oklch(76% 0.19 56); outline-offset: 2px; }
+body[data-theme="hallmark_kiln"] input, body[data-theme="hallmark_kiln"] select, body[data-theme="hallmark_kiln"] textarea { background: oklch(13% 0.012 40); color: oklch(94% 0.02 80); border: 1px solid oklch(96% 0.01 80 / 0.12); border-radius: 18px; }
+
+body[data-theme="hallmark_loom"] {
+  background-color: oklch(95.5% 0.014 85); color: oklch(21% 0.012 60);
+  --theme-id: "hallmark_loom"; --theme-name: "Hallmark Loom";
+  --bg-base: oklch(95.5% 0.014 85); --surface-card: oklch(92% 0.022 84); --surface-elevated: oklch(85% 0.032 80);
+  --border-hairline: oklch(83% 0.022 84); --accent-primary: oklch(34% 0.115 267); --accent-ink: oklch(95.5% 0.014 85);
+  --text-primary: oklch(21% 0.012 60); --text-secondary: oklch(31% 0.012 60); --text-muted: oklch(46% 0.014 62);
+  --font-heading: 'Libre Caslon Display', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_loom"] .site-header { background: oklch(95.5% 0.014 85); border-bottom: 1px solid oklch(83% 0.022 84); color: oklch(21% 0.012 60); }
+body[data-theme="hallmark_loom"] h1, body[data-theme="hallmark_loom"] h2, body[data-theme="hallmark_loom"] h3 { font-family: var(--font-heading); color: oklch(21% 0.012 60); }
+body[data-theme="hallmark_loom"] .btn-primary { background: oklch(34% 0.115 267); color: oklch(95.5% 0.014 85); border: 1px solid oklch(34% 0.115 267); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_loom"] .btn-secondary { background: oklch(92% 0.022 84); color: oklch(21% 0.012 60); border: 1px solid oklch(83% 0.022 84); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_loom"] .feature-card, body[data-theme="hallmark_loom"] .card, body[data-theme="hallmark_loom"] .component-card, body[data-theme="hallmark_loom"] .repo-card, body[data-theme="hallmark_loom"] .hero-showcase-panel, body[data-theme="hallmark_loom"] .sandbox-card, body[data-theme="hallmark_loom"] .manifesto-card { background: oklch(92% 0.022 84); color: oklch(21% 0.012 60); border: 1px solid oklch(83% 0.022 84); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_loom"] a { color: oklch(34% 0.115 267); }
+body[data-theme="hallmark_loom"] :focus-visible { outline: 2px solid oklch(43% 0.15 267); outline-offset: 2px; }
+body[data-theme="hallmark_loom"] input, body[data-theme="hallmark_loom"] select, body[data-theme="hallmark_loom"] textarea { background: oklch(95.5% 0.014 85); color: oklch(21% 0.012 60); border: 1px solid oklch(83% 0.022 84); border-radius: 8px; }
+
+body[data-theme="hallmark_lumen"] {
+  background-color: oklch(12.5% 0.027 290); color: oklch(96% 0.01 300);
+  --theme-id: "hallmark_lumen"; --theme-name: "Hallmark Lumen";
+  --bg-base: oklch(12.5% 0.027 290); --surface-card: oklch(16% 0.03 290); --surface-elevated: oklch(20% 0.032 290);
+  --border-hairline: oklch(27% 0.034 290); --accent-primary: oklch(80% 0.15 62); --accent-ink: oklch(14% 0.028 290);
+  --text-primary: oklch(96% 0.01 300); --text-secondary: oklch(85% 0.017 298); --text-muted: oklch(69% 0.026 295);
+  --font-heading: 'Instrument Serif', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_lumen"] .site-header { background: oklch(12.5% 0.027 290); border-bottom: 1px solid oklch(27% 0.034 290); color: oklch(96% 0.01 300); }
+body[data-theme="hallmark_lumen"] h1, body[data-theme="hallmark_lumen"] h2, body[data-theme="hallmark_lumen"] h3 { font-family: var(--font-heading); color: oklch(96% 0.01 300); }
+body[data-theme="hallmark_lumen"] .btn-primary { background: oklch(80% 0.15 62); color: oklch(14% 0.028 290); border: 1px solid oklch(80% 0.15 62); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_lumen"] .btn-secondary { background: oklch(16% 0.03 290); color: oklch(96% 0.01 300); border: 1px solid oklch(27% 0.034 290); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_lumen"] .feature-card, body[data-theme="hallmark_lumen"] .card, body[data-theme="hallmark_lumen"] .component-card, body[data-theme="hallmark_lumen"] .repo-card, body[data-theme="hallmark_lumen"] .hero-showcase-panel, body[data-theme="hallmark_lumen"] .sandbox-card, body[data-theme="hallmark_lumen"] .manifesto-card { background: oklch(16% 0.03 290); color: oklch(96% 0.01 300); border: 1px solid oklch(27% 0.034 290); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_lumen"] a { color: oklch(80% 0.15 62); }
+body[data-theme="hallmark_lumen"] :focus-visible { outline: 2px solid oklch(80% 0.15 62); outline-offset: 2px; }
+body[data-theme="hallmark_lumen"] input, body[data-theme="hallmark_lumen"] select, body[data-theme="hallmark_lumen"] textarea { background: oklch(12.5% 0.027 290); color: oklch(96% 0.01 300); border: 1px solid oklch(27% 0.034 290); border-radius: 18px; }
+
+body[data-theme="hallmark_manifesto"] {
+  background-color: oklch(13% 0.01 60); color: oklch(95% 0.014 85);
+  --theme-id: "hallmark_manifesto"; --theme-name: "Hallmark Manifesto";
+  --bg-base: oklch(13% 0.01 60); --surface-card: oklch(17% 0.011 60); --surface-elevated: oklch(22% 0.012 60);
+  --border-hairline: oklch(31% 0.014 60); --accent-primary: oklch(56% 0.228 28); --accent-ink: oklch(98.5% 0.004 90);
+  --text-primary: oklch(95% 0.014 85); --text-secondary: oklch(84% 0.012 80); --text-muted: oklch(64% 0.016 65);
+  --font-heading: 'Anton', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_manifesto"] .site-header { background: oklch(13% 0.01 60); border-bottom: 1px solid oklch(31% 0.014 60); color: oklch(95% 0.014 85); }
+body[data-theme="hallmark_manifesto"] h1, body[data-theme="hallmark_manifesto"] h2, body[data-theme="hallmark_manifesto"] h3 { font-family: var(--font-heading); color: oklch(95% 0.014 85); }
+body[data-theme="hallmark_manifesto"] .btn-primary { background: oklch(56% 0.228 28); color: oklch(98.5% 0.004 90); border: 1px solid oklch(56% 0.228 28); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_manifesto"] .btn-secondary { background: oklch(17% 0.011 60); color: oklch(95% 0.014 85); border: 1px solid oklch(31% 0.014 60); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_manifesto"] .feature-card, body[data-theme="hallmark_manifesto"] .card, body[data-theme="hallmark_manifesto"] .component-card, body[data-theme="hallmark_manifesto"] .repo-card, body[data-theme="hallmark_manifesto"] .hero-showcase-panel, body[data-theme="hallmark_manifesto"] .sandbox-card, body[data-theme="hallmark_manifesto"] .manifesto-card { background: oklch(17% 0.011 60); color: oklch(95% 0.014 85); border: 1px solid oklch(31% 0.014 60); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_manifesto"] a { color: oklch(56% 0.228 28); }
+body[data-theme="hallmark_manifesto"] :focus-visible { outline: 2px solid oklch(64% 0.22 28); outline-offset: 2px; }
+body[data-theme="hallmark_manifesto"] input, body[data-theme="hallmark_manifesto"] select, body[data-theme="hallmark_manifesto"] textarea { background: oklch(13% 0.01 60); color: oklch(95% 0.014 85); border: 1px solid oklch(31% 0.014 60); border-radius: 0px; }
+
+body[data-theme="hallmark_midnight"] {
+  background-color: oklch(14% 0.048 264); color: oklch(95% 0.016 250);
+  --theme-id: "hallmark_midnight"; --theme-name: "Hallmark Midnight";
+  --bg-base: oklch(14% 0.048 264); --surface-card: oklch(18.5% 0.052 264); --surface-elevated: oklch(23% 0.055 264);
+  --border-hairline: oklch(29% 0.058 264); --accent-primary: oklch(80% 0.11 230); --accent-ink: oklch(16% 0.05 264);
+  --text-primary: oklch(95% 0.016 250); --text-secondary: oklch(88% 0.05 245); --text-muted: oklch(73% 0.04 256);
+  --font-heading: 'Mona Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_midnight"] .site-header { background: oklch(14% 0.048 264); border-bottom: 1px solid oklch(29% 0.058 264); color: oklch(95% 0.016 250); }
+body[data-theme="hallmark_midnight"] h1, body[data-theme="hallmark_midnight"] h2, body[data-theme="hallmark_midnight"] h3 { font-family: var(--font-heading); color: oklch(95% 0.016 250); }
+body[data-theme="hallmark_midnight"] .btn-primary { background: oklch(80% 0.11 230); color: oklch(16% 0.05 264); border: 1px solid oklch(80% 0.11 230); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_midnight"] .btn-secondary { background: oklch(18.5% 0.052 264); color: oklch(95% 0.016 250); border: 1px solid oklch(29% 0.058 264); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_midnight"] .feature-card, body[data-theme="hallmark_midnight"] .card, body[data-theme="hallmark_midnight"] .component-card, body[data-theme="hallmark_midnight"] .repo-card, body[data-theme="hallmark_midnight"] .hero-showcase-panel, body[data-theme="hallmark_midnight"] .sandbox-card, body[data-theme="hallmark_midnight"] .manifesto-card { background: oklch(18.5% 0.052 264); color: oklch(95% 0.016 250); border: 1px solid oklch(29% 0.058 264); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_midnight"] a { color: oklch(80% 0.11 230); }
+body[data-theme="hallmark_midnight"] :focus-visible { outline: 2px solid oklch(84% 0.12 228); outline-offset: 2px; }
+body[data-theme="hallmark_midnight"] input, body[data-theme="hallmark_midnight"] select, body[data-theme="hallmark_midnight"] textarea { background: oklch(14% 0.048 264); color: oklch(95% 0.016 250); border: 1px solid oklch(29% 0.058 264); border-radius: 0px; }
+
+body[data-theme="hallmark_newsprint"] {
+  background-color: oklch(94% 0.011 92); color: oklch(17% 0.012 60);
+  --theme-id: "hallmark_newsprint"; --theme-name: "Hallmark Newsprint";
+  --bg-base: oklch(94% 0.011 92); --surface-card: oklch(90.5% 0.015 88); --surface-elevated: oklch(87% 0.017 86);
+  --border-hairline: oklch(68% 0.016 75); --accent-primary: oklch(44% 0.13 32); --accent-ink: oklch(95% 0.012 90);
+  --text-primary: oklch(17% 0.012 60); --text-secondary: oklch(27% 0.012 58); --text-muted: oklch(46% 0.014 60);
+  --font-heading: 'Zilla Slab', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_newsprint"] .site-header { background: oklch(94% 0.011 92); border-bottom: 1px solid oklch(68% 0.016 75); color: oklch(17% 0.012 60); }
+body[data-theme="hallmark_newsprint"] h1, body[data-theme="hallmark_newsprint"] h2, body[data-theme="hallmark_newsprint"] h3 { font-family: var(--font-heading); color: oklch(17% 0.012 60); }
+body[data-theme="hallmark_newsprint"] .btn-primary { background: oklch(44% 0.13 32); color: oklch(95% 0.012 90); border: 1px solid oklch(44% 0.13 32); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_newsprint"] .btn-secondary { background: oklch(90.5% 0.015 88); color: oklch(17% 0.012 60); border: 1px solid oklch(68% 0.016 75); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_newsprint"] .feature-card, body[data-theme="hallmark_newsprint"] .card, body[data-theme="hallmark_newsprint"] .component-card, body[data-theme="hallmark_newsprint"] .repo-card, body[data-theme="hallmark_newsprint"] .hero-showcase-panel, body[data-theme="hallmark_newsprint"] .sandbox-card, body[data-theme="hallmark_newsprint"] .manifesto-card { background: oklch(90.5% 0.015 88); color: oklch(17% 0.012 60); border: 1px solid oklch(68% 0.016 75); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_newsprint"] a { color: oklch(44% 0.13 32); }
+body[data-theme="hallmark_newsprint"] :focus-visible { outline: 2px solid oklch(48% 0.17 32); outline-offset: 2px; }
+body[data-theme="hallmark_newsprint"] input, body[data-theme="hallmark_newsprint"] select, body[data-theme="hallmark_newsprint"] textarea { background: oklch(94% 0.011 92); color: oklch(17% 0.012 60); border: 1px solid oklch(68% 0.016 75); border-radius: 8px; }
+
+body[data-theme="hallmark_overprint"] {
+  background-color: oklch(91.5% 0.014 92); color: oklch(17% 0.008 60);
+  --theme-id: "hallmark_overprint"; --theme-name: "Hallmark Overprint";
+  --bg-base: oklch(91.5% 0.014 92); --surface-card: oklch(87.5% 0.018 90); --surface-elevated: oklch(83% 0.021 88);
+  --border-hairline: oklch(78% 0.02 85); --accent-primary: oklch(65% 0.12 212); --accent-ink: oklch(17% 0.008 60);
+  --text-primary: oklch(17% 0.008 60); --text-secondary: oklch(29% 0.01 60); --text-muted: oklch(42% 0.012 70);
+  --font-heading: 'Anybody', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_overprint"] .site-header { background: oklch(91.5% 0.014 92); border-bottom: 1px solid oklch(78% 0.02 85); color: oklch(17% 0.008 60); }
+body[data-theme="hallmark_overprint"] h1, body[data-theme="hallmark_overprint"] h2, body[data-theme="hallmark_overprint"] h3 { font-family: var(--font-heading); color: oklch(17% 0.008 60); }
+body[data-theme="hallmark_overprint"] .btn-primary { background: oklch(65% 0.12 212); color: oklch(17% 0.008 60); border: 1px solid oklch(65% 0.12 212); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_overprint"] .btn-secondary { background: oklch(87.5% 0.018 90); color: oklch(17% 0.008 60); border: 1px solid oklch(78% 0.02 85); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_overprint"] .feature-card, body[data-theme="hallmark_overprint"] .card, body[data-theme="hallmark_overprint"] .component-card, body[data-theme="hallmark_overprint"] .repo-card, body[data-theme="hallmark_overprint"] .hero-showcase-panel, body[data-theme="hallmark_overprint"] .sandbox-card, body[data-theme="hallmark_overprint"] .manifesto-card { background: oklch(87.5% 0.018 90); color: oklch(17% 0.008 60); border: 1px solid oklch(78% 0.02 85); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_overprint"] a { color: oklch(65% 0.12 212); }
+body[data-theme="hallmark_overprint"] :focus-visible { outline: 2px solid oklch(44% 0.1 220); outline-offset: 2px; }
+body[data-theme="hallmark_overprint"] input, body[data-theme="hallmark_overprint"] select, body[data-theme="hallmark_overprint"] textarea { background: oklch(91.5% 0.014 92); color: oklch(17% 0.008 60); border: 1px solid oklch(78% 0.02 85); border-radius: 0px; }
+
+body[data-theme="hallmark_pasteup"] {
+  background-color: oklch(73% 0.068 70); color: oklch(17% 0.01 60);
+  --theme-id: "hallmark_pasteup"; --theme-name: "Hallmark Paste-up";
+  --bg-base: oklch(73% 0.068 70); --surface-card: oklch(66% 0.072 68); --surface-elevated: oklch(97% 0.008 90);
+  --border-hairline: oklch(50% 0.055 68); --accent-primary: oklch(93% 0.2 112); --accent-ink: oklch(17% 0.01 60);
+  --text-primary: oklch(17% 0.01 60); --text-secondary: oklch(24% 0.014 60); --text-muted: oklch(28% 0.026 62);
+  --font-heading: 'League Gothic', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_pasteup"] .site-header { background: oklch(73% 0.068 70); border-bottom: 1px solid oklch(50% 0.055 68); color: oklch(17% 0.01 60); }
+body[data-theme="hallmark_pasteup"] h1, body[data-theme="hallmark_pasteup"] h2, body[data-theme="hallmark_pasteup"] h3 { font-family: var(--font-heading); color: oklch(17% 0.01 60); }
+body[data-theme="hallmark_pasteup"] .btn-primary { background: oklch(93% 0.2 112); color: oklch(17% 0.01 60); border: 1px solid oklch(93% 0.2 112); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_pasteup"] .btn-secondary { background: oklch(66% 0.072 68); color: oklch(17% 0.01 60); border: 1px solid oklch(50% 0.055 68); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_pasteup"] .feature-card, body[data-theme="hallmark_pasteup"] .card, body[data-theme="hallmark_pasteup"] .component-card, body[data-theme="hallmark_pasteup"] .repo-card, body[data-theme="hallmark_pasteup"] .hero-showcase-panel, body[data-theme="hallmark_pasteup"] .sandbox-card, body[data-theme="hallmark_pasteup"] .manifesto-card { background: oklch(66% 0.072 68); color: oklch(17% 0.01 60); border: 1px solid oklch(50% 0.055 68); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_pasteup"] a { color: oklch(93% 0.2 112); }
+body[data-theme="hallmark_pasteup"] :focus-visible { outline: 2px solid oklch(17% 0.01 60); outline-offset: 2px; }
+body[data-theme="hallmark_pasteup"] input, body[data-theme="hallmark_pasteup"] select, body[data-theme="hallmark_pasteup"] textarea { background: oklch(73% 0.068 70); color: oklch(17% 0.01 60); border: 1px solid oklch(50% 0.055 68); border-radius: 8px; }
+
+body[data-theme="hallmark_piste"] {
+  background-color: oklch(98.5% 0.005 260); color: oklch(16% 0.012 260);
+  --theme-id: "hallmark_piste"; --theme-name: "Hallmark Piste";
+  --bg-base: oklch(98.5% 0.005 260); --surface-card: oklch(95.5% 0.008 260); --surface-elevated: oklch(91% 0.01 260);
+  --border-hairline: oklch(88% 0.01 260); --accent-primary: oklch(52% 0.25 265); --accent-ink: oklch(98.5% 0.004 260);
+  --text-primary: oklch(16% 0.012 260); --text-secondary: oklch(30% 0.014 260); --text-muted: oklch(48% 0.016 260);
+  --font-heading: 'Barlow Condensed', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_piste"] .site-header { background: oklch(98.5% 0.005 260); border-bottom: 1px solid oklch(88% 0.01 260); color: oklch(16% 0.012 260); }
+body[data-theme="hallmark_piste"] h1, body[data-theme="hallmark_piste"] h2, body[data-theme="hallmark_piste"] h3 { font-family: var(--font-heading); color: oklch(16% 0.012 260); }
+body[data-theme="hallmark_piste"] .btn-primary { background: oklch(52% 0.25 265); color: oklch(98.5% 0.004 260); border: 1px solid oklch(52% 0.25 265); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_piste"] .btn-secondary { background: oklch(95.5% 0.008 260); color: oklch(16% 0.012 260); border: 1px solid oklch(88% 0.01 260); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_piste"] .feature-card, body[data-theme="hallmark_piste"] .card, body[data-theme="hallmark_piste"] .component-card, body[data-theme="hallmark_piste"] .repo-card, body[data-theme="hallmark_piste"] .hero-showcase-panel, body[data-theme="hallmark_piste"] .sandbox-card, body[data-theme="hallmark_piste"] .manifesto-card { background: oklch(95.5% 0.008 260); color: oklch(16% 0.012 260); border: 1px solid oklch(88% 0.01 260); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_piste"] a { color: oklch(52% 0.25 265); }
+body[data-theme="hallmark_piste"] :focus-visible { outline: 2px solid oklch(58% 0.22 28); outline-offset: 2px; }
+body[data-theme="hallmark_piste"] input, body[data-theme="hallmark_piste"] select, body[data-theme="hallmark_piste"] textarea { background: oklch(98.5% 0.005 260); color: oklch(16% 0.012 260); border: 1px solid oklch(88% 0.01 260); border-radius: 0px; }
+
+body[data-theme="hallmark_ribbon"] {
+  background-color: oklch(98.2% 0.008 82); color: oklch(18% 0.006 80);
+  --theme-id: "hallmark_ribbon"; --theme-name: "Hallmark Ribbon";
+  --bg-base: oklch(98.2% 0.008 82); --surface-card: oklch(95.8% 0.011 82); --surface-elevated: oklch(92.3% 0.014 82);
+  --border-hairline: oklch(89.5% 0.011 82); --accent-primary: oklch(44% 0.075 190); --accent-ink: oklch(98% 0.006 85);
+  --text-primary: oklch(18% 0.006 80); --text-secondary: oklch(30% 0.008 80); --text-muted: oklch(47% 0.012 80);
+  --font-heading: 'Instrument Sans', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_ribbon"] .site-header { background: oklch(98.2% 0.008 82); border-bottom: 1px solid oklch(89.5% 0.011 82); color: oklch(18% 0.006 80); }
+body[data-theme="hallmark_ribbon"] h1, body[data-theme="hallmark_ribbon"] h2, body[data-theme="hallmark_ribbon"] h3 { font-family: var(--font-heading); color: oklch(18% 0.006 80); }
+body[data-theme="hallmark_ribbon"] .btn-primary { background: oklch(44% 0.075 190); color: oklch(98% 0.006 85); border: 1px solid oklch(44% 0.075 190); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_ribbon"] .btn-secondary { background: oklch(95.8% 0.011 82); color: oklch(18% 0.006 80); border: 1px solid oklch(89.5% 0.011 82); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_ribbon"] .feature-card, body[data-theme="hallmark_ribbon"] .card, body[data-theme="hallmark_ribbon"] .component-card, body[data-theme="hallmark_ribbon"] .repo-card, body[data-theme="hallmark_ribbon"] .hero-showcase-panel, body[data-theme="hallmark_ribbon"] .sandbox-card, body[data-theme="hallmark_ribbon"] .manifesto-card { background: oklch(95.8% 0.011 82); color: oklch(18% 0.006 80); border: 1px solid oklch(89.5% 0.011 82); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_ribbon"] a { color: oklch(44% 0.075 190); }
+body[data-theme="hallmark_ribbon"] :focus-visible { outline: 2px solid oklch(52% 0.09 190); outline-offset: 2px; }
+body[data-theme="hallmark_ribbon"] input, body[data-theme="hallmark_ribbon"] select, body[data-theme="hallmark_ribbon"] textarea { background: oklch(98.2% 0.008 82); color: oklch(18% 0.006 80); border: 1px solid oklch(89.5% 0.011 82); border-radius: 8px; }
+
+body[data-theme="hallmark_rim"] {
+  background-color: oklch(9% 0.008 75); color: oklch(94% 0.010 80);
+  --theme-id: "hallmark_rim"; --theme-name: "Hallmark Rim";
+  --bg-base: oklch(9% 0.008 75); --surface-card: oklch(12.5% 0.009 75); --surface-elevated: oklch(6.5% 0.007 75);
+  --border-hairline: oklch(25% 0.010 78); --accent-primary: oklch(72% 0.17 45); --accent-ink: oklch(10% 0.02 45);
+  --text-primary: oklch(94% 0.010 80); --text-secondary: oklch(84% 0.011 80); --text-muted: oklch(68% 0.012 80);
+  --font-heading: 'Switzer', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_rim"] .site-header { background: oklch(9% 0.008 75); border-bottom: 1px solid oklch(25% 0.010 78); color: oklch(94% 0.010 80); }
+body[data-theme="hallmark_rim"] h1, body[data-theme="hallmark_rim"] h2, body[data-theme="hallmark_rim"] h3 { font-family: var(--font-heading); color: oklch(94% 0.010 80); }
+body[data-theme="hallmark_rim"] .btn-primary { background: oklch(72% 0.17 45); color: oklch(10% 0.02 45); border: 1px solid oklch(72% 0.17 45); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_rim"] .btn-secondary { background: oklch(12.5% 0.009 75); color: oklch(94% 0.010 80); border: 1px solid oklch(25% 0.010 78); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_rim"] .feature-card, body[data-theme="hallmark_rim"] .card, body[data-theme="hallmark_rim"] .component-card, body[data-theme="hallmark_rim"] .repo-card, body[data-theme="hallmark_rim"] .hero-showcase-panel, body[data-theme="hallmark_rim"] .sandbox-card, body[data-theme="hallmark_rim"] .manifesto-card { background: oklch(12.5% 0.009 75); color: oklch(94% 0.010 80); border: 1px solid oklch(25% 0.010 78); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_rim"] a { color: oklch(72% 0.17 45); }
+body[data-theme="hallmark_rim"] :focus-visible { outline: 2px solid oklch(78% 0.15 45); outline-offset: 2px; }
+body[data-theme="hallmark_rim"] input, body[data-theme="hallmark_rim"] select, body[data-theme="hallmark_rim"] textarea { background: oklch(9% 0.008 75); color: oklch(94% 0.010 80); border: 1px solid oklch(25% 0.010 78); border-radius: 0px; }
+
+body[data-theme="hallmark_riso"] {
+  background-color: oklch(97% 0.011 90); color: oklch(40% 0.165 265);
+  --theme-id: "hallmark_riso"; --theme-name: "Hallmark Riso";
+  --bg-base: oklch(97% 0.011 90); --surface-card: oklch(93.5% 0.034 356); --surface-elevated: oklch(84% 0.11 356);
+  --border-hairline: oklch(85% 0.045 265); --accent-primary: oklch(68% 0.235 356); --accent-ink: oklch(27% 0.13 265);
+  --text-primary: oklch(40% 0.165 265); --text-secondary: oklch(45% 0.15 265); --text-muted: oklch(50% 0.115 265);
+  --font-heading: 'Cabinet Grotesk', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_riso"] .site-header { background: oklch(97% 0.011 90); border-bottom: 1px solid oklch(85% 0.045 265); color: oklch(40% 0.165 265); }
+body[data-theme="hallmark_riso"] h1, body[data-theme="hallmark_riso"] h2, body[data-theme="hallmark_riso"] h3 { font-family: var(--font-heading); color: oklch(40% 0.165 265); }
+body[data-theme="hallmark_riso"] .btn-primary { background: oklch(68% 0.235 356); color: oklch(27% 0.13 265); border: 1px solid oklch(68% 0.235 356); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_riso"] .btn-secondary { background: oklch(93.5% 0.034 356); color: oklch(40% 0.165 265); border: 1px solid oklch(85% 0.045 265); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_riso"] .feature-card, body[data-theme="hallmark_riso"] .card, body[data-theme="hallmark_riso"] .component-card, body[data-theme="hallmark_riso"] .repo-card, body[data-theme="hallmark_riso"] .hero-showcase-panel, body[data-theme="hallmark_riso"] .sandbox-card, body[data-theme="hallmark_riso"] .manifesto-card { background: oklch(93.5% 0.034 356); color: oklch(40% 0.165 265); border: 1px solid oklch(85% 0.045 265); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_riso"] a { color: oklch(68% 0.235 356); }
+body[data-theme="hallmark_riso"] :focus-visible { outline: 2px solid oklch(44% 0.2 265); outline-offset: 2px; }
+body[data-theme="hallmark_riso"] input, body[data-theme="hallmark_riso"] select, body[data-theme="hallmark_riso"] textarea { background: oklch(97% 0.011 90); color: oklch(40% 0.165 265); border: 1px solid oklch(85% 0.045 265); border-radius: 8px; }
+
+body[data-theme="hallmark_solstice"] {
+  background-color: oklch(94% 0.03 80); color: oklch(27% 0.05 50);
+  --theme-id: "hallmark_solstice"; --theme-name: "Hallmark Solstice";
+  --bg-base: oklch(94% 0.03 80); --surface-card: oklch(97% 0.02 85); --surface-elevated: oklch(89% 0.05 80);
+  --border-hairline: oklch(84% 0.06 78); --accent-primary: oklch(54% 0.20 24); --accent-ink: oklch(97% 0.02 85);
+  --text-primary: oklch(27% 0.05 50); --text-secondary: oklch(36% 0.05 50); --text-muted: oklch(48% 0.06 55);
+  --font-heading: 'Yeseva One', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_solstice"] .site-header { background: oklch(94% 0.03 80); border-bottom: 1px solid oklch(84% 0.06 78); color: oklch(27% 0.05 50); }
+body[data-theme="hallmark_solstice"] h1, body[data-theme="hallmark_solstice"] h2, body[data-theme="hallmark_solstice"] h3 { font-family: var(--font-heading); color: oklch(27% 0.05 50); }
+body[data-theme="hallmark_solstice"] .btn-primary { background: oklch(54% 0.20 24); color: oklch(97% 0.02 85); border: 1px solid oklch(54% 0.20 24); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_solstice"] .btn-secondary { background: oklch(97% 0.02 85); color: oklch(27% 0.05 50); border: 1px solid oklch(84% 0.06 78); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_solstice"] .feature-card, body[data-theme="hallmark_solstice"] .card, body[data-theme="hallmark_solstice"] .component-card, body[data-theme="hallmark_solstice"] .repo-card, body[data-theme="hallmark_solstice"] .hero-showcase-panel, body[data-theme="hallmark_solstice"] .sandbox-card, body[data-theme="hallmark_solstice"] .manifesto-card { background: oklch(97% 0.02 85); color: oklch(27% 0.05 50); border: 1px solid oklch(84% 0.06 78); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_solstice"] a { color: oklch(54% 0.20 24); }
+body[data-theme="hallmark_solstice"] :focus-visible { outline: 2px solid oklch(54% 0.20 24); outline-offset: 2px; }
+body[data-theme="hallmark_solstice"] input, body[data-theme="hallmark_solstice"] select, body[data-theme="hallmark_solstice"] textarea { background: oklch(94% 0.03 80); color: oklch(27% 0.05 50); border: 1px solid oklch(84% 0.06 78); border-radius: 0px; }
+
+body[data-theme="hallmark_specimen"] {
+  background-color: oklch(96.5% 0.016 82); color: oklch(17% 0.012 60);
+  --theme-id: "hallmark_specimen"; --theme-name: "Hallmark Specimen";
+  --bg-base: oklch(96.5% 0.016 82); --surface-card: oklch(93.5% 0.02 80); --surface-elevated: oklch(89% 0.024 78);
+  --border-hairline: oklch(80% 0.018 75); --accent-primary: oklch(45% 0.18 262); --accent-ink: oklch(97% 0.012 82);
+  --text-primary: oklch(17% 0.012 60); --text-secondary: oklch(28% 0.014 60); --text-muted: oklch(49% 0.014 65);
+  --font-heading: 'Bodoni Moda', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_specimen"] .site-header { background: oklch(96.5% 0.016 82); border-bottom: 1px solid oklch(80% 0.018 75); color: oklch(17% 0.012 60); }
+body[data-theme="hallmark_specimen"] h1, body[data-theme="hallmark_specimen"] h2, body[data-theme="hallmark_specimen"] h3 { font-family: var(--font-heading); color: oklch(17% 0.012 60); }
+body[data-theme="hallmark_specimen"] .btn-primary { background: oklch(45% 0.18 262); color: oklch(97% 0.012 82); border: 1px solid oklch(45% 0.18 262); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_specimen"] .btn-secondary { background: oklch(93.5% 0.02 80); color: oklch(17% 0.012 60); border: 1px solid oklch(80% 0.018 75); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_specimen"] .feature-card, body[data-theme="hallmark_specimen"] .card, body[data-theme="hallmark_specimen"] .component-card, body[data-theme="hallmark_specimen"] .repo-card, body[data-theme="hallmark_specimen"] .hero-showcase-panel, body[data-theme="hallmark_specimen"] .sandbox-card, body[data-theme="hallmark_specimen"] .manifesto-card { background: oklch(93.5% 0.02 80); color: oklch(17% 0.012 60); border: 1px solid oklch(80% 0.018 75); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_specimen"] a { color: oklch(45% 0.18 262); }
+body[data-theme="hallmark_specimen"] :focus-visible { outline: 2px solid oklch(50% 0.18 262); outline-offset: 2px; }
+body[data-theme="hallmark_specimen"] input, body[data-theme="hallmark_specimen"] select, body[data-theme="hallmark_specimen"] textarea { background: oklch(96.5% 0.016 82); color: oklch(17% 0.012 60); border: 1px solid oklch(80% 0.018 75); border-radius: 0px; }
+
+body[data-theme="hallmark_spore"] {
+  background-color: oklch(15% 0.012 60); color: oklch(93% 0.022 85);
+  --theme-id: "hallmark_spore"; --theme-name: "Hallmark Spore";
+  --bg-base: oklch(15% 0.012 60); --surface-card: oklch(19% 0.014 58); --surface-elevated: oklch(24% 0.02 50);
+  --border-hairline: oklch(31% 0.016 60); --accent-primary: oklch(77% 0.09 30); --accent-ink: oklch(15% 0.012 60);
+  --text-primary: oklch(93% 0.022 85); --text-secondary: oklch(84% 0.022 78); --text-muted: oklch(67% 0.02 70);
+  --font-heading: 'Young Serif', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_spore"] .site-header { background: oklch(15% 0.012 60); border-bottom: 1px solid oklch(31% 0.016 60); color: oklch(93% 0.022 85); }
+body[data-theme="hallmark_spore"] h1, body[data-theme="hallmark_spore"] h2, body[data-theme="hallmark_spore"] h3 { font-family: var(--font-heading); color: oklch(93% 0.022 85); }
+body[data-theme="hallmark_spore"] .btn-primary { background: oklch(77% 0.09 30); color: oklch(15% 0.012 60); border: 1px solid oklch(77% 0.09 30); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_spore"] .btn-secondary { background: oklch(19% 0.014 58); color: oklch(93% 0.022 85); border: 1px solid oklch(31% 0.016 60); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_spore"] .feature-card, body[data-theme="hallmark_spore"] .card, body[data-theme="hallmark_spore"] .component-card, body[data-theme="hallmark_spore"] .repo-card, body[data-theme="hallmark_spore"] .hero-showcase-panel, body[data-theme="hallmark_spore"] .sandbox-card, body[data-theme="hallmark_spore"] .manifesto-card { background: oklch(19% 0.014 58); color: oklch(93% 0.022 85); border: 1px solid oklch(31% 0.016 60); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_spore"] a { color: oklch(77% 0.09 30); }
+body[data-theme="hallmark_spore"] :focus-visible { outline: 2px solid oklch(86% 0.06 30); outline-offset: 2px; }
+body[data-theme="hallmark_spore"] input, body[data-theme="hallmark_spore"] select, body[data-theme="hallmark_spore"] textarea { background: oklch(15% 0.012 60); color: oklch(93% 0.022 85); border: 1px solid oklch(31% 0.016 60); border-radius: 18px; }
+
+body[data-theme="hallmark_sport"] {
+  background-color: oklch(98% 0.005 250); color: oklch(16% 0.080 260);
+  --theme-id: "hallmark_sport"; --theme-name: "Hallmark Sport";
+  --bg-base: oklch(98% 0.005 250); --surface-card: oklch(95% 0.006 250); --surface-elevated: oklch(91.5% 0.007 250);
+  --border-hairline: oklch(78% 0.008 250); --accent-primary: oklch(88% 0.200 120); --accent-ink: oklch(16% 0.080 260);
+  --text-primary: oklch(16% 0.080 260); --text-secondary: oklch(22% 0.060 258); --text-muted: oklch(50% 0.020 250);
+  --font-heading: 'Saira Condensed', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_sport"] .site-header { background: oklch(98% 0.005 250); border-bottom: 1px solid oklch(78% 0.008 250); color: oklch(16% 0.080 260); }
+body[data-theme="hallmark_sport"] h1, body[data-theme="hallmark_sport"] h2, body[data-theme="hallmark_sport"] h3 { font-family: var(--font-heading); color: oklch(16% 0.080 260); }
+body[data-theme="hallmark_sport"] .btn-primary { background: oklch(88% 0.200 120); color: oklch(16% 0.080 260); border: 1px solid oklch(88% 0.200 120); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_sport"] .btn-secondary { background: oklch(95% 0.006 250); color: oklch(16% 0.080 260); border: 1px solid oklch(78% 0.008 250); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_sport"] .feature-card, body[data-theme="hallmark_sport"] .card, body[data-theme="hallmark_sport"] .component-card, body[data-theme="hallmark_sport"] .repo-card, body[data-theme="hallmark_sport"] .hero-showcase-panel, body[data-theme="hallmark_sport"] .sandbox-card, body[data-theme="hallmark_sport"] .manifesto-card { background: oklch(95% 0.006 250); color: oklch(16% 0.080 260); border: 1px solid oklch(78% 0.008 250); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_sport"] a { color: oklch(88% 0.200 120); }
+body[data-theme="hallmark_sport"] :focus-visible { outline: 2px solid oklch(58% 0.145 125); outline-offset: 2px; }
+body[data-theme="hallmark_sport"] input, body[data-theme="hallmark_sport"] select, body[data-theme="hallmark_sport"] textarea { background: oklch(98% 0.005 250); color: oklch(16% 0.080 260); border: 1px solid oklch(78% 0.008 250); border-radius: 8px; }
+
+body[data-theme="hallmark_squeeze"] {
+  background-color: oklch(41% 0.100 154); color: oklch(99% 0.005 90);
+  --theme-id: "hallmark_squeeze"; --theme-name: "Hallmark Squeeze";
+  --bg-base: oklch(41% 0.100 154); --surface-card: oklch(47% 0.105 154); --surface-elevated: oklch(34% 0.090 156);
+  --border-hairline: oklch(55% 0.100 154); --accent-primary: oklch(83% 0.115 56); --accent-ink: oklch(30% 0.070 40);
+  --text-primary: oklch(99% 0.005 90); --text-secondary: oklch(94% 0.020 120); --text-muted: oklch(90% 0.030 150);
+  --font-heading: 'Gabarito', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_squeeze"] .site-header { background: oklch(41% 0.100 154); border-bottom: 1px solid oklch(55% 0.100 154); color: oklch(99% 0.005 90); }
+body[data-theme="hallmark_squeeze"] h1, body[data-theme="hallmark_squeeze"] h2, body[data-theme="hallmark_squeeze"] h3 { font-family: var(--font-heading); color: oklch(99% 0.005 90); }
+body[data-theme="hallmark_squeeze"] .btn-primary { background: oklch(83% 0.115 56); color: oklch(30% 0.070 40); border: 1px solid oklch(83% 0.115 56); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_squeeze"] .btn-secondary { background: oklch(47% 0.105 154); color: oklch(99% 0.005 90); border: 1px solid oklch(55% 0.100 154); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_squeeze"] .feature-card, body[data-theme="hallmark_squeeze"] .card, body[data-theme="hallmark_squeeze"] .component-card, body[data-theme="hallmark_squeeze"] .repo-card, body[data-theme="hallmark_squeeze"] .hero-showcase-panel, body[data-theme="hallmark_squeeze"] .sandbox-card, body[data-theme="hallmark_squeeze"] .manifesto-card { background: oklch(47% 0.105 154); color: oklch(99% 0.005 90); border: 1px solid oklch(55% 0.100 154); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_squeeze"] a { color: oklch(83% 0.115 56); }
+body[data-theme="hallmark_squeeze"] :focus-visible { outline: 2px solid oklch(88% 0.14 85); outline-offset: 2px; }
+body[data-theme="hallmark_squeeze"] input, body[data-theme="hallmark_squeeze"] select, body[data-theme="hallmark_squeeze"] textarea { background: oklch(41% 0.100 154); color: oklch(99% 0.005 90); border: 1px solid oklch(55% 0.100 154); border-radius: 18px; }
+
+body[data-theme="hallmark_sticker"] {
+  background-color: oklch(95.7% 0.013 82); color: oklch(21% 0.011 81);
+  --theme-id: "hallmark_sticker"; --theme-name: "Hallmark Sticker";
+  --bg-base: oklch(95.7% 0.013 82); --surface-card: oklch(92.8% 0.021 79); --surface-elevated: oklch(99.4% 0.007 89);
+  --border-hairline: oklch(89.7% 0.02 80); --accent-primary: oklch(56% 0.225 2); --accent-ink: oklch(99.5% 0.003 82);
+  --text-primary: oklch(21% 0.011 81); --text-secondary: oklch(30% 0.013 78); --text-muted: oklch(50% 0.017 64);
+  --font-heading: 'Bowlby One SC', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_sticker"] .site-header { background: oklch(95.7% 0.013 82); border-bottom: 1px solid oklch(89.7% 0.02 80); color: oklch(21% 0.011 81); }
+body[data-theme="hallmark_sticker"] h1, body[data-theme="hallmark_sticker"] h2, body[data-theme="hallmark_sticker"] h3 { font-family: var(--font-heading); color: oklch(21% 0.011 81); }
+body[data-theme="hallmark_sticker"] .btn-primary { background: oklch(56% 0.225 2); color: oklch(99.5% 0.003 82); border: 1px solid oklch(56% 0.225 2); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_sticker"] .btn-secondary { background: oklch(92.8% 0.021 79); color: oklch(21% 0.011 81); border: 1px solid oklch(89.7% 0.02 80); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_sticker"] .feature-card, body[data-theme="hallmark_sticker"] .card, body[data-theme="hallmark_sticker"] .component-card, body[data-theme="hallmark_sticker"] .repo-card, body[data-theme="hallmark_sticker"] .hero-showcase-panel, body[data-theme="hallmark_sticker"] .sandbox-card, body[data-theme="hallmark_sticker"] .manifesto-card { background: oklch(92.8% 0.021 79); color: oklch(21% 0.011 81); border: 1px solid oklch(89.7% 0.02 80); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_sticker"] a { color: oklch(56% 0.225 2); }
+body[data-theme="hallmark_sticker"] :focus-visible { outline: 2px solid oklch(56% 0.225 2); outline-offset: 2px; }
+body[data-theme="hallmark_sticker"] input, body[data-theme="hallmark_sticker"] select, body[data-theme="hallmark_sticker"] textarea { background: oklch(95.7% 0.013 82); color: oklch(21% 0.011 81); border: 1px solid oklch(89.7% 0.02 80); border-radius: 8px; }
+
+body[data-theme="hallmark_studio"] {
+  background-color: oklch(97.2% 0.006 215); color: oklch(16% 0.032 250);
+  --theme-id: "hallmark_studio"; --theme-name: "Hallmark Studio";
+  --bg-base: oklch(97.2% 0.006 215); --surface-card: oklch(94% 0.009 215); --surface-elevated: oklch(90.5% 0.011 215);
+  --border-hairline: oklch(84% 0.010 225); --accent-primary: oklch(68% 0.172 50); --accent-ink: oklch(16% 0.032 250);
+  --text-primary: oklch(16% 0.032 250); --text-secondary: oklch(34% 0.022 245); --text-muted: oklch(49% 0.018 240);
+  --font-heading: 'Hedvig Letters Serif', 'Noto Serif KR', Georgia, serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_studio"] .site-header { background: oklch(97.2% 0.006 215); border-bottom: 1px solid oklch(84% 0.010 225); color: oklch(16% 0.032 250); }
+body[data-theme="hallmark_studio"] h1, body[data-theme="hallmark_studio"] h2, body[data-theme="hallmark_studio"] h3 { font-family: var(--font-heading); color: oklch(16% 0.032 250); }
+body[data-theme="hallmark_studio"] .btn-primary { background: oklch(68% 0.172 50); color: oklch(16% 0.032 250); border: 1px solid oklch(68% 0.172 50); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_studio"] .btn-secondary { background: oklch(94% 0.009 215); color: oklch(16% 0.032 250); border: 1px solid oklch(84% 0.010 225); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_studio"] .feature-card, body[data-theme="hallmark_studio"] .card, body[data-theme="hallmark_studio"] .component-card, body[data-theme="hallmark_studio"] .repo-card, body[data-theme="hallmark_studio"] .hero-showcase-panel, body[data-theme="hallmark_studio"] .sandbox-card, body[data-theme="hallmark_studio"] .manifesto-card { background: oklch(94% 0.009 215); color: oklch(16% 0.032 250); border: 1px solid oklch(84% 0.010 225); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_studio"] a { color: oklch(68% 0.172 50); }
+body[data-theme="hallmark_studio"] :focus-visible { outline: 2px solid oklch(52% 0.15 48); outline-offset: 2px; }
+body[data-theme="hallmark_studio"] input, body[data-theme="hallmark_studio"] select, body[data-theme="hallmark_studio"] textarea { background: oklch(97.2% 0.006 215); color: oklch(16% 0.032 250); border: 1px solid oklch(84% 0.010 225); border-radius: 8px; }
+
+body[data-theme="hallmark_terminal"] {
+  background-color: oklch(12.5% 0.012 150); color: oklch(94% 0.03 140);
+  --theme-id: "hallmark_terminal"; --theme-name: "Hallmark Terminal";
+  --bg-base: oklch(12.5% 0.012 150); --surface-card: oklch(16% 0.016 150); --surface-elevated: oklch(20.5% 0.022 150);
+  --border-hairline: oklch(27% 0.028 148); --accent-primary: oklch(87% 0.2 142); --accent-ink: oklch(14% 0.02 150);
+  --text-primary: oklch(94% 0.03 140); --text-secondary: oklch(82% 0.05 142); --text-muted: oklch(64% 0.06 145);
+  --font-heading: 'Martian Mono', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_terminal"] .site-header { background: oklch(12.5% 0.012 150); border-bottom: 1px solid oklch(27% 0.028 148); color: oklch(94% 0.03 140); }
+body[data-theme="hallmark_terminal"] h1, body[data-theme="hallmark_terminal"] h2, body[data-theme="hallmark_terminal"] h3 { font-family: var(--font-heading); color: oklch(94% 0.03 140); }
+body[data-theme="hallmark_terminal"] .btn-primary { background: oklch(87% 0.2 142); color: oklch(14% 0.02 150); border: 1px solid oklch(87% 0.2 142); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_terminal"] .btn-secondary { background: oklch(16% 0.016 150); color: oklch(94% 0.03 140); border: 1px solid oklch(27% 0.028 148); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_terminal"] .feature-card, body[data-theme="hallmark_terminal"] .card, body[data-theme="hallmark_terminal"] .component-card, body[data-theme="hallmark_terminal"] .repo-card, body[data-theme="hallmark_terminal"] .hero-showcase-panel, body[data-theme="hallmark_terminal"] .sandbox-card, body[data-theme="hallmark_terminal"] .manifesto-card { background: oklch(16% 0.016 150); color: oklch(94% 0.03 140); border: 1px solid oklch(27% 0.028 148); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_terminal"] a { color: oklch(87% 0.2 142); }
+body[data-theme="hallmark_terminal"] :focus-visible { outline: 2px solid oklch(87% 0.2 142); outline-offset: 2px; }
+body[data-theme="hallmark_terminal"] input, body[data-theme="hallmark_terminal"] select, body[data-theme="hallmark_terminal"] textarea { background: oklch(12.5% 0.012 150); color: oklch(94% 0.03 140); border: 1px solid oklch(27% 0.028 148); border-radius: 18px; }
+
+body[data-theme="hallmark_terrazzo"] {
+  background-color: oklch(96% 0.009 82); color: oklch(16% 0.006 60);
+  --theme-id: "hallmark_terrazzo"; --theme-name: "Hallmark Terrazzo";
+  --bg-base: oklch(96% 0.009 82); --surface-card: oklch(92% 0.012 82); --surface-elevated: oklch(87.5% 0.014 80);
+  --border-hairline: oklch(81% 0.012 80); --accent-primary: oklch(53% 0.15 38); --accent-ink: oklch(99.5% 0.003 82);
+  --text-primary: oklch(16% 0.006 60); --text-secondary: oklch(27% 0.006 60); --text-muted: oklch(46% 0.01 60);
+  --font-heading: 'Syne', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_terrazzo"] .site-header { background: oklch(96% 0.009 82); border-bottom: 1px solid oklch(81% 0.012 80); color: oklch(16% 0.006 60); }
+body[data-theme="hallmark_terrazzo"] h1, body[data-theme="hallmark_terrazzo"] h2, body[data-theme="hallmark_terrazzo"] h3 { font-family: var(--font-heading); color: oklch(16% 0.006 60); }
+body[data-theme="hallmark_terrazzo"] .btn-primary { background: oklch(53% 0.15 38); color: oklch(99.5% 0.003 82); border: 1px solid oklch(53% 0.15 38); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_terrazzo"] .btn-secondary { background: oklch(92% 0.012 82); color: oklch(16% 0.006 60); border: 1px solid oklch(81% 0.012 80); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_terrazzo"] .feature-card, body[data-theme="hallmark_terrazzo"] .card, body[data-theme="hallmark_terrazzo"] .component-card, body[data-theme="hallmark_terrazzo"] .repo-card, body[data-theme="hallmark_terrazzo"] .hero-showcase-panel, body[data-theme="hallmark_terrazzo"] .sandbox-card, body[data-theme="hallmark_terrazzo"] .manifesto-card { background: oklch(92% 0.012 82); color: oklch(16% 0.006 60); border: 1px solid oklch(81% 0.012 80); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_terrazzo"] a { color: oklch(53% 0.15 38); }
+body[data-theme="hallmark_terrazzo"] :focus-visible { outline: 2px solid oklch(50% 0.16 38); outline-offset: 2px; }
+body[data-theme="hallmark_terrazzo"] input, body[data-theme="hallmark_terrazzo"] select, body[data-theme="hallmark_terrazzo"] textarea { background: oklch(96% 0.009 82); color: oklch(16% 0.006 60); border: 1px solid oklch(81% 0.012 80); border-radius: 8px; }
+
+body[data-theme="hallmark_ultraviolet"] {
+  background-color: oklch(95% 0.02 300); color: oklch(18% 0.02 300);
+  --theme-id: "hallmark_ultraviolet"; --theme-name: "Hallmark Ultraviolet";
+  --bg-base: oklch(95% 0.02 300); --surface-card: oklch(92% 0.03 300); --surface-elevated: oklch(89% 0.035 300);
+  --border-hairline: oklch(84% 0.04 300); --accent-primary: oklch(50% 0.25 290); --accent-ink: oklch(97% 0.01 300);
+  --text-primary: oklch(18% 0.02 300); --text-secondary: oklch(28% 0.03 300); --text-muted: oklch(46% 0.05 300);
+  --font-heading: 'Outfit', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 18px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_ultraviolet"] .site-header { background: oklch(95% 0.02 300); border-bottom: 1px solid oklch(84% 0.04 300); color: oklch(18% 0.02 300); }
+body[data-theme="hallmark_ultraviolet"] h1, body[data-theme="hallmark_ultraviolet"] h2, body[data-theme="hallmark_ultraviolet"] h3 { font-family: var(--font-heading); color: oklch(18% 0.02 300); }
+body[data-theme="hallmark_ultraviolet"] .btn-primary { background: oklch(50% 0.25 290); color: oklch(97% 0.01 300); border: 1px solid oklch(50% 0.25 290); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_ultraviolet"] .btn-secondary { background: oklch(92% 0.03 300); color: oklch(18% 0.02 300); border: 1px solid oklch(84% 0.04 300); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_ultraviolet"] .feature-card, body[data-theme="hallmark_ultraviolet"] .card, body[data-theme="hallmark_ultraviolet"] .component-card, body[data-theme="hallmark_ultraviolet"] .repo-card, body[data-theme="hallmark_ultraviolet"] .hero-showcase-panel, body[data-theme="hallmark_ultraviolet"] .sandbox-card, body[data-theme="hallmark_ultraviolet"] .manifesto-card { background: oklch(92% 0.03 300); color: oklch(18% 0.02 300); border: 1px solid oklch(84% 0.04 300); border-radius: 18px; box-shadow: none; }
+body[data-theme="hallmark_ultraviolet"] a { color: oklch(50% 0.25 290); }
+body[data-theme="hallmark_ultraviolet"] :focus-visible { outline: 2px solid oklch(50% 0.25 290); outline-offset: 2px; }
+body[data-theme="hallmark_ultraviolet"] input, body[data-theme="hallmark_ultraviolet"] select, body[data-theme="hallmark_ultraviolet"] textarea { background: oklch(95% 0.02 300); color: oklch(18% 0.02 300); border: 1px solid oklch(84% 0.04 300); border-radius: 18px; }
+
+body[data-theme="hallmark_vellum"] {
+  background-color: oklch(94% 0.024 82); color: oklch(23% 0.025 55);
+  --theme-id: "hallmark_vellum"; --theme-name: "Hallmark Vellum";
+  --bg-base: oklch(94% 0.024 82); --surface-card: oklch(90% 0.032 80); --surface-elevated: oklch(86% 0.036 78);
+  --border-hairline: oklch(75% 0.035 72); --accent-primary: oklch(43% 0.17 268); --accent-ink: oklch(95% 0.02 82);
+  --text-primary: oklch(23% 0.025 55); --text-secondary: oklch(31% 0.024 58); --text-muted: oklch(46% 0.024 64);
+  --font-heading: 'Grenze Gotisch', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 8px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_vellum"] .site-header { background: oklch(94% 0.024 82); border-bottom: 1px solid oklch(75% 0.035 72); color: oklch(23% 0.025 55); }
+body[data-theme="hallmark_vellum"] h1, body[data-theme="hallmark_vellum"] h2, body[data-theme="hallmark_vellum"] h3 { font-family: var(--font-heading); color: oklch(23% 0.025 55); }
+body[data-theme="hallmark_vellum"] .btn-primary { background: oklch(43% 0.17 268); color: oklch(95% 0.02 82); border: 1px solid oklch(43% 0.17 268); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_vellum"] .btn-secondary { background: oklch(90% 0.032 80); color: oklch(23% 0.025 55); border: 1px solid oklch(75% 0.035 72); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_vellum"] .feature-card, body[data-theme="hallmark_vellum"] .card, body[data-theme="hallmark_vellum"] .component-card, body[data-theme="hallmark_vellum"] .repo-card, body[data-theme="hallmark_vellum"] .hero-showcase-panel, body[data-theme="hallmark_vellum"] .sandbox-card, body[data-theme="hallmark_vellum"] .manifesto-card { background: oklch(90% 0.032 80); color: oklch(23% 0.025 55); border: 1px solid oklch(75% 0.035 72); border-radius: 8px; box-shadow: none; }
+body[data-theme="hallmark_vellum"] a { color: oklch(43% 0.17 268); }
+body[data-theme="hallmark_vellum"] :focus-visible { outline: 2px solid oklch(50% 0.18 268); outline-offset: 2px; }
+body[data-theme="hallmark_vellum"] input, body[data-theme="hallmark_vellum"] select, body[data-theme="hallmark_vellum"] textarea { background: oklch(94% 0.024 82); color: oklch(23% 0.025 55); border: 1px solid oklch(75% 0.035 72); border-radius: 8px; }
+
+body[data-theme="hallmark_wayfind"] {
+  background-color: oklch(95.5% 0.006 250); color: oklch(16% 0.014 262);
+  --theme-id: "hallmark_wayfind"; --theme-name: "Hallmark Wayfind";
+  --bg-base: oklch(95.5% 0.006 250); --surface-card: oklch(91% 0.009 250); --surface-elevated: oklch(99.5% 0.005 250);
+  --border-hairline: oklch(80% 0.011 250); --accent-primary: oklch(51% 0.22 264); --accent-ink: oklch(99.5% 0.003 250);
+  --text-primary: oklch(16% 0.014 262); --text-secondary: oklch(29% 0.014 262); --text-muted: oklch(47% 0.016 260);
+  --font-heading: 'Chivo Mono', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_wayfind"] .site-header { background: oklch(95.5% 0.006 250); border-bottom: 1px solid oklch(80% 0.011 250); color: oklch(16% 0.014 262); }
+body[data-theme="hallmark_wayfind"] h1, body[data-theme="hallmark_wayfind"] h2, body[data-theme="hallmark_wayfind"] h3 { font-family: var(--font-heading); color: oklch(16% 0.014 262); }
+body[data-theme="hallmark_wayfind"] .btn-primary { background: oklch(51% 0.22 264); color: oklch(99.5% 0.003 250); border: 1px solid oklch(51% 0.22 264); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_wayfind"] .btn-secondary { background: oklch(91% 0.009 250); color: oklch(16% 0.014 262); border: 1px solid oklch(80% 0.011 250); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_wayfind"] .feature-card, body[data-theme="hallmark_wayfind"] .card, body[data-theme="hallmark_wayfind"] .component-card, body[data-theme="hallmark_wayfind"] .repo-card, body[data-theme="hallmark_wayfind"] .hero-showcase-panel, body[data-theme="hallmark_wayfind"] .sandbox-card, body[data-theme="hallmark_wayfind"] .manifesto-card { background: oklch(91% 0.009 250); color: oklch(16% 0.014 262); border: 1px solid oklch(80% 0.011 250); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_wayfind"] a { color: oklch(51% 0.22 264); }
+body[data-theme="hallmark_wayfind"] :focus-visible { outline: 2px solid oklch(51% 0.22 264); outline-offset: 2px; }
+body[data-theme="hallmark_wayfind"] input, body[data-theme="hallmark_wayfind"] select, body[data-theme="hallmark_wayfind"] textarea { background: oklch(95.5% 0.006 250); color: oklch(16% 0.014 262); border: 1px solid oklch(80% 0.011 250); border-radius: 0px; }
+
+body[data-theme="hallmark_werkstatt"] {
+  background-color: oklch(84% 0.024 82); color: oklch(18% 0.008 60);
+  --theme-id: "hallmark_werkstatt"; --theme-name: "Hallmark Werkstatt";
+  --bg-base: oklch(84% 0.024 82); --surface-card: oklch(79.5% 0.028 80); --surface-elevated: oklch(89.5% 0.018 84);
+  --border-hairline: oklch(58% 0.022 72); --accent-primary: oklch(46% 0.2 264); --accent-ink: oklch(96% 0.012 82);
+  --text-primary: oklch(18% 0.008 60); --text-secondary: oklch(27% 0.01 60); --text-muted: oklch(39% 0.014 62);
+  --font-heading: 'Jost', 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-body: 'Pretendard Variable', 'Noto Sans KR', sans-serif; --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 0px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark_werkstatt"] .site-header { background: oklch(84% 0.024 82); border-bottom: 1px solid oklch(58% 0.022 72); color: oklch(18% 0.008 60); }
+body[data-theme="hallmark_werkstatt"] h1, body[data-theme="hallmark_werkstatt"] h2, body[data-theme="hallmark_werkstatt"] h3 { font-family: var(--font-heading); color: oklch(18% 0.008 60); }
+body[data-theme="hallmark_werkstatt"] .btn-primary { background: oklch(46% 0.2 264); color: oklch(96% 0.012 82); border: 1px solid oklch(46% 0.2 264); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_werkstatt"] .btn-secondary { background: oklch(79.5% 0.028 80); color: oklch(18% 0.008 60); border: 1px solid oklch(58% 0.022 72); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_werkstatt"] .feature-card, body[data-theme="hallmark_werkstatt"] .card, body[data-theme="hallmark_werkstatt"] .component-card, body[data-theme="hallmark_werkstatt"] .repo-card, body[data-theme="hallmark_werkstatt"] .hero-showcase-panel, body[data-theme="hallmark_werkstatt"] .sandbox-card, body[data-theme="hallmark_werkstatt"] .manifesto-card { background: oklch(79.5% 0.028 80); color: oklch(18% 0.008 60); border: 1px solid oklch(58% 0.022 72); border-radius: 0px; box-shadow: none; }
+body[data-theme="hallmark_werkstatt"] a { color: oklch(46% 0.2 264); }
+body[data-theme="hallmark_werkstatt"] :focus-visible { outline: 2px solid oklch(46% 0.2 264); outline-offset: 2px; }
+body[data-theme="hallmark_werkstatt"] input, body[data-theme="hallmark_werkstatt"] select, body[data-theme="hallmark_werkstatt"] textarea { background: oklch(84% 0.024 82); color: oklch(18% 0.008 60); border: 1px solid oklch(58% 0.022 72); border-radius: 0px; }
