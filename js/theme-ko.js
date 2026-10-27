@@ -4,6 +4,1735 @@
    ========================================================================== */
 
 export const THEME_KO = {
+  "hallmark_almanac": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Almanac: cool slate stock with a pale printed sheet",
+  "heroSubtitle": "cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Hanken Grotesk (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_arcade": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Arcade: aubergine CRT ground",
+  "heroSubtitle": "aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Silkscreen and Bungee (pixel). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: PIXEL"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_atelier": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Atelier: limewash paper under a slow luminous air",
+  "heroSubtitle": "limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Sentient (roman-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_bloom": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Bloom: warm off-white paper with grain and a generated working grid",
+  "heroSubtitle": "warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Ranade (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_blueprint": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Blueprint: prussian-blue sheet",
+  "heroSubtitle": "prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Chakra Petch (geometric-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: drenched. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: DRENCHED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal",
+    "무의미한 3단 카드 나열 배제 및 drenched 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_broadside": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Broadside: grained buff stock",
+  "heroSubtitle": "grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Six Caps (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_brutal": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Brutal: near-white poster stock",
+  "heroSubtitle": "near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Libre Franklin (grotesk-heavy). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_carnival": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Carnival: tinted paper",
+  "heroSubtitle": "tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Big Shoulders Display (display-heavy). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_cobalt": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Cobalt: cool near-white paper",
+  "heroSubtitle": "cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Familjen Grotesk (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_console": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Console: graphite ground in three lightness steps",
+  "heroSubtitle": "graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Host Grotesk (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_coral": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Coral: warm grey paper and a felt desk",
+  "heroSubtitle": "warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: General Sans (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_darkroom": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Darkroom: warm print-black ground",
+  "heroSubtitle": "warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Sofia Sans Extra Condensed (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_dose": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Dose: warm morning paper with a fibre grain and window light",
+  "heroSubtitle": "warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Schibsted Grotesk (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_dusk": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Dusk: a real landscape at the turn of the light behind the hero",
+  "heroSubtitle": "a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Wix Madefor Display (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_editorial": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Editorial: warm white uncoated stock",
+  "heroSubtitle": "warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Bricolage Grotesque (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_formwork": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Formwork: warm grey concrete paper with a speck grain",
+  "heroSubtitle": "warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Oswald (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_furrow": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Furrow: warm manila paper",
+  "heroSubtitle": "warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Red Hat Display (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_garden": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Garden: warm oat paper",
+  "heroSubtitle": "warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Vollkorn (roman-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_grid": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Grid: white poster stock",
+  "heroSubtitle": "white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Radio Canada Big (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_halftone": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Halftone: butter-cream stock",
+  "heroSubtitle": "butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Ultra (slab-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: SLAB-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_hedgerow": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Hedgerow: deep leaf-green paper",
+  "heroSubtitle": "deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Prata (high-contrast-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: drenched. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: DRENCHED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream",
+    "무의미한 3단 카드 나열 배제 및 drenched 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_hum": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Hum: grained cream paper pulled toward pear-yellow",
+  "heroSubtitle": "grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Chillax (rounded-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: ROUNDED-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_ink": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Ink: white paper",
+  "heroSubtitle": "white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Epilogue (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_kiln": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Kiln: near-black ground",
+  "heroSubtitle": "near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Boska (high-contrast-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_loom": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Loom: ecru paper with sand steps",
+  "heroSubtitle": "ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Libre Caslon Display (roman-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_lumen": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Lumen: violet-black ground",
+  "heroSubtitle": "violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Instrument Serif (roman-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_manifesto": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Manifesto: warm near-black ground",
+  "heroSubtitle": "warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Anton (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_midnight": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Midnight: midnight-blue ground to every edge",
+  "heroSubtitle": "midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Mona Sans (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_newsprint": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Newsprint: pale newsprint stock",
+  "heroSubtitle": "pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Zilla Slab (slab-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: SLAB-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_overprint": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Overprint: grey newsprint stock",
+  "heroSubtitle": "grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Anybody (grotesk-heavy). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_pasteup": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Paste-up: kraft board",
+  "heroSubtitle": "kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: League Gothic (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_piste": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Piste: snow-white paper",
+  "heroSubtitle": "snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Barlow Condensed (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_ribbon": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Ribbon: warm off-white or blue-black night",
+  "heroSubtitle": "warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Instrument Sans (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_rim": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Rim: warm black paper",
+  "heroSubtitle": "warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Switzer (grotesk-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_riso": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Riso: bright uncoated stock and no black",
+  "heroSubtitle": "bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Cabinet Grotesk (grotesk-heavy). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GROTESK-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_solstice": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Solstice: cream paper",
+  "heroSubtitle": "cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Yeseva One (high-contrast-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_specimen": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Specimen: warm oat paper",
+  "heroSubtitle": "warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Bodoni Moda (high-contrast-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_spore": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Spore: coffee-ground black with a warm grain",
+  "heroSubtitle": "coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Young Serif (roman-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_sport": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Sport: cool concrete paper",
+  "heroSubtitle": "cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Saira Condensed (display-condensed). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_squeeze": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Squeeze: forest-green paper with real chroma",
+  "heroSubtitle": "forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Gabarito (geometric-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: drenched. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: DRENCHED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls",
+    "무의미한 3단 카드 나열 배제 및 drenched 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_sticker": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Sticker: warm off-white paper",
+  "heroSubtitle": "warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Bowlby One SC (display-heavy). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: DISPLAY-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_studio": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Studio: cool studio-white proof paper with an ink dot grid and grain",
+  "heroSubtitle": "cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Hedvig Letters Serif (roman-serif). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_terminal": {
+  "heroBadge": "HALLMARK 머티리얼 • ATMOSPHERIC",
+  "heroTitle": "Hallmark Terminal: a near-black ground with a green cast in three lightness steps",
+  "heroSubtitle": "a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Martian Mono (mono). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: MONO"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_terrazzo": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Terrazzo: off-white paper",
+  "heroSubtitle": "off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Syne (geometric-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: restrained. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal",
+    "무의미한 3단 카드 나열 배제 및 restrained 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_ultraviolet": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Ultraviolet: lavender paper or a violet-black night",
+  "heroSubtitle": "lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Outfit (geometric-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_vellum": {
+  "heroBadge": "HALLMARK 머티리얼 • EDITORIAL",
+  "heroTitle": "Hallmark Vellum: parchment paper",
+  "heroSubtitle": "parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Grenze Gotisch (blackletter). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: BLACKLETTER"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_wayfind": {
+  "heroBadge": "HALLMARK 머티리얼 • MODERN-MINIMAL",
+  "heroTitle": "Hallmark Wayfind: cool grey paper",
+  "heroSubtitle": "cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Chivo Mono (mono). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: MONO"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: committed. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink",
+    "무의미한 3단 카드 나열 배제 및 committed 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+  "hallmark_werkstatt": {
+  "heroBadge": "HALLMARK 머티리얼 • PLAYFUL",
+  "heroTitle": "Hallmark Werkstatt: warm putty ground with a lighter well",
+  "heroSubtitle": "warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries",
+  "ctaPrimary": "컴포넌트 보기",
+  "ctaSecondary": "가이드라인 ↗",
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Specification",
+      "desc": "warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Pair",
+      "desc": "헤드라인 서체: Jost (geometric-sans). 엄격한 자간과 행간 적용.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Floor Gate Rule",
+      "desc": "자세: full-palette. 배경색과 글자색 쌍을 강제하여 4.5:1 이상 대비 보장.",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "고유한 물성 기반 설계: warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries",
+    "무의미한 3단 카드 나열 배제 및 full-palette 자세 준수",
+    "명도 대비 4.5:1 이상 및 모바일 가로 오버플로 원천 차단"
+  ],
+  "antiPatterns": [
+    "맥락 없는 보라색 그라데이션 및 둥근 알약 남발 금지",
+    "근거 없는 허위 수치 및 헤드라인 1단어 무작위 하이라이트 금지"
+  ]
+},
+
   "hallmark": {
     "heroBadge": "HALLMARK • ANTI-AI-SLOP 3대 게이트",
     "heroTitle": "Hallmark Cobalt: AI 슬롭을 원천 차단하는 에디토리얼 시스템.",

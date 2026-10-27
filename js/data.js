@@ -97,6 +97,2455 @@ export const THEME_CATEGORIES = [
 export const ORDERED_THEME_IDS = THEME_CATEGORIES.flatMap(cat => cat.themes);
 
 export const DESIGN_LANGUAGES = {
+  "hallmark_almanac": {
+  "id": "hallmark_almanac",
+  "name": "Hallmark: Almanac",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads...",
+  "navBrand": "HALLMARK.ALMANAC",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Almanac: cool slate stock with a pale printed sheet",
+  "heroSubtitle": "cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#c3ccd4",
+    "surface": "#d8dfe6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#ae2c77",
+    "textPrimary": "#111827",
+    "fontHeading": "Hanken Grotesk"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Hanken Grotesk (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Almanac Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta.\nKey Tokens: Paper #c3ccd4, Accent #ae2c77, Display Hanken Grotesk.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_arcade": {
+  "id": "hallmark_arcade",
+  "name": "Hallmark: Arcade",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, ...",
+  "navBrand": "HALLMARK.ARCADE",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Arcade: aubergine CRT ground",
+  "heroSubtitle": "aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#0b070e",
+    "surface": "#18151a",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#b83300",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Silkscreen and Bungee"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Silkscreen and Bungee (pixel) with disciplined line-height.",
+      "meta": "TYPE: PIXEL"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Arcade Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals.\nKey Tokens: Paper #0b070e, Accent #b83300, Display Silkscreen and Bungee.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_atelier": {
+  "id": "hallmark_atelier",
+  "name": "Hallmark: Atelier",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "limewash paper under a slow luminous air, deep umber ink, Sentient light over Ha...",
+  "navBrand": "HALLMARK.ATELIER",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Atelier: limewash paper under a slow luminous air",
+  "heroSubtitle": "limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f3ece2",
+    "surface": "#fffef6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#006ac9",
+    "textPrimary": "#111827",
+    "fontHeading": "Sentient"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Sentient (roman-serif) with disciplined line-height.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Atelier Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal.\nKey Tokens: Paper #f3ece2, Accent #006ac9, Display Sentient.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_bloom": {
+  "id": "hallmark_bloom",
+  "name": "Hallmark: Bloom",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "warm off-white paper with grain and a generated working grid, two quiet terracot...",
+  "navBrand": "HALLMARK.BLOOM",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Bloom: warm off-white paper with grain and a generated working grid",
+  "heroSubtitle": "warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#fcf4ea",
+    "surface": "#fffef7",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#b93000",
+    "textPrimary": "#111827",
+    "fontHeading": "Ranade"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Ranade (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Bloom Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips.\nKey Tokens: Paper #fcf4ea, Accent #b93000, Display Ranade.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_blueprint": {
+  "id": "hallmark_blueprint",
+  "name": "Hallmark: Blueprint",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans wi...",
+  "navBrand": "HALLMARK.BLUEPRINT",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Blueprint: prussian-blue sheet",
+  "heroSubtitle": "prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#353b42",
+    "surface": "#464b51",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#0070c4",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Chakra Petch"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Chakra Petch (geometric-sans) with disciplined line-height.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: drenched. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: DRENCHED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal",
+    "Zero arbitrary card nesting; strictly enforced drenched posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Blueprint Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal.\nKey Tokens: Paper #353b42, Accent #0070c4, Display Chakra Petch.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_broadside": {
+  "id": "hallmark_broadside",
+  "name": "Hallmark: Broadside",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archiv...",
+  "navBrand": "HALLMARK.BROADSIDE",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Broadside: grained buff stock",
+  "heroSubtitle": "grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#e9e4da",
+    "surface": "#fcf8f0",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#ba2f12",
+    "textPrimary": "#111827",
+    "fontHeading": "Six Caps"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Six Caps (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Broadside Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion.\nKey Tokens: Paper #e9e4da, Accent #ba2f12, Display Six Caps.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_brutal": {
+  "id": "hallmark_brutal",
+  "name": "Hallmark: Brutal",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "near-white poster stock, near-black ink as 3px rules, boxed cells and solid fill...",
+  "navBrand": "HALLMARK.BRUTAL",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Brutal: near-white poster stock",
+  "heroSubtitle": "near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#faf7ec",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#7a6b00",
+    "textPrimary": "#111827",
+    "fontHeading": "Libre Franklin"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Libre Franklin (grotesk-heavy) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Brutal Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill.\nKey Tokens: Paper #faf7ec, Accent #7a6b00, Display Libre Franklin.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_carnival": {
+  "id": "hallmark_carnival",
+  "name": "Hallmark: Carnival",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large...",
+  "navBrand": "HALLMARK.CARNIVAL",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Carnival: tinted paper",
+  "heroSubtitle": "tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#ede2dc",
+    "surface": "#fff6f1",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#8a6300",
+    "textPrimary": "#111827",
+    "fontHeading": "Big Shoulders Display"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Big Shoulders Display (display-heavy) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Carnival Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields.\nKey Tokens: Paper #ede2dc, Accent #8a6300, Display Big Shoulders Display.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_cobalt": {
+  "id": "hallmark_cobalt",
+  "name": "Hallmark: Cobalt",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Pl...",
+  "navBrand": "HALLMARK.COBALT",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Cobalt: cool near-white paper",
+  "heroSubtitle": "cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f3fbff",
+    "surface": "#f9ffff",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#0065cd",
+    "textPrimary": "#111827",
+    "fontHeading": "Familjen Grotesk"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Familjen Grotesk (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Cobalt Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal.\nKey Tokens: Paper #f3fbff, Accent #0065cd, Display Familjen Grotesk.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_console": {
+  "id": "hallmark_console",
+  "name": "Hallmark: Console",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "graphite ground in three lightness steps, pale ink, hairline panels cut from one...",
+  "navBrand": "HALLMARK.CONSOLE",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Console: graphite ground in three lightness steps",
+  "heroSubtitle": "graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#0a1016",
+    "surface": "#191d22",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#9d5600",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Host Grotesk"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Host Grotesk (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Console Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument.\nKey Tokens: Paper #0a1016, Accent #9d5600, Display Host Grotesk.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_coral": {
+  "id": "hallmark_coral",
+  "name": "Hallmark: Coral",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "warm grey paper and a felt desk, cotton stationery lit from the left, General Sa...",
+  "navBrand": "HALLMARK.CORAL",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Coral: warm grey paper and a felt desk",
+  "heroSubtitle": "warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#fef3ec",
+    "surface": "#fffdf8",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#ba2d1f",
+    "textPrimary": "#111827",
+    "fontHeading": "General Sans"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: General Sans (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Coral Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state.\nKey Tokens: Paper #fef3ec, Accent #ba2d1f, Display General Sans.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_darkroom": {
+  "id": "hallmark_darkroom",
+  "name": "Hallmark: Darkroom",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia San...",
+  "navBrand": "HALLMARK.DARKROOM",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Darkroom: warm print-black ground",
+  "heroSubtitle": "warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#0b0503",
+    "surface": "#17110e",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#b04200",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Sofia Sans Extra Condensed"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Sofia Sans Extra Condensed (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Darkroom Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight.\nKey Tokens: Paper #0b0503, Accent #b04200, Display Sofia Sans Extra Condensed.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_dose": {
+  "id": "hallmark_dose",
+  "name": "Hallmark: Dose",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "warm morning paper with a fibre grain and window light, translucent tinted plast...",
+  "navBrand": "HALLMARK.DOSE",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Dose: warm morning paper with a fibre grain and window light",
+  "heroSubtitle": "warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#fbf7ec",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#008542",
+    "textPrimary": "#111827",
+    "fontHeading": "Schibsted Grotesk"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Schibsted Grotesk (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Dose Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green.\nKey Tokens: Paper #fbf7ec, Accent #008542, Display Schibsted Grotesk.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_dusk": {
+  "id": "hallmark_dusk",
+  "name": "Hallmark: Dusk",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "a real landscape at the turn of the light behind the hero, slate below it, the p...",
+  "navBrand": "HALLMARK.DUSK",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Dusk: a real landscape at the turn of the light behind the hero",
+  "heroSubtitle": "a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#0e1017",
+    "surface": "#1c1e24",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#4d58ce",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Wix Madefor Display"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Wix Madefor Display (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Dusk Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot.\nKey Tokens: Paper #0e1017, Accent #4d58ce, Display Wix Madefor Display.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_editorial": {
+  "id": "hallmark_editorial",
+  "name": "Hallmark: Editorial",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesq...",
+  "navBrand": "HALLMARK.EDITORIAL",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Editorial: warm white uncoated stock",
+  "heroSubtitle": "warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#faf5ea",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#00842c",
+    "textPrimary": "#111827",
+    "fontHeading": "Bricolage Grotesque"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Bricolage Grotesque (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Editorial Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green.\nKey Tokens: Paper #faf5ea, Accent #00842c, Display Bricolage Grotesque.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_formwork": {
+  "id": "hallmark_formwork",
+  "name": "Hallmark: Formwork",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "warm grey concrete paper with a speck grain, near-black ink, Oswald capitals ove...",
+  "navBrand": "HALLMARK.FORMWORK",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Formwork: warm grey concrete paper with a speck grain",
+  "heroSubtitle": "warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#b0aaa0",
+    "surface": "#c2bdb5",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#b93200",
+    "textPrimary": "#111827",
+    "fontHeading": "Oswald"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Oswald (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Formwork Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal.\nKey Tokens: Paper #b0aaa0, Accent #b93200, Display Oswald.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_furrow": {
+  "id": "hallmark_furrow",
+  "name": "Hallmark: Furrow",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "warm manila paper, near-black ink in rules, a generated survey map in sienna con...",
+  "navBrand": "HALLMARK.FURROW",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Furrow: warm manila paper",
+  "heroSubtitle": "warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f6f1e7",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#b83300",
+    "textPrimary": "#111827",
+    "fontHeading": "Red Hat Display"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Red Hat Display (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Furrow Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date.\nKey Tokens: Paper #f6f1e7, Accent #b83300, Display Red Hat Display.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_garden": {
+  "id": "hallmark_garden",
+  "name": "Hallmark: Garden",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken ...",
+  "navBrand": "HALLMARK.GARDEN",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Garden: warm oat paper",
+  "heroSubtitle": "warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f5f1e6",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#187f00",
+    "textPrimary": "#111827",
+    "fontHeading": "Vollkorn"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Vollkorn (roman-serif) with disciplined line-height.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Garden Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal.\nKey Tokens: Paper #f5f1e6, Accent #187f00, Display Vollkorn.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_grid": {
+  "id": "hallmark_grid",
+  "name": "Hallmark: Grid",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over R...",
+  "navBrand": "HALLMARK.GRID",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Grid: white poster stock",
+  "heroSubtitle": "white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#fbf7ec",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#375ecf",
+    "textPrimary": "#111827",
+    "fontHeading": "Radio Canada Big"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Radio Canada Big (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Grid Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes.\nKey Tokens: Paper #fbf7ec, Accent #375ecf, Display Radio Canada Big.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_halftone": {
+  "id": "hallmark_halftone",
+  "name": "Hallmark: Halftone",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and...",
+  "navBrand": "HALLMARK.HALFTONE",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Halftone: butter-cream stock",
+  "heroSubtitle": "butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f6f2e7",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#ba2f12",
+    "textPrimary": "#111827",
+    "fontHeading": "Ultra"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Ultra (slab-serif) with disciplined line-height.",
+      "meta": "TYPE: SLAB-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Halftone Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour.\nKey Tokens: Paper #f6f2e7, Accent #ba2f12, Display Ultra.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_hedgerow": {
+  "id": "hallmark_hedgerow",
+  "name": "Hallmark: Hedgerow",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs ...",
+  "navBrand": "HALLMARK.HEDGEROW",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Hedgerow: deep leaf-green paper",
+  "heroSubtitle": "deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#19211d",
+    "surface": "#29302b",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#627400",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Prata"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Prata (high-contrast-serif) with disciplined line-height.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: drenched. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: DRENCHED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream",
+    "Zero arbitrary card nesting; strictly enforced drenched posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Hedgerow Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream.\nKey Tokens: Paper #19211d, Accent #627400, Display Prata.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_hum": {
+  "id": "hallmark_hum",
+  "name": "Hallmark: Hum",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibr...",
+  "navBrand": "HALLMARK.HUM",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Hum: grained cream paper pulled toward pear-yellow",
+  "heroSubtitle": "grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f8f5ea",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#8a6300",
+    "textPrimary": "#111827",
+    "fontHeading": "Chillax"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Chillax (rounded-sans) with disciplined line-height.",
+      "meta": "TYPE: ROUNDED-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Hum Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth.\nKey Tokens: Paper #f8f5ea, Accent #8a6300, Display Chillax.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_ink": {
+  "id": "hallmark_ink",
+  "name": "Hallmark: Ink",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules...",
+  "navBrand": "HALLMARK.INK",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Ink: white paper",
+  "heroSubtitle": "white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#fffef3",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#008680",
+    "textPrimary": "#111827",
+    "fontHeading": "Epilogue"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Epilogue (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Ink Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in.\nKey Tokens: Paper #fffef3, Accent #008680, Display Epilogue.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_kiln": {
+  "id": "hallmark_kiln",
+  "name": "Hallmark: Kiln",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by...",
+  "navBrand": "HALLMARK.KILN",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Kiln: near-black ground",
+  "heroSubtitle": "near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#0c0604",
+    "surface": "#191210",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#b73700",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Boska"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Boska (high-contrast-serif) with disciplined line-height.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Kiln Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal.\nKey Tokens: Paper #0c0604, Accent #b73700, Display Boska.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_loom": {
+  "id": "hallmark_loom",
+  "name": "Hallmark: Loom",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and ...",
+  "navBrand": "HALLMARK.LOOM",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Loom: ecru paper with sand steps",
+  "heroSubtitle": "ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f3eee3",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#375ecf",
+    "textPrimary": "#111827",
+    "fontHeading": "Libre Caslon Display"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Libre Caslon Display (roman-serif) with disciplined line-height.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Loom Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo.\nKey Tokens: Paper #f3eee3, Accent #375ecf, Display Libre Caslon Display.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_lumen": {
+  "id": "hallmark_lumen",
+  "name": "Hallmark: Lumen",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "violet-black ground, near-white ink, lowercase Instrument Serif heads a step lar...",
+  "navBrand": "HALLMARK.LUMEN",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Lumen: violet-black ground",
+  "heroSubtitle": "violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#06060c",
+    "surface": "#121218",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#ad4600",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Instrument Serif"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Instrument Serif (roman-serif) with disciplined line-height.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Lumen Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb.\nKey Tokens: Paper #06060c, Accent #ad4600, Display Instrument Serif.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_manifesto": {
+  "id": "hallmark_manifesto",
+  "name": "Hallmark: Manifesto",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "warm near-black ground, warm off-white ink, Anton capitals at poster size leaded...",
+  "navBrand": "HALLMARK.MANIFESTO",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Manifesto: warm near-black ground",
+  "heroSubtitle": "warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#0c0603",
+    "surface": "#18130e",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#ba2c25",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Anton"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Anton (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Manifesto Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red.\nKey Tokens: Paper #0c0603, Accent #ba2c25, Display Anton.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_midnight": {
+  "id": "hallmark_midnight",
+  "name": "Hallmark: Midnight",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 ov...",
+  "navBrand": "HALLMARK.MIDNIGHT",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Midnight: midnight-blue ground to every edge",
+  "heroSubtitle": "midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#06090f",
+    "surface": "#13161c",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#0076bb",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Mona Sans"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Mona Sans (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Midnight Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal.\nKey Tokens: Paper #06090f, Accent #0076bb, Display Mona Sans.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_newsprint": {
+  "id": "hallmark_newsprint",
+  "name": "Hallmark: Newsprint",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with...",
+  "navBrand": "HALLMARK.NEWSPRINT",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Newsprint: pale newsprint stock",
+  "heroSubtitle": "pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#efebe0",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#ba2e17",
+    "textPrimary": "#111827",
+    "fontHeading": "Zilla Slab"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Zilla Slab (slab-serif) with disciplined line-height.",
+      "meta": "TYPE: SLAB-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Newsprint Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal.\nKey Tokens: Paper #efebe0, Accent #ba2e17, Display Zilla Slab.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_overprint": {
+  "id": "hallmark_overprint",
+  "name": "Hallmark: Overprint",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, ...",
+  "navBrand": "HALLMARK.OVERPRINT",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Overprint: grey newsprint stock",
+  "heroSubtitle": "grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#e6e3d8",
+    "surface": "#faf7ee",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#007fa4",
+    "textPrimary": "#111827",
+    "fontHeading": "Anybody"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Anybody (grotesk-heavy) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Overprint Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass.\nKey Tokens: Paper #e6e3d8, Accent #007fa4, Display Anybody.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_pasteup": {
+  "id": "hallmark_pasteup",
+  "name": "Hallmark: Paste-up",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsr...",
+  "navBrand": "HALLMARK.PASTE-UP",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Paste-up: kraft board",
+  "heroSubtitle": "kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#aea69e",
+    "surface": "#c0b9b2",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#6e7000",
+    "textPrimary": "#111827",
+    "fontHeading": "League Gothic"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: League Gothic (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Paste-up Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow.\nKey Tokens: Paper #aea69e, Accent #6e7000, Display League Gothic.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_piste": {
+  "id": "hallmark_piste",
+  "name": "Hallmark: Piste",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, sq...",
+  "navBrand": "HALLMARK.PISTE",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Piste: snow-white paper",
+  "heroSubtitle": "snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f4fbff",
+    "surface": "#faffff",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#345fcf",
+    "textPrimary": "#111827",
+    "fontHeading": "Barlow Condensed"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Barlow Condensed (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Piste Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field.\nKey Tokens: Paper #f4fbff, Accent #345fcf, Display Barlow Condensed.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_ribbon": {
+  "id": "hallmark_ribbon",
+  "name": "Hallmark: Ribbon",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtr...",
+  "navBrand": "HALLMARK.RIBBON",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Ribbon: warm off-white or blue-black night",
+  "heroSubtitle": "warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#fffaef",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#008680",
+    "textPrimary": "#111827",
+    "fontHeading": "Instrument Sans"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Instrument Sans (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Ribbon Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal.\nKey Tokens: Paper #fffaef, Accent #008680, Display Instrument Sans.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_rim": {
+  "id": "hallmark_rim",
+  "name": "Hallmark: Rim",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every meas...",
+  "navBrand": "HALLMARK.RIM",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Rim: warm black paper",
+  "heroSubtitle": "warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#040200",
+    "surface": "#0e0a06",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#b73700",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Switzer"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Switzer (grotesk-sans) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Rim Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second.\nKey Tokens: Paper #040200, Accent #b73700, Display Switzer.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_riso": {
+  "id": "hallmark_riso",
+  "name": "Hallmark: Riso",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "bright uncoated stock and no black, a medium blue drum for every word, a fluores...",
+  "navBrand": "HALLMARK.RISO",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Riso: bright uncoated stock and no black",
+  "heroSubtitle": "bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f9f5ea",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#b22a6c",
+    "textPrimary": "#111827",
+    "fontHeading": "Cabinet Grotesk"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Cabinet Grotesk (grotesk-heavy) with disciplined line-height.",
+      "meta": "TYPE: GROTESK-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Riso Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register.\nKey Tokens: Paper #f9f5ea, Accent #b22a6c, Display Cabinet Grotesk.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_solstice": {
+  "id": "hallmark_solstice",
+  "name": "Hallmark: Solstice",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold ha...",
+  "navBrand": "HALLMARK.SOLSTICE",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Solstice: cream paper",
+  "heroSubtitle": "cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f0eae0",
+    "surface": "#fffef6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#ba2a31",
+    "textPrimary": "#111827",
+    "fontHeading": "Yeseva One"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Yeseva One (high-contrast-serif) with disciplined line-height.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Solstice Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal.\nKey Tokens: Paper #f0eae0, Accent #ba2a31, Display Yeseva One.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_specimen": {
+  "id": "hallmark_specimen",
+  "name": "Hallmark: Specimen",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, squa...",
+  "navBrand": "HALLMARK.SPECIMEN",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Specimen: warm oat paper",
+  "heroSubtitle": "warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f9f3e8",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#2961ce",
+    "textPrimary": "#111827",
+    "fontHeading": "Bodoni Moda"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Bodoni Moda (high-contrast-serif) with disciplined line-height.",
+      "meta": "TYPE: HIGH-CONTRAST-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Specimen Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides.\nKey Tokens: Paper #f9f3e8, Accent #2961ce, Display Bodoni Moda.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_spore": {
+  "id": "hallmark_spore",
+  "name": "Hallmark: Spore",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "coffee-ground black with a warm grain, parchment ink, Young Serif over Instrumen...",
+  "navBrand": "HALLMARK.SPORE",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Spore: coffee-ground black with a warm grain",
+  "heroSubtitle": "coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#100a05",
+    "surface": "#1d1713",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#ba2d1f",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Young Serif"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Young Serif (roman-serif) with disciplined line-height.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Spore Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink.\nKey Tokens: Paper #100a05, Accent #ba2d1f, Display Young Serif.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_sport": {
+  "id": "hallmark_sport",
+  "name": "Hallmark: Sport",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans,...",
+  "navBrand": "HALLMARK.SPORT",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Sport: cool concrete paper",
+  "heroSubtitle": "cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f1faff",
+    "surface": "#f9ffff",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#5e7500",
+    "textPrimary": "#111827",
+    "fontHeading": "Saira Condensed"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Saira Condensed (display-condensed) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-CONDENSED"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Sport Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill.\nKey Tokens: Paper #f1faff, Accent #5e7500, Display Saira Condensed.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_squeeze": {
+  "id": "hallmark_squeeze",
+  "name": "Hallmark: Squeeze",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figu...",
+  "navBrand": "HALLMARK.SQUEEZE",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Squeeze: forest-green paper with real chroma",
+  "heroSubtitle": "forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#444d47",
+    "surface": "#565d58",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#b14000",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Gabarito"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Gabarito (geometric-sans) with disciplined line-height.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: drenched. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: DRENCHED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls",
+    "Zero arbitrary card nesting; strictly enforced drenched posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Squeeze Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls.\nKey Tokens: Paper #444d47, Accent #b14000, Display Gabarito.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_sticker": {
+  "id": "hallmark_sticker",
+  "name": "Hallmark: Sticker",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-c...",
+  "navBrand": "HALLMARK.STICKER",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Sticker: warm off-white paper",
+  "heroSubtitle": "warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f6f0e6",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#b52961",
+    "textPrimary": "#111827",
+    "fontHeading": "Bowlby One SC"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Bowlby One SC (display-heavy) with disciplined line-height.",
+      "meta": "TYPE: DISPLAY-HEAVY"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Sticker Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type.\nKey Tokens: Paper #f6f0e6, Accent #b52961, Display Bowlby One SC.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_studio": {
+  "id": "hallmark_studio",
+  "name": "Hallmark: Studio",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "cool studio-white proof paper with an ink dot grid and grain, blue-black ink, He...",
+  "navBrand": "HALLMARK.STUDIO",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Studio: cool studio-white proof paper with an ink dot grid and grain",
+  "heroSubtitle": "cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#ebf9fc",
+    "surface": "#f7ffff",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#b33d00",
+    "textPrimary": "#111827",
+    "fontHeading": "Hedvig Letters Serif"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Hedvig Letters Serif (roman-serif) with disciplined line-height.",
+      "meta": "TYPE: ROMAN-SERIF"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Studio Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal.\nKey Tokens: Paper #ebf9fc, Accent #b33d00, Display Hedvig Letters Serif.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_terminal": {
+  "id": "hallmark_terminal",
+  "name": "Hallmark: Terminal",
+  "category": "hallmark",
+  "badge": "Hallmark Material (atmospheric)",
+  "tagline": "a near-black ground with a green cast in three lightness steps, pale phosphor in...",
+  "navBrand": "HALLMARK.TERMINAL",
+  "heroBadge": "HALLMARK MATERIAL • ATMOSPHERIC",
+  "heroTitle": "Terminal: a near-black ground with a green cast in three lightness steps",
+  "heroSubtitle": "a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#040804",
+    "surface": "#0f1410",
+    "border": "rgba(255,255,255,0.12)",
+    "accent": "#008000",
+    "textPrimary": "#F9FAFB",
+    "fontHeading": "Martian Mono"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor",
+      "meta": "GENRE: ATMOSPHERIC"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Martian Mono (mono) with disciplined line-height.",
+      "meta": "TYPE: MONO"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Terminal Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor.\nKey Tokens: Paper #040804, Accent #008000, Display Martian Mono.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_terrazzo": {
+  "id": "hallmark_terrazzo",
+  "name": "Hallmark: Terrazzo",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne ...",
+  "navBrand": "HALLMARK.TERRAZZO",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Terrazzo: off-white paper",
+  "heroSubtitle": "off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f7f1e7",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#b93200",
+    "textPrimary": "#111827",
+    "fontHeading": "Syne"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Syne (geometric-sans) with disciplined line-height.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: restrained. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: RESTRAINED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal",
+    "Zero arbitrary card nesting; strictly enforced restrained posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Terrazzo Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal.\nKey Tokens: Paper #f7f1e7, Accent #b93200, Display Syne.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_ultraviolet": {
+  "id": "hallmark_ultraviolet",
+  "name": "Hallmark: Ultraviolet",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "lavender paper or a violet-black night, Outfit set lowercase over Onest, hairlin...",
+  "navBrand": "HALLMARK.ULTRAVIOLET",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Ultraviolet: lavender paper or a violet-black night",
+  "heroSubtitle": "lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f0ecf7",
+    "surface": "#fffdff",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#6b4ec7",
+    "textPrimary": "#111827",
+    "fontHeading": "Outfit"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Outfit (geometric-sans) with disciplined line-height.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Ultraviolet Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet.\nKey Tokens: Paper #f0ecf7, Accent #6b4ec7, Display Outfit.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_vellum": {
+  "id": "hallmark_vellum",
+  "name": "Hallmark: Vellum",
+  "category": "hallmark",
+  "badge": "Hallmark Material (editorial)",
+  "tagline": "parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads...",
+  "navBrand": "HALLMARK.VELLUM",
+  "heroBadge": "HALLMARK MATERIAL • EDITORIAL",
+  "heroTitle": "Vellum: parchment paper",
+  "heroSubtitle": "parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#f0eae0",
+    "surface": "#fffff6",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#3d5dcf",
+    "textPrimary": "#111827",
+    "fontHeading": "Grenze Gotisch"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment",
+      "meta": "GENRE: EDITORIAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Grenze Gotisch (blackletter) with disciplined line-height.",
+      "meta": "TYPE: BLACKLETTER"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Vellum Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment.\nKey Tokens: Paper #f0eae0, Accent #3d5dcf, Display Grenze Gotisch.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_wayfind": {
+  "id": "hallmark_wayfind",
+  "name": "Hallmark: Wayfind",
+  "category": "hallmark",
+  "badge": "Hallmark Material (modern-minimal)",
+  "tagline": "cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ...",
+  "navBrand": "HALLMARK.WAYFIND",
+  "heroBadge": "HALLMARK MATERIAL • MODERN-MINIMAL",
+  "heroTitle": "Wayfind: cool grey paper",
+  "heroSubtitle": "cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#e9f1fa",
+    "surface": "#f9ffff",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#315fcf",
+    "textPrimary": "#111827",
+    "fontHeading": "Chivo Mono"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink",
+      "meta": "GENRE: MODERN-MINIMAL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Chivo Mono (mono) with disciplined line-height.",
+      "meta": "TYPE: MONO"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: committed. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: COMMITTED"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink",
+    "Zero arbitrary card nesting; strictly enforced committed posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Wayfind Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink.\nKey Tokens: Paper #e9f1fa, Accent #315fcf, Display Chivo Mono.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+  "hallmark_werkstatt": {
+  "id": "hallmark_werkstatt",
+  "name": "Hallmark: Werkstatt",
+  "category": "hallmark",
+  "badge": "Hallmark Material (playful)",
+  "tagline": "warm putty ground with a lighter well, near-black ink, Jost 700 capitals and num...",
+  "navBrand": "HALLMARK.WERKSTATT",
+  "heroBadge": "HALLMARK MATERIAL • PLAYFUL",
+  "heroTitle": "Werkstatt: warm putty ground with a lighter well",
+  "heroSubtitle": "warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries",
+  "ctaPrimary": "규격 검사",
+  "ctaSecondary": "머티리얼 가이드 ↗",
+  "tokens": {
+    "bg": "#cfcac0",
+    "surface": "#e2ddd5",
+    "border": "rgba(0,0,0,0.12)",
+    "accent": "#315fcf",
+    "textPrimary": "#111827",
+    "fontHeading": "Jost"
+  },
+  "features": [
+    {
+      "tag": "소재 // 01",
+      "title": "Material Spec",
+      "desc": "warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries",
+      "meta": "GENRE: PLAYFUL"
+    },
+    {
+      "tag": "타이포 // 02",
+      "title": "Typography Hierarchy",
+      "desc": "Display: Jost (geometric-sans) with disciplined line-height.",
+      "meta": "TYPE: GEOMETRIC-SANS"
+    },
+    {
+      "tag": "게이트 // 03",
+      "title": "Anti-AI-Slop Floor",
+      "desc": "Posture: full-palette. Paired token contract strictly enforced (contrast >= 4.5:1).",
+      "meta": "POSTURE: FULL-PALETTE"
+    }
+  ],
+  "philosophy": [
+    "Pure material authenticity: warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries",
+    "Zero arbitrary card nesting; strictly enforced full-palette posture.",
+    "Verified contrast and tactile craft without generic gradients."
+  ],
+  "antiPatterns": [
+    "No generic purple-to-blue gradients or uncurated radii.",
+    "No meaningless eyebrow badges or fake statistical metrics."
+  ],
+  "prompt": "[DESIGN.md - Hallmark Werkstatt Material Archetype]\nRole: Senior Systems Designer adhering to Nutlope/hallmark.\nStyle: warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries.\nKey Tokens: Paper #cfcac0, Accent #315fcf, Display Jost.\nAnti-Patterns: Reject generic AI slop, enforce WCAG 4.5:1 contrast, no pill stacks."
+},
+
   hallmark: {
     id: "hallmark",
     name: "Hallmark Anti-AI-Slop",
@@ -2544,6 +4993,967 @@ export const DESIGN_LANGUAGES = {
 };
 
 export const ALL_30_REPOSITORIES = [
+  {
+  "rank": 100,
+  "name": "Hallmark: Almanac",
+  "repo": "Nutlope/hallmark",
+  "stars": 4920,
+  "starsFormatted": "4.7k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "cool slate stock with a pale printed sheet, blue-black ink, Hanken Grotesk heads over Newsreader prose with mono figures, two rule weights and square corners, one chart magenta",
+  "roleInAI": "[EDITORIAL] 서체: Hanken Grotesk | 자세: restrained | 종이톤: mid",
+  "themeId": "hallmark_almanac",
+  "image": "/hallmark-themes/almanac.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Hanken Grotesk",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 101,
+  "name": "Hallmark: Arcade",
+  "repo": "Nutlope/hallmark",
+  "stars": 4905,
+  "starsFormatted": "4.7k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "aubergine CRT ground, lilac-white ink, Bungee capitals split in RGB over Chivo, Silkscreen figures, hard offset shadows, ember and acid signals",
+  "roleInAI": "[PLAYFUL] 서체: Silkscreen and Bungee | 자세: full-palette | 종이톤: dark",
+  "themeId": "hallmark_arcade",
+  "image": "/hallmark-themes/arcade.jpg",
+  "tags": [
+    "playful",
+    "full-palette",
+    "Silkscreen and Bungee",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 102,
+  "name": "Hallmark: Atelier",
+  "repo": "Nutlope/hallmark",
+  "stars": 4890,
+  "starsFormatted": "4.7k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "limewash paper under a slow luminous air, deep umber ink, Sentient light over Hanken Grotesk, cotton card stock with fibre and pressed type, hairlines, matted prints in warm daylight, one cool slate signal",
+  "roleInAI": "[EDITORIAL] 서체: Sentient | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_atelier",
+  "image": "/hallmark-themes/atelier.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Sentient",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 103,
+  "name": "Hallmark: Bloom",
+  "repo": "Nutlope/hallmark",
+  "stars": 4875,
+  "starsFormatted": "4.7k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm off-white paper with grain and a generated working grid, two quiet terracotta blooms, warm umber ink, Ranade with one roman Gambarino figure, rubber and cased parts lit from above, part tones on rounded clips",
+  "roleInAI": "[ATMOSPHERIC] 서체: Ranade | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_bloom",
+  "image": "/hallmark-themes/bloom.jpg",
+  "tags": [
+    "atmospheric",
+    "committed",
+    "Ranade",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 104,
+  "name": "Hallmark: Blueprint",
+  "repo": "Nutlope/hallmark",
+  "stars": 4860,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "prussian-blue sheet, white line ink, Chakra Petch capitals over IBM Plex Sans with mono measurements, square double keylines and dimension strings, photographs printed as cyanotypes, the white line as the only signal",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Chakra Petch | 자세: drenched | 종이톤: mid",
+  "themeId": "hallmark_blueprint",
+  "image": "/hallmark-themes/blueprint.jpg",
+  "tags": [
+    "modern-minimal",
+    "drenched",
+    "Chakra Petch",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 105,
+  "name": "Hallmark: Broadside",
+  "repo": "Nutlope/hallmark",
+  "stars": 4845,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "grained buff stock, near-black ink, Six Caps and Bevan wood capitals over Archivo Narrow, ink rules at one point or five, one vermilion",
+  "roleInAI": "[EDITORIAL] 서체: Six Caps | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_broadside",
+  "image": "/hallmark-themes/broadside.jpg",
+  "tags": [
+    "editorial",
+    "committed",
+    "Six Caps",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 106,
+  "name": "Hallmark: Brutal",
+  "repo": "Nutlope/hallmark",
+  "stars": 4830,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "near-white poster stock, near-black ink as 3px rules, boxed cells and solid fills, uppercase Libre Franklin 900 over its 400, zero radius, one acid-yellow fill",
+  "roleInAI": "[EDITORIAL] 서체: Libre Franklin | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_brutal",
+  "image": "/hallmark-themes/brutal.jpg",
+  "tags": [
+    "editorial",
+    "committed",
+    "Libre Franklin",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 107,
+  "name": "Hallmark: Carnival",
+  "repo": "Nutlope/hallmark",
+  "stars": 4815,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "tinted paper, deep warm ink, Big Shoulders Display 800 capitals set poster-large over Golos Text, 2px rules, a hard 4px ink shadow, two accents that compete as whole fields",
+  "roleInAI": "[EDITORIAL] 서체: Big Shoulders Display | 자세: full-palette | 종이톤: light",
+  "themeId": "hallmark_carnival",
+  "image": "/hallmark-themes/carnival.jpg",
+  "tags": [
+    "editorial",
+    "full-palette",
+    "Big Shoulders Display",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 108,
+  "name": "Hallmark: Cobalt",
+  "repo": "Nutlope/hallmark",
+  "stars": 4800,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "cool near-white paper, blue-grey ink and hairlines, Familjen Grotesk over IBM Plex Sans, a generated ASCII field on an 8 by 16 cell, keycaps and cut-corner panels, JetBrains Mono on graphite, one electric cobalt signal",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Familjen Grotesk | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_cobalt",
+  "image": "/hallmark-themes/cobalt.jpg",
+  "tags": [
+    "modern-minimal",
+    "restrained",
+    "Familjen Grotesk",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 109,
+  "name": "Hallmark: Console",
+  "repo": "Nutlope/hallmark",
+  "stars": 4785,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "graphite ground in three lightness steps, pale ink, hairline panels cut from one surface, Host Grotesk 500 for reading, Atkinson Hyperlegible Mono for what was measured, amber for a person and cool blue for an instrument",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Host Grotesk | 자세: restrained | 종이톤: dark",
+  "themeId": "hallmark_console",
+  "image": "/hallmark-themes/console.jpg",
+  "tags": [
+    "modern-minimal",
+    "restrained",
+    "Host Grotesk",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 110,
+  "name": "Hallmark: Coral",
+  "repo": "Nutlope/hallmark",
+  "stars": 4770,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm grey paper and a felt desk, cotton stationery lit from the left, General Sans throughout with Geist Mono figures, letterpress card controls, coral pressed into the stock for the one settled state",
+  "roleInAI": "[MODERN-MINIMAL] 서체: General Sans | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_coral",
+  "image": "/hallmark-themes/coral.jpg",
+  "tags": [
+    "modern-minimal",
+    "restrained",
+    "General Sans",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 111,
+  "name": "Hallmark: Darkroom",
+  "repo": "Nutlope/hallmark",
+  "stars": 4755,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm print-black ground, a fine light grain, fibre-white ink, hairline Sofia Sans Extra Condensed capitals over Barlow, zero radius, black-and-white photographs printed deeper than the ground, one amber safelight",
+  "roleInAI": "[ATMOSPHERIC] 서체: Sofia Sans Extra Condensed | 자세: restrained | 종이톤: dark",
+  "themeId": "hallmark_darkroom",
+  "image": "/hallmark-themes/darkroom.jpg",
+  "tags": [
+    "atmospheric",
+    "restrained",
+    "Sofia Sans Extra Condensed",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 112,
+  "name": "Hallmark: Dose",
+  "repo": "Nutlope/hallmark",
+  "stars": 4740,
+  "starsFormatted": "4.6k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm morning paper with a fibre grain and window light, translucent tinted plastic, green-black ink, Schibsted Grotesk over Instrument Sans with DM Mono pharmacy labels, moulded controls, one pharmacy green",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Schibsted Grotesk | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_dose",
+  "image": "/hallmark-themes/dose.jpg",
+  "tags": [
+    "modern-minimal",
+    "committed",
+    "Schibsted Grotesk",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 113,
+  "name": "Hallmark: Dusk",
+  "repo": "Nutlope/hallmark",
+  "stars": 4725,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "a real landscape at the turn of the light behind the hero, slate below it, the product in smoked glass with a lit top edge, Wix Madefor Display at a quiet weight over Wix Madefor Text, bone wells for light surfaces, one periwinkle signal and one apricot",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Wix Madefor Display | 자세: committed | 종이톤: dark",
+  "themeId": "hallmark_dusk",
+  "image": "/hallmark-themes/dusk.jpg",
+  "tags": [
+    "modern-minimal",
+    "committed",
+    "Wix Madefor Display",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 114,
+  "name": "Hallmark: Editorial",
+  "repo": "Nutlope/hallmark",
+  "stars": 4710,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm white uncoated stock, printed black ink with a cool tilt, Bricolage Grotesque condensed at 800 over Source Serif 4, square corners, a heavy ink rule over 1px hairlines, one printer's green",
+  "roleInAI": "[EDITORIAL] 서체: Bricolage Grotesque | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_editorial",
+  "image": "/hallmark-themes/editorial.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Bricolage Grotesque",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 115,
+  "name": "Hallmark: Formwork",
+  "repo": "Nutlope/hallmark",
+  "stars": 4695,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm grey concrete paper with a speck grain, near-black ink, Oswald capitals over Archivo, square cast edges and hard shadows, hard black-and-white photographs of poured concrete, one safety orange signal",
+  "roleInAI": "[EDITORIAL] 서체: Oswald | 자세: restrained | 종이톤: mid",
+  "themeId": "hallmark_formwork",
+  "image": "/hallmark-themes/formwork.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Oswald",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 116,
+  "name": "Hallmark: Furrow",
+  "repo": "Nutlope/hallmark",
+  "stars": 4680,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm manila paper, near-black ink in rules, a generated survey map in sienna contours and slate water, Red Hat Display 600 over Red Hat Text with Red Hat Mono figures, moulded 6px keys, a waterproof notebook card, one tangerine signal and a grass green for what is in date",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Red Hat Display | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_furrow",
+  "image": "/hallmark-themes/furrow.jpg",
+  "tags": [
+    "modern-minimal",
+    "committed",
+    "Red Hat Display",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 117,
+  "name": "Hallmark: Garden",
+  "repo": "Nutlope/hallmark",
+  "stars": 4665,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm oat paper, deep green ink, Vollkorn 600 with old-style figures over Hanken Grotesk, hairlines and soft moss or clay tints, daylight photographs in true colour, one leaf-green signal",
+  "roleInAI": "[EDITORIAL] 서체: Vollkorn | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_garden",
+  "image": "/hallmark-themes/garden.jpg",
+  "tags": [
+    "editorial",
+    "committed",
+    "Vollkorn",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 118,
+  "name": "Hallmark: Grid",
+  "repo": "Nutlope/hallmark",
+  "stars": 4650,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "white poster stock, blue-black ink, Radio Canada Big 700 in sentence case over Radio Canada, flat fields of ultramarine and one Swiss red mark, no strokes",
+  "roleInAI": "[EDITORIAL] 서체: Radio Canada Big | 자세: full-palette | 종이톤: light",
+  "themeId": "hallmark_grid",
+  "image": "/hallmark-themes/grid.jpg",
+  "tags": [
+    "editorial",
+    "full-palette",
+    "Radio Canada Big",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 119,
+  "name": "Hallmark: Halftone",
+  "repo": "Nutlope/hallmark",
+  "stars": 4635,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "butter-cream stock, brown-black ink, Ultra over Chivo, three-pixel ink rules and square wells, one vermilion printed solid and through a dot screen, photographs in full colour",
+  "roleInAI": "[PLAYFUL] 서체: Ultra | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_halftone",
+  "image": "/hallmark-themes/halftone.jpg",
+  "tags": [
+    "playful",
+    "committed",
+    "Ultra",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 120,
+  "name": "Hallmark: Hedgerow",
+  "repo": "Nutlope/hallmark",
+  "stars": 4620,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "deep leaf-green paper, cream ink, Prata heads over Manrope, low-key photographs in true colour, square flat surfaces with pill controls, one chartreuse signal with a moss strength for cream",
+  "roleInAI": "[EDITORIAL] 서체: Prata | 자세: drenched | 종이톤: dark",
+  "themeId": "hallmark_hedgerow",
+  "image": "/hallmark-themes/hedgerow.jpg",
+  "tags": [
+    "editorial",
+    "drenched",
+    "Prata",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 121,
+  "name": "Hallmark: Hum",
+  "repo": "Nutlope/hallmark",
+  "stars": 4605,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "grained cream paper pulled toward pear-yellow, torn paper edges with a pale fibre core, card-stock controls that press down, blue-black ink, Chillax throughout, three accents that never blend and a mint for growth",
+  "roleInAI": "[PLAYFUL] 서체: Chillax | 자세: full-palette | 종이톤: light",
+  "themeId": "hallmark_hum",
+  "image": "/hallmark-themes/hum.jpg",
+  "tags": [
+    "playful",
+    "full-palette",
+    "Chillax",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 122,
+  "name": "Hallmark: Ink",
+  "repo": "Nutlope/hallmark",
+  "stars": 4590,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "white paper, a black with no hue, Epilogue 700 over Epilogue 400, hairline rules and state pills, one teal that means in",
+  "roleInAI": "[EDITORIAL] 서체: Epilogue | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_ink",
+  "image": "/hallmark-themes/ink.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Epilogue",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 123,
+  "name": "Hallmark: Kiln",
+  "repo": "Nutlope/hallmark",
+  "stars": 4575,
+  "starsFormatted": "4.5k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "near-black ground, cream ink, Boska over Geist, smoked wells, photographs lit by the work, a heat ramp that marks temperature, one ember signal",
+  "roleInAI": "[ATMOSPHERIC] 서체: Boska | 자세: full-palette | 종이톤: dark",
+  "themeId": "hallmark_kiln",
+  "image": "/hallmark-themes/kiln.jpg",
+  "tags": [
+    "atmospheric",
+    "full-palette",
+    "Boska",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 124,
+  "name": "Hallmark: Loom",
+  "repo": "Nutlope/hallmark",
+  "stars": 4560,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "ecru paper with sand steps, warm near-black ink, Libre Caslon Display heads and prices over Hanken Grotesk, thin rules and one ink rule, cloth photographed close in window light, one deep indigo",
+  "roleInAI": "[EDITORIAL] 서체: Libre Caslon Display | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_loom",
+  "image": "/hallmark-themes/loom.jpg",
+  "tags": [
+    "editorial",
+    "committed",
+    "Libre Caslon Display",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 125,
+  "name": "Hallmark: Lumen",
+  "repo": "Nutlope/hallmark",
+  "stars": 4545,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "violet-black ground, near-white ink, lowercase Instrument Serif heads a step large over Geist and Geist Mono, hairline wells, a faint blueprint grid, one molten brass signal and one rose verb",
+  "roleInAI": "[ATMOSPHERIC] 서체: Instrument Serif | 자세: restrained | 종이톤: dark",
+  "themeId": "hallmark_lumen",
+  "image": "/hallmark-themes/lumen.jpg",
+  "tags": [
+    "atmospheric",
+    "restrained",
+    "Instrument Serif",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 126,
+  "name": "Hallmark: Manifesto",
+  "repo": "Nutlope/hallmark",
+  "stars": 4530,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm near-black ground, warm off-white ink, Anton capitals at poster size leaded tight over a quiet Public Sans body, hairlines, a heavy ink bar and square edges, one fighting red",
+  "roleInAI": "[EDITORIAL] 서체: Anton | 자세: committed | 종이톤: dark",
+  "themeId": "hallmark_manifesto",
+  "image": "/hallmark-themes/manifesto.jpg",
+  "tags": [
+    "editorial",
+    "committed",
+    "Anton",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 127,
+  "name": "Hallmark: Midnight",
+  "repo": "Nutlope/hallmark",
+  "stars": 4515,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "midnight-blue ground to every edge, cool white ink, Mona Sans expanded at 300 over its normal width, square-cut surfaces in lightness steps, photographs as moonlight, one azure signal",
+  "roleInAI": "[ATMOSPHERIC] 서체: Mona Sans | 자세: committed | 종이톤: dark",
+  "themeId": "hallmark_midnight",
+  "image": "/hallmark-themes/midnight.jpg",
+  "tags": [
+    "atmospheric",
+    "committed",
+    "Mona Sans",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 128,
+  "name": "Hallmark: Newsprint",
+  "repo": "Nutlope/hallmark",
+  "stars": 4500,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "pale newsprint stock, warm black ink, Zilla Slab heads over a Spectral body with Libre Franklin agate for listed figures, justified columns under hairline column rules, a double rule, one dried-brick signal",
+  "roleInAI": "[EDITORIAL] 서체: Zilla Slab | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_newsprint",
+  "image": "/hallmark-themes/newsprint.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Zilla Slab",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 129,
+  "name": "Hallmark: Overprint",
+  "repo": "Nutlope/hallmark",
+  "stars": 4485,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "grey newsprint stock, near-black ink, wide heavy Anybody capitals over Archivo, flat square fills, a teal pass and an orange pass that print moss where they cross, photographs pulled through one pass",
+  "roleInAI": "[PLAYFUL] 서체: Anybody | 자세: full-palette | 종이톤: light",
+  "themeId": "hallmark_overprint",
+  "image": "/hallmark-themes/overprint.jpg",
+  "tags": [
+    "playful",
+    "full-palette",
+    "Anybody",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 130,
+  "name": "Hallmark: Paste-up",
+  "repo": "Nutlope/hallmark",
+  "stars": 4470,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "kraft board, a fibre wash, near-black toner, League Gothic capitals over a Newsreader galley, white copy paper on paper lifts, hard ink offsets, one sheet of fluorescent yellow",
+  "roleInAI": "[PLAYFUL] 서체: League Gothic | 자세: committed | 종이톤: mid",
+  "themeId": "hallmark_pasteup",
+  "image": "/hallmark-themes/pasteup.jpg",
+  "tags": [
+    "playful",
+    "committed",
+    "League Gothic",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 131,
+  "name": "Hallmark: Piste",
+  "repo": "Nutlope/hallmark",
+  "stars": 4455,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "snow-white paper, cold near-black ink, Barlow Condensed 800 caps over Barlow, square edges on 2px ink rules, one cobalt for signal and field",
+  "roleInAI": "[PLAYFUL] 서체: Barlow Condensed | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_piste",
+  "image": "/hallmark-themes/piste.jpg",
+  "tags": [
+    "playful",
+    "committed",
+    "Barlow Condensed",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 132,
+  "name": "Hallmark: Ribbon",
+  "repo": "Nutlope/hallmark",
+  "stars": 4440,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm off-white or blue-black night, Instrument Sans at a quiet weight over Figtree, machined parts lit from above, the hour drawn as light on a generated canvas, one signal",
+  "roleInAI": "[ATMOSPHERIC] 서체: Instrument Sans | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_ribbon",
+  "image": "/hallmark-themes/ribbon.jpg",
+  "tags": [
+    "atmospheric",
+    "committed",
+    "Instrument Sans",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 133,
+  "name": "Hallmark: Rim",
+  "repo": "Nutlope/hallmark",
+  "stars": 4425,
+  "starsFormatted": "4.4k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm black paper, warm off-white ink, Switzer 500 with Geist Mono for every measurement, square hairline surfaces, the earth photographed straight down, an orange signal and a sky-blue second",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Switzer | 자세: committed | 종이톤: dark",
+  "themeId": "hallmark_rim",
+  "image": "/hallmark-themes/rim.jpg",
+  "tags": [
+    "modern-minimal",
+    "committed",
+    "Switzer",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 134,
+  "name": "Hallmark: Riso",
+  "repo": "Nutlope/hallmark",
+  "stars": 4410,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "bright uncoated stock and no black, a medium blue drum for every word, a fluorescent pink drum for the fills, purple where they cross, Cabinet Grotesk 800 over Literata, grain, one word a hair out of register",
+  "roleInAI": "[EDITORIAL] 서체: Cabinet Grotesk | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_riso",
+  "image": "/hallmark-themes/riso.jpg",
+  "tags": [
+    "editorial",
+    "committed",
+    "Cabinet Grotesk",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 135,
+  "name": "Hallmark: Solstice",
+  "repo": "Nutlope/hallmark",
+  "stars": 4395,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "cream paper, warm brown ink, Yeseva One over Archivo and Archivo Narrow, gold hairlines and hard paper shadows, photographs in low warm light, one vermilion signal",
+  "roleInAI": "[EDITORIAL] 서체: Yeseva One | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_solstice",
+  "image": "/hallmark-themes/solstice.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Yeseva One",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 136,
+  "name": "Hallmark: Specimen",
+  "repo": "Nutlope/hallmark",
+  "stars": 4380,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm oat paper, warm near-black ink, razor-hairline Bodoni Moda over Geist, square 1px rules, one ink-blue signal that also draws the metric guides",
+  "roleInAI": "[EDITORIAL] 서체: Bodoni Moda | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_specimen",
+  "image": "/hallmark-themes/specimen.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Bodoni Moda",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 137,
+  "name": "Hallmark: Spore",
+  "repo": "Nutlope/hallmark",
+  "stars": 4365,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "coffee-ground black with a warm grain, parchment ink, Young Serif over Instrument Sans, soft pills and grained wells, photographs lit by lamps and candles, one oyster pink",
+  "roleInAI": "[ATMOSPHERIC] 서체: Young Serif | 자세: committed | 종이톤: dark",
+  "themeId": "hallmark_spore",
+  "image": "/hallmark-themes/spore.jpg",
+  "tags": [
+    "atmospheric",
+    "committed",
+    "Young Serif",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 138,
+  "name": "Hallmark: Sport",
+  "repo": "Nutlope/hallmark",
+  "stars": 4350,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "cool concrete paper, blue-black ink, uppercase Saira Condensed over Albert Sans, condensed figures and mono times, two-weight rules, one volt fill",
+  "roleInAI": "[EDITORIAL] 서체: Saira Condensed | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_sport",
+  "image": "/hallmark-themes/sport.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Saira Condensed",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 139,
+  "name": "Hallmark: Squeeze",
+  "repo": "Nutlope/hallmark",
+  "stars": 4335,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "forest-green paper with real chroma, warm white ink, Gabarito 800 heads and figures over Manrope, soft rounded tiles a step lighter or deeper, fruit photographed bright and close, juicy peach controls",
+  "roleInAI": "[PLAYFUL] 서체: Gabarito | 자세: drenched | 종이톤: mid",
+  "themeId": "hallmark_squeeze",
+  "image": "/hallmark-themes/squeeze.jpg",
+  "tags": [
+    "playful",
+    "drenched",
+    "Gabarito",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 140,
+  "name": "Hallmark: Sticker",
+  "repo": "Nutlope/hallmark",
+  "stars": 4320,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm off-white paper, warm black ink, Bowlby One SC over Sofia Sans, white die-cut borders on hard offset shadows, hot pink, lime and ink fills set with type",
+  "roleInAI": "[PLAYFUL] 서체: Bowlby One SC | 자세: full-palette | 종이톤: light",
+  "themeId": "hallmark_sticker",
+  "image": "/hallmark-themes/sticker.jpg",
+  "tags": [
+    "playful",
+    "full-palette",
+    "Bowlby One SC",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 141,
+  "name": "Hallmark: Studio",
+  "repo": "Nutlope/hallmark",
+  "stars": 4305,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "cool studio-white proof paper with an ink dot grid and grain, blue-black ink, Hedvig Letters Serif heads over Geist, crop marks on every printed piece, orange construction guides, the work photographed in true colour, one cadmium-orange signal",
+  "roleInAI": "[EDITORIAL] 서체: Hedvig Letters Serif | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_studio",
+  "image": "/hallmark-themes/studio.jpg",
+  "tags": [
+    "editorial",
+    "restrained",
+    "Hedvig Letters Serif",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 142,
+  "name": "Hallmark: Terminal",
+  "repo": "Nutlope/hallmark",
+  "stars": 4290,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "a near-black ground with a green cast in three lightness steps, pale phosphor ink and one bright phosphor signal with a dim wash of itself, every glyph Martian Mono with heads wide and text narrow, and pictures printed in the page's own glyphs: a photograph rendered as a grid of characters taken from the product's own text, dim cells small, bright cells full, stirred by the cursor",
+  "roleInAI": "[ATMOSPHERIC] 서체: Martian Mono | 자세: committed | 종이톤: dark",
+  "themeId": "hallmark_terminal",
+  "image": "/hallmark-themes/terminal.jpg",
+  "tags": [
+    "atmospheric",
+    "committed",
+    "Martian Mono",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 143,
+  "name": "Hallmark: Terrazzo",
+  "repo": "Nutlope/hallmark",
+  "stars": 4275,
+  "starsFormatted": "4.3k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "off-white paper, white card surfaces ruled in ink over a hard offset, wide Syne heads over Onest, JetBrains Mono for codes and millimetres, surfaces photographed flat-on in true colour, rust the one signal",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Syne | 자세: restrained | 종이톤: light",
+  "themeId": "hallmark_terrazzo",
+  "image": "/hallmark-themes/terrazzo.jpg",
+  "tags": [
+    "modern-minimal",
+    "restrained",
+    "Syne",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 144,
+  "name": "Hallmark: Ultraviolet",
+  "repo": "Nutlope/hallmark",
+  "stars": 4260,
+  "starsFormatted": "4.2k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "lavender paper or a violet-black night, Outfit set lowercase over Onest, hairline pills, one saturated violet in two strengths, photographs pulled into the violet",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Outfit | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_ultraviolet",
+  "image": "/hallmark-themes/ultraviolet.jpg",
+  "tags": [
+    "modern-minimal",
+    "committed",
+    "Outfit",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 145,
+  "name": "Hallmark: Vellum",
+  "repo": "Nutlope/hallmark",
+  "stars": 4245,
+  "starsFormatted": "4.2k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "parchment paper, a long tan fibre wash on bands, umber ink, Grenze Gotisch heads over Hanken Grotesk with Grenze roman for statements, hairline and double rules, one ultramarine pigment",
+  "roleInAI": "[EDITORIAL] 서체: Grenze Gotisch | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_vellum",
+  "image": "/hallmark-themes/vellum.jpg",
+  "tags": [
+    "editorial",
+    "committed",
+    "Grenze Gotisch",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 146,
+  "name": "Hallmark: Wayfind",
+  "repo": "Nutlope/hallmark",
+  "stars": 4230,
+  "starsFormatted": "4.2k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "cool grey paper, blue-black ink, Chivo Mono throughout, square 2px ink borders, ink plates, cobalt for what is live, amber for figures on ink",
+  "roleInAI": "[MODERN-MINIMAL] 서체: Chivo Mono | 자세: committed | 종이톤: light",
+  "themeId": "hallmark_wayfind",
+  "image": "/hallmark-themes/wayfind.jpg",
+  "tags": [
+    "modern-minimal",
+    "committed",
+    "Chivo Mono",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+  {
+  "rank": 147,
+  "name": "Hallmark: Werkstatt",
+  "repo": "Nutlope/hallmark",
+  "stars": 4215,
+  "starsFormatted": "4.2k",
+  "category": "hallmark",
+  "categoryLabel": "🏛️ 6. Hallmark Materials (소재·안티슬롭)",
+  "desc": "warm putty ground with a lighter well, near-black ink, Jost 700 capitals and numerals over Karla, square 2px and 3px ink rules that box cells, flat ultramarine, vermilion and yellow primaries",
+  "roleInAI": "[PLAYFUL] 서체: Jost | 자세: full-palette | 종이톤: mid",
+  "themeId": "hallmark_werkstatt",
+  "image": "/hallmark-themes/werkstatt.jpg",
+  "tags": [
+    "playful",
+    "full-palette",
+    "Jost",
+    "Anti-Slop",
+    "Hallmark-48"
+  ]
+},
+
   {
     "rank": 0,
     "name": "Hallmark Anti-AI-Slop",

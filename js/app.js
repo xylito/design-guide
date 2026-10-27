@@ -59,12 +59,13 @@ export const I18N = {
     btnApply: '스타일 적용',
     btnInspect: '규칙 & 프롬프트',
     categories: {
-      all: '전체보기 (62)',
+      all: '전체보기 (111)',
       editorial: '📖 1. Editorial & Print (도면·인쇄물)',
       saas: '💼 2. Modern SaaS & FinTech (모던 스탠다드)',
       dark_dev: '⚡ 3. Dark & Developer (개발자·터미널)',
       hardware: '🎛️ 4. Hardware & Industrial (로봇·계기판)',
-      expressive: '🎨 5. Expressive & Retro (질감·서브컬처)'
+      expressive: '🎨 5. Expressive & Retro (질감·서브컬처)',
+      hallmark: '🏛️ 6. Hallmark Materials (48종)'
     },
     dockTitle: 'STYLE PICKER',
     dockKey: '1-7키',
@@ -156,12 +157,13 @@ export const I18N = {
     btnApply: 'Apply Style',
     btnInspect: 'Rules & Prompt',
     categories: {
-      all: 'All Systems (62)',
+      all: 'All Systems (111)',
       editorial: '📖 1. Editorial & Print',
       saas: '💼 2. Modern SaaS & FinTech',
       dark_dev: '⚡ 3. Dark & Developer',
       hardware: '🎛️ 4. Hardware & Industrial',
-      expressive: '🎨 5. Expressive & Retro'
+      expressive: '🎨 5. Expressive & Retro',
+      hallmark: '🏛️ 6. Hallmark Materials (48 Themes)'
     },
     dockTitle: 'STYLE PICKER',
     dockKey: 'Keys 1-7',
@@ -1304,6 +1306,10 @@ class DesignShowcaseApp {
           <span style="font-size: 0.75rem; opacity: 0.6; font-family: monospace;">${repo.repo}</span>
         </div>
 
+        ${repo.image ? `
+        <div class="repo-card-thumb" style="margin: 10px 0; border-radius: 6px; overflow: hidden; border: 1px solid rgba(255,255,255,0.12); aspect-ratio: 16/9; background: #0c0f17;">
+          <img src="${repo.image}" alt="${repo.name} preview" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block;" onerror="this.parentElement.style.display='none'">
+        </div>` : ''}
         <p class="repo-desc">${repo.desc}</p>
 
         <div class="repo-ai-box">

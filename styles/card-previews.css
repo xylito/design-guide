@@ -1,5 +1,33 @@
 
 /* --------------------------------------------------------------------------
+   HALLMARK 48 MATERIALS PREVIEWS
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme^="hallmark_"],
+body .repo-card[data-preview-theme^="hallmark_"] {
+  border: 1px solid rgba(37, 99, 235, 0.28) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+body[data-theme] .repo-card[data-preview-theme^="hallmark_"]:hover,
+body .repo-card[data-preview-theme^="hallmark_"]:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.25) !important;
+  border-color: #2563EB !important;
+}
+body[data-theme] .repo-card[data-preview-theme^="hallmark_"] .repo-name {
+  font-family: 'Newsreader', Georgia, serif !important;
+  letter-spacing: -0.01em !important;
+}
+body[data-theme] .repo-card[data-preview-theme^="hallmark_"] .btn-repo-apply {
+  background: #2563EB !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 6px !important;
+}
+
+
+/* --------------------------------------------------------------------------
    HALLMARK CARD PREVIEW
    -------------------------------------------------------------------------- */
 body[data-theme] .repo-card[data-preview-theme="hallmark"],
