@@ -1,3 +1,36 @@
+
+/* --------------------------------------------------------------------------
+   HALLMARK CARD PREVIEW
+   -------------------------------------------------------------------------- */
+body[data-theme] .repo-card[data-preview-theme="hallmark"],
+body .repo-card[data-preview-theme="hallmark"] {
+  background: #121829 !important;
+  color: #F8FAFC !important;
+  border: 1px solid rgba(37, 99, 235, 0.35) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 20px rgba(10, 14, 26, 0.6) !important;
+  font-family: 'Inter', 'Pretendard Variable', sans-serif !important;
+}
+body[data-theme] .repo-card[data-preview-theme="hallmark"] .repo-name {
+  color: #F8FAFC !important;
+  font-family: 'Newsreader', Georgia, serif !important;
+}
+body[data-theme] .repo-card[data-preview-theme="hallmark"] .repo-ai-box {
+  background: #0A0E1A !important;
+  color: #94A3B8 !important;
+  border: 1px solid rgba(37, 99, 235, 0.2) !important;
+  border-radius: 6px !important;
+}
+body[data-theme] .repo-card[data-preview-theme="hallmark"] .repo-ai-box * {
+  color: #94A3B8 !important;
+}
+body[data-theme] .repo-card[data-preview-theme="hallmark"] .btn-repo-apply {
+  background: #2563EB !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 6px !important;
+}
+
 /* ==========================================================================
    62 ECOSYSTEM CARD LIVE PREVIEWS STYLESHEET (BULLETPROOF SPECIFICITY)
    Guarantees that each card in the grid permanently renders its own authentic

@@ -3,6 +3,7 @@ export const THEME_CATEGORIES = [
     "id": "editorial",
     "name": "📖 1. Editorial & Print (도면·인쇄물)",
     "themes": [
+      "hallmark",
       "impeccable",
       "tufte",
       "blueprint",
@@ -96,6 +97,48 @@ export const THEME_CATEGORIES = [
 export const ORDERED_THEME_IDS = THEME_CATEGORIES.flatMap(cat => cat.themes);
 
 export const DESIGN_LANGUAGES = {
+  hallmark: {
+    id: "hallmark",
+    name: "Hallmark Anti-AI-Slop",
+    category: "editorial",
+    badge: "Together AI Anti-Slop",
+    tagline: "48개 머티리얼과 3단계 품질 게이트로 AI 슬롭을 근절하는 디자인 규율",
+    navBrand: "HALLMARK.DEV",
+    heroBadge: "MATERIALS OVER TEMPLATES • V2",
+    heroTitle: "Build real products, not generic AI slop.",
+    heroSubtitle: "Say goodbye to purple neon gradients, repetitive 3-card grids, and contrast failures. Governed by 3-tier quality gates and paired token discipline.",
+    ctaPrimary: "Explore 48 Materials",
+    ctaSecondary: "View Quality Gates ↗",
+    tokens: {
+      bg: "#0B0F17",
+      surface: "#111827",
+      border: "rgba(255, 255, 255, 0.08)",
+      accent: "#3B82F6",
+      accentGlow: "rgba(59, 130, 246, 0.2)",
+      textPrimary: "#F9FAFB",
+      textMuted: "#9CA3AF",
+      fontHeading: "'Inter', system-ui, sans-serif",
+      fontMono: "'JetBrains Mono', monospace"
+    },
+    features: [
+      { tag: "GATES // 01", title: "3-Tier Quality Gates", desc: "Floor(대비 4.5:1/오버플로), Reflex(클리셰 방지), Finish(크래프트) 3단계 엄격 판정.", meta: "STATUS: ENFORCED" },
+      { tag: "MATERIALS // 02", title: "48 Curated Materials", desc: "고정된 템플릿 복붙을 거부하고 Cobalt, Studio, Swiss 등 48종 고유 소재를 조립.", meta: "TOTAL: 48" },
+      { tag: "LINTER // 03", title: "Headless Browser Sloplint", desc: "8개 뷰포트에서 Puppeteer로 실시간 렌더링하며 AI 슬롭과 대비율 자동 감지.", meta: "VIEWPORTS: 8" }
+    ],
+    philosophy: [
+      "Materials over templates: UI must be shaped by user's Job-to-be-done.",
+      "Paired token contract: Background color changes must explicitly declare text color.",
+      "Show, don't describe: Real screenshots and facts over invented statistics."
+    ],
+    antiPatterns: [
+      "No generic purple-to-blue neon gradients.",
+      "No uppercase tracked eyebrow badge pills above headlines.",
+      "No single-word colored highlights in hero titles.",
+      "No copy-paste 3-card grids without semantic reason."
+    ],
+    prompt: "[DESIGN.md - Hallmark Anti-AI-Slop Archetype]\nRole: Senior Anti-Slop Interface Architect (Together AI Hallmark Discipline).\nCore Philosophy: Materials over templates. Build UI driven strictly by the user's Job-to-be-done.\nRules:\n1. Floor Gate: Enforce WCAG AA 4.5:1 contrast ratio across all foreground-background pairs. Never ship unstyled color pairings.\n2. Reflex Gate: Do not add uppercase badge pills above titles. Do not color single words in headlines. No copy-paste 3-card grids.\n3. Typography: Clean sans-serif ('Inter', system-ui) paired with monospace metadata ('JetBrains Mono')."
+  },
+
   // ==========================================
   // 1. EDITORIAL & PRINT (도면·인쇄물)
   // ==========================================
@@ -2501,6 +2544,24 @@ export const DESIGN_LANGUAGES = {
 };
 
 export const ALL_30_REPOSITORIES = [
+  {
+    "rank": 0,
+    "name": "Hallmark Anti-AI-Slop",
+    "repo": "Nutlope/hallmark",
+    "stars": 4200,
+    "starsFormatted": "4.2k",
+    "category": "editorial",
+    "categoryLabel": "📖 1. Editorial & Print (도면·인쇄물)",
+    "desc": "Together AI 소속 Hassan El Mghari의 Anti-AI-slop 디자인 스킬. 48개 머티리얼, 3단계 품질 게이트(Floor/Reflex/Finish), sloplint 린터 제공.",
+    "roleInAI": "에이전트가 생성하는 인터페이스에서 뻔한 보라색 그라데이션, 가짜 지표, 명도 대비 오류를 사전에 원천 차단",
+    "themeId": "hallmark",
+    "tags": [
+      "Anti-Slop",
+      "Floor-Gate",
+      "Together-AI"
+    ]
+  },
+
   {
     "rank": 1,
     "name": "Material UI (M3)",

@@ -1066,6 +1066,7 @@ class DesignShowcaseApp {
         tufte: '📜',
         notion: '📝',
         impeccable: '⚡',
+        hallmark: '🏛️',
         shadcn: '▲',
         stripe: '💳',
         tremor: '📈',

@@ -23,6 +23,53 @@
    1. EDITORIAL & PRINT (도면·인쇄물)
    -------------------------------------------------------------------------- */
 
+
+/* 1.5 Hallmark Cobalt (Anti-AI-Slop Editorial) */
+body[data-theme="hallmark"] {
+  background-color: #0A0E1A;
+  color: #F8FAFC;
+  --theme-id: "hallmark";
+  --theme-name: "Hallmark Anti-AI-Slop";
+  --bg-base: #0A0E1A;
+  --surface-card: #121829;
+  --border-hairline: rgba(37, 99, 235, 0.25);
+  --accent-primary: #2563EB;
+  --text-primary: #F8FAFC;
+  --font-heading: 'Newsreader', 'Song Myung', 'Noto Serif KR', Georgia, serif;
+  --font-body: 'Inter', 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+  --font-mono: 'JetBrains Mono', 'D2Coding', monospace;
+  --theme-radius: 6px;
+  font-family: var(--font-body);
+}
+body[data-theme="hallmark"] .site-header {
+  background: rgba(10, 14, 26, 0.95);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.25);
+}
+body[data-theme="hallmark"] .btn-primary {
+  background: #2563EB;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+}
+body[data-theme="hallmark"] .btn-secondary {
+  background: #121829;
+  color: #94A3B8;
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  border-radius: 6px;
+}
+body[data-theme="hallmark"] .feature-card,
+body[data-theme="hallmark"] .hero-showcase-panel,
+body[data-theme="hallmark"] .sandbox-card,
+body[data-theme="hallmark"] .manifesto-card,
+body[data-theme="hallmark"] .repo-card {
+  background: #121829;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 6px;
+  box-shadow: none;
+}
+
 /* 1.1 Impeccable Minimal (Anti-AI-Slop Editorial) */
 body[data-theme="impeccable"] {
   background-color: #070809;
@@ -4082,6 +4129,77 @@ body[data-theme="swiss"] .floating-side-nav {
 /* ==========================================================================
    62 THEMES MODAL SELF-CONTAINED TOKEN INJECTIONS (VERIFIED WCAG AAA CONTRAST)
    ========================================================================== */
+
+
+/* Modal Scope for hallmark */
+.modal-dialog[data-theme="hallmark"],
+.modal-backdrop[data-theme="hallmark"] .modal-dialog {
+  --surface-card: #121829;
+  --bg-surface: #121829;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --border-color: rgba(37, 99, 235, 0.25);
+  background: #121829 !important;
+  color: #F8FAFC !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(37, 99, 235, 0.3) !important;
+}
+.modal-dialog[data-theme="hallmark"] .modal-title {
+  color: #F8FAFC !important;
+  font-family: 'Newsreader', Georgia, serif !important;
+}
+.modal-dialog[data-theme="hallmark"] .modal-section-title {
+  color: #94A3B8 !important;
+  font-weight: 700 !important;
+}
+.modal-dialog[data-theme="hallmark"] .modal-info-box {
+  background: rgba(37, 99, 235, 0.08) !important;
+  border: 1px solid rgba(37, 99, 235, 0.25) !important;
+  color: #F8FAFC !important;
+  border-radius: 8px !important;
+}
+.modal-dialog[data-theme="hallmark"] .modal-info-box strong {
+  color: #F8FAFC !important;
+}
+.modal-dialog[data-theme="hallmark"] .modal-info-box code {
+  color: #60A5FA !important;
+  background: rgba(37, 99, 235, 0.15) !important;
+  border: 1px solid rgba(37, 99, 235, 0.3) !important;
+}
+.modal-dialog[data-theme="hallmark"] .swatch-card {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(37, 99, 235, 0.2) !important;
+  border-radius: 8px !important;
+}
+.modal-dialog[data-theme="hallmark"] .swatch-hex {
+  color: #F8FAFC !important;
+}
+.modal-dialog[data-theme="hallmark"] .swatch-name {
+  color: #94A3B8 !important;
+}
+.modal-dialog[data-theme="hallmark"] .btn-close-modal {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #F8FAFC !important;
+  border: 1px solid rgba(37, 99, 235, 0.25) !important;
+}
+.modal-dialog[data-theme="hallmark"] .prompt-code-block {
+  background: #0A0E1A !important;
+  color: #93C5FD !important;
+  border: 1px solid rgba(37, 99, 235, 0.25) !important;
+  border-radius: 8px !important;
+}
+.modal-dialog[data-theme="hallmark"] .btn-copy-code {
+  background: #2563EB !important;
+  color: #FFFFFF !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+}
+.modal-dialog[data-theme="hallmark"] .btn-dl-code {
+  background: rgba(37, 99, 235, 0.15) !important;
+  color: #F8FAFC !important;
+  border: 1px solid rgba(37, 99, 235, 0.3) !important;
+  border-radius: 8px !important;
+}
 
 /* Modal Scope for impeccable */
 .modal-dialog[data-theme="impeccable"],
@@ -9709,6 +9827,23 @@ body[data-theme="swiss"] .floating-side-nav {
    strictly adheres to each theme's archetype: borders, radius, fonts, colors,
    shadows, hover states, and active pressed effects.
    ========================================================================== */
+
+
+body[data-theme="hallmark"] .hero-cta-group .btn-secondary,
+body[data-theme="hallmark"] .btn-secondary {
+  background: #121829;
+  color: #94A3B8;
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  border-radius: 6px;
+  font-weight: 600;
+  box-shadow: none;
+}
+body[data-theme="hallmark"] .hero-cta-group .btn-secondary:hover,
+body[data-theme="hallmark"] .btn-secondary:hover {
+  background: #1E293B;
+  border-color: #2563EB;
+  color: #FFFFFF;
+}
 
 /* 1. Impeccable Dark */
 body[data-theme="impeccable"] .hero-cta-group .btn-secondary,

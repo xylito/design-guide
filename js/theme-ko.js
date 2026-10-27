@@ -4,6 +4,43 @@
    ========================================================================== */
 
 export const THEME_KO = {
+  "hallmark": {
+    "heroBadge": "HALLMARK • ANTI-AI-SLOP 3대 게이트",
+    "heroTitle": "Hallmark Cobalt: AI 슬롭을 원천 차단하는 에디토리얼 시스템.",
+    "heroSubtitle": "Paired Token 계약, WCAG 4.5:1 명도 대비, 48개 소재 매트릭스로 완성도 높은 엔지니어링 미학을 보장합니다.",
+    "ctaPrimary": "스타일 컴포넌트",
+    "ctaSecondary": "가이드라인 ↗",
+    "features": [
+      {
+        "tag": "특징 // 01",
+        "title": "Paired Token Contract",
+        "desc": "배경색 선언 시 반드시 글자색을 쌍으로 강제하여 텍스트 증발을 방지합니다.",
+        "meta": "GATE: FLOOR"
+      },
+      {
+        "tag": "특징 // 02",
+        "title": "Anti-Cliché Filtering",
+        "desc": "맥락 없는 알약 배지 남발 및 1단어 무작위 하이라이트를 배제합니다.",
+        "meta": "GATE: REFLEX"
+      },
+      {
+        "tag": "특징 // 03",
+        "title": "Tactile Craft Finish",
+        "desc": "최소 44px 터치 타깃, 150ms 상태 전환, 한국어 단어 보존 줄바꿈을 준수합니다.",
+        "meta": "GATE: FINISH"
+      }
+    ],
+    "philosophy": [
+      "Every background token must strictly bind to a paired text color.",
+      "Reject repetitive 3-card grid templates in favor of semantic structures.",
+      "Strict 4.5:1 contrast ratio floor under WCAG 2.1 AA."
+    ],
+    "antiPatterns": [
+      "No single-word bold/color highlight in headlines.",
+      "No meaningless eyebrow pill badges stacked without context.",
+      "No unverified statistical claims or fabricated numbers."
+    ]
+  },
   "impeccable": {
     "heroBadge": "IMPECCABLE MINIMAL • 디자인 시스템",
     "heroTitle": "Impeccable Minimal: 정밀한 조형성과 엔지니어링 미학.",
